@@ -1,0 +1,26 @@
+#ranks {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+#ranks td, #ranks th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+#ranks tr:nth-child(even){background-color: #f2f2f2;}
+
+#ranks tr:hover {background-color: #ddd;}
+
+#ranks th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #539ec3;
+  color: white;
+}
+td.bold {
+    font-weight: bold;
+}
+
