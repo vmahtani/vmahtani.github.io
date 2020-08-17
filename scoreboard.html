@@ -1,6 +1,33 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="confidence.css">
+<!-- <link rel="stylesheet" type="text/css" href="confidence.css"> -->
+<style>
+#ranks {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+#ranks td, #ranks th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+#ranks tr:nth-child(even){background-color: #f2f2f2;}
+
+#ranks tr:hover {background-color: #ddd;}
+
+#ranks th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #539ec3;
+  color: white;
+}
+td.bold {
+    font-weight: bold;
+}
+</style>
 </head>
-<table id='ranks'><tr><th>player</th><th>total</th><th>Clippers<br/>15.36<br/>0 wins</th><th>Bucks<br/>14.36<br/>0 wins</th><th>Lakers<br/>13.91<br/>0 wins</th><th>Raptors<br/>13.18<br/>0 wins</th><th>Celtics<br/>12.73<br/>0 wins</th><th>Nuggets<br/>10.82<br/>0 wins</th><th>Rockets<br/>9.09<br/>0 wins</th><th>Heat<br/>8.91<br/>0 wins</th><th>Thunder<br/>8.27<br/>0 wins</th><th>Pacers<br/>7.00<br/>0 wins</th><th>Jazz<br/>5.55<br/>0 wins</th><th>76ers<br/>5.36<br/>0 wins</th><th>Mavericks<br/>4.27<br/>0 wins</th><th>Blazers<br/>3.91<br/>0 wins</th><th>Nets<br/>2.09<br/>0 wins</th><th>Magic<br/>1.18<br/>0 wins</th></tr><tr><td class='bold'>annmarie</td><td class='bold'>0</td><td>16</td><td>14</td><td>15</td><td>13</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td><td>7</td><td>6</td><td>5</td><td>3</td><td>4</td><td>2</td><td>1</td></tr><tr><td class='bold'>chris</td><td class='bold'>0</td><td>16</td><td>14</td><td>13</td><td>15</td><td>11</td><td>12</td><td>10</td><td>7</td><td>6</td><td>9</td><td>8</td><td>5</td><td>3</td><td>4</td><td>2</td><td>1</td></tr><tr><td class='bold'>dame/don</td><td class='bold'>0</td><td>16</td><td>13</td><td>14</td><td>10</td><td>15</td><td>12</td><td>8</td><td>9</td><td>11</td><td>5</td><td>7</td><td>6</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr><td class='bold'>janki</td><td class='bold'>0</td><td>16</td><td>15</td><td>14</td><td>13</td><td>12</td><td>9</td><td>10</td><td>11</td><td>7</td><td>8</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr><td class='bold'>jeevan</td><td class='bold'>0</td><td>15</td><td>16</td><td>13</td><td>14</td><td>12</td><td>10</td><td>11</td><td>9</td><td>7</td><td>8</td><td>4</td><td>3</td><td>6</td><td>5</td><td>2</td><td>1</td></tr><tr><td class='bold'>jill</td><td class='bold'>0</td><td>16</td><td>15</td><td>14</td><td>12</td><td>13</td><td>11</td><td>6</td><td>9</td><td>10</td><td>8</td><td>5</td><td>4</td><td>3</td><td>7</td><td>2</td><td>1</td></tr><tr><td class='bold'>lou</td><td class='bold'>0</td><td>15</td><td>14</td><td>13</td><td>12</td><td>16</td><td>11</td><td>8</td><td>9</td><td>10</td><td>6</td><td>5</td><td>3</td><td>4</td><td>7</td><td>2</td><td>1</td></tr><tr><td class='bold'>pd</td><td class='bold'>0</td><td>16</td><td>14</td><td>13</td><td>15</td><td>12</td><td>9</td><td>11</td><td>10</td><td>8</td><td>7</td><td>6</td><td>5</td><td>3</td><td>4</td><td>2</td><td>1</td></tr><tr><td class='bold'>ralf</td><td class='bold'>0</td><td>13</td><td>14</td><td>15</td><td>16</td><td>10</td><td>12</td><td>9</td><td>6</td><td>8</td><td>7</td><td>4</td><td>11</td><td>5</td><td>1</td><td>2</td><td>3</td></tr><tr><td class='bold'>ron</td><td class='bold'>0</td><td>14</td><td>15</td><td>16</td><td>13</td><td>12</td><td>11</td><td>9</td><td>10</td><td>6</td><td>5</td><td>4</td><td>7</td><td>8</td><td>2</td><td>3</td><td>1</td></tr><tr><td class='bold'>vin</td><td class='bold'>0</td><td>16</td><td>14</td><td>13</td><td>12</td><td>15</td><td>11</td><td>8</td><td>9</td><td>10</td><td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td></tr></table>
+<table id='ranks'><tr><th>player</th><th>total</th><th>Jazz<br/>5.55<br/>1 wins</th><th>Clippers<br/>15.36<br/>0 wins</th><th>Bucks<br/>14.36<br/>0 wins</th><th>Lakers<br/>13.91<br/>0 wins</th><th>Raptors<br/>13.18<br/>0 wins</th><th>Celtics<br/>12.73<br/>0 wins</th><th>Nuggets<br/>10.82<br/>0 wins</th><th>Rockets<br/>9.09<br/>0 wins</th><th>Heat<br/>8.91<br/>0 wins</th><th>Thunder<br/>8.27<br/>0 wins</th><th>Pacers<br/>7.00<br/>0 wins</th><th>76ers<br/>5.36<br/>0 wins</th><th>Mavericks<br/>4.27<br/>0 wins</th><th>Blazers<br/>3.91<br/>0 wins</th><th>Nets<br/>2.09<br/>0 wins</th><th>Magic<br/>1.18<br/>0 wins</th></tr><tr><td class='bold'>chris</td><td class='bold'>8</td><td>8</td><td>16</td><td>14</td><td>13</td><td>15</td><td>11</td><td>12</td><td>10</td><td>7</td><td>6</td><td>9</td><td>5</td><td>3</td><td>4</td><td>2</td><td>1</td></tr><tr><td class='bold'>dame/don</td><td class='bold'>7</td><td>7</td><td>16</td><td>13</td><td>14</td><td>10</td><td>15</td><td>12</td><td>8</td><td>9</td><td>11</td><td>5</td><td>6</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr><td class='bold'>annmarie</td><td class='bold'>6</td><td>6</td><td>16</td><td>14</td><td>15</td><td>13</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td><td>7</td><td>5</td><td>3</td><td>4</td><td>2</td><td>1</td></tr><tr><td class='bold'>janki</td><td class='bold'>6</td><td>6</td><td>16</td><td>15</td><td>14</td><td>13</td><td>12</td><td>9</td><td>10</td><td>11</td><td>7</td><td>8</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr><td class='bold'>pd</td><td class='bold'>6</td><td>6</td><td>16</td><td>14</td><td>13</td><td>15</td><td>12</td><td>9</td><td>11</td><td>10</td><td>8</td><td>7</td><td>5</td><td>3</td><td>4</td><td>2</td><td>1</td></tr><tr><td class='bold'>vin</td><td class='bold'>6</td><td>6</td><td>16</td><td>14</td><td>13</td><td>12</td><td>15</td><td>11</td><td>8</td><td>9</td><td>10</td><td>7</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr><td class='bold'>jill</td><td class='bold'>5</td><td>5</td><td>16</td><td>15</td><td>14</td><td>12</td><td>13</td><td>11</td><td>6</td><td>9</td><td>10</td><td>8</td><td>4</td><td>3</td><td>7</td><td>2</td><td>1</td></tr><tr><td class='bold'>lou</td><td class='bold'>5</td><td>5</td><td>15</td><td>14</td><td>13</td><td>12</td><td>16</td><td>11</td><td>8</td><td>9</td><td>10</td><td>6</td><td>3</td><td>4</td><td>7</td><td>2</td><td>1</td></tr><tr><td class='bold'>jeevan</td><td class='bold'>4</td><td>4</td><td>15</td><td>16</td><td>13</td><td>14</td><td>12</td><td>10</td><td>11</td><td>9</td><td>7</td><td>8</td><td>3</td><td>6</td><td>5</td><td>2</td><td>1</td></tr><tr><td class='bold'>ralf</td><td class='bold'>4</td><td>4</td><td>13</td><td>14</td><td>15</td><td>16</td><td>10</td><td>12</td><td>9</td><td>6</td><td>8</td><td>7</td><td>11</td><td>5</td><td>1</td><td>2</td><td>3</td></tr><tr><td class='bold'>ron</td><td class='bold'>4</td><td>4</td><td>14</td><td>15</td><td>16</td><td>13</td><td>12</td><td>11</td><td>9</td><td>10</td><td>6</td><td>5</td><td>7</td><td>8</td><td>2</td><td>3</td><td>1</td></tr></table>
 </html>
