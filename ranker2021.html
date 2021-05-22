@@ -35,10 +35,14 @@
         .blank {
             visibility: hidden;
             border: solid green;
-            border-width: 0 15px 10px 0;
+            border-width: 0 18px 0px 0;
         }
     </style>
     <script>
+        var boolemail = false;
+        var boolname = false;
+        var boolnbajam = false;
+
         const td = [];
         td['Hawks']='1';
         td['Celtics']='2';
@@ -46,7 +50,7 @@
         td['Hornets']='4';
         td['Bulls']='5';
         td['Cavaliers']='6';
-        td['Mavericks']='7';
+        td['Mavs']='7';
         td['Nuggets']='8';
         td['Pistons']='9';
         td['Warriors']='10';
@@ -54,7 +58,7 @@
         td['Pacers']='12';
         td['Clippers']='13';
         td['Lakers']='14';
-        td['Grizzlies']='15';
+        td['Grizz']='15';
         td['Heat']='16';
         td['Bucks']='17';
         td['Timberwolves']='18';
@@ -74,33 +78,54 @@
         const rankobj = { firstName: "", nbajam: "", email: "", 16: "", 15: "", 14: "", 13: "", 12: "", 11: "", 10: "", 9: "", 8: "", 7: "", 6: "", 5: "", 4: "", 3: "", 2: "", 1: "" }; 
     </script>
     <script>
-
-        // define the callAPI function that takes a first name and last name as parameters
-        function callAPI (){
-            var myHeaders = new Headers();
-            myHeaders.append("Content-Type", "application/json");
-            var fName = document.getElementById("fName").value
+        function validateform(){
+            var fName = document.getElementById("fName").value;
             var nbajam = document.getElementById("nbajam").value;
-            //var strUser = e.value;
             var email = document.getElementById("email").value
 
-            rankobj.firstName = fName;
-            rankobj.nbajam = nbajam;
-            rankobj.email = email;
-            rankobj['16']='123';
-            rankobj['15']='321';
-            var ranks = getranks();
-            console.log(ranks);
-            console.log(rankobj);
-            
-            //var raw = JSON.stringify({"firstName":fName,"nbajam":nbajam,"email":email, "16":rankobj['16'], "15":rankobj['15']});
-            var raw = JSON.stringify(rankobj);
-            console.log(raw)
-            var requestOptions = { method: 'POST', headers: myHeaders, body: raw, redirect: 'follow' };
-            fetch("https://ahoa9miww6.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
-            .then(response => response.text())
-            .then(result => alert(JSON.parse(result).body))
-            .catch(error => console.log('error', error));
+            if(fName!="")
+                boolname = true;
+            if(nbajam!="sel")
+                boolnbajam = true;
+            if(email!="") {
+                if(email.indexOf('@'))
+                    if(email.indexOf('.'))
+                        boolemail=true;
+            }
+            if(boolemail && boolname && boolnbajam)
+                return true;
+            else
+                return false;
+        }
+        // define the callAPI function that takes a first name and last name as parameters
+        function callAPI (){
+            if(validateform())
+            {
+                var fName = document.getElementById("fName").value;
+                var nbajam = document.getElementById("nbajam").value;
+                var email = document.getElementById("email").value
+                var myHeaders = new Headers();
+                myHeaders.append("Content-Type", "application/json");
+
+                rankobj.firstName = fName;
+                rankobj.nbajam = nbajam;
+                rankobj.email = email;
+                var ranks = getranks();
+                console.log(ranks);
+                console.log(rankobj);
+                
+                //var raw = JSON.stringify({"firstName":fName,"nbajam":nbajam,"email":email, "16":rankobj['16'], "15":rankobj['15']});
+                var raw = JSON.stringify(rankobj);
+                console.log(raw)
+                var requestOptions = { method: 'POST', headers: myHeaders, body: raw, redirect: 'follow' };
+                fetch("https://ahoa9miww6.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
+                .then(response => response.text())
+                .then(result => alert(JSON.parse(result).body + "\nYou will receive your picks and scoreboard info via email"))
+                .catch(error => console.log('error', error));
+            }
+            else {
+                alert('please enter email, first name, and select an nba jam team');
+            }
         }
         function moveitem (rank, direction) {
             let newrank, tempinfo, rankname, origrankname;
@@ -144,23 +169,21 @@
         }
         function jsonrank() { 
             const divtags = document.querySelectorAll('.rankstyle');
-            const ranklist = document.querySelector('#ranklist');
-            ranklist.textContent = "";
-            ranklistjson = "";
+            var ranklist = "";
             let y = 16;
             let teaminfo;
-            ranklist.textContent = "{\n";
+            ranklist = "{";
             for(x=0; x<divtags.length; x++)
             {
                 teaminfo = divtags[x].innerText;
                 n = teaminfo.search(" ");
                 teaminfo = teaminfo.substring(0, n);
                 console.log ("x: " + x + ", y: " + y + ", teamid: " + teamid + ", teaminfo:" + teaminfo);
-                ranklist.textContent += y + ": '" + teaminfo + "',\n";
+                ranklist += y + ": '" + teaminfo + "',\n";
                 y--;
             }
-            ranklist.textContent = ranklist.textContent.substring(0, ranklist.textContent.length-2);
-            ranklist.textContent += "\n}";
+            ranklist = ranklist.substring(0, ranklist.textContent.length-2);
+            ranklist += "\n}";
         }
         function body_onload() {
             document.getElementById('ranklist').style.fontSize = "11px";
@@ -171,13 +194,13 @@
 <body>
     <form>
         <table>
-            <tr><td><label>*email:</label></td><td><input type="text" id="email" value="vferrari@gmail.com"></td></tr>
-            <tr><td><label>*first name:</label></td><td><input type="text" id="fName" value="vin" ></td></tr>
+            <tr><td><label>*email:</label></td><td><input type="text" id="email"></td></tr>
+            <tr><td><label>*first name:</label></td><td><input type="text" id="fName"></td></tr>
             <tr>
                 <td><label>*nba jam:</label></td>
                 <td>
                     <select id='nbajam'>
-                        <option value='sel'>select your favorite</option>
+                        <option value='sel'>select your fav nba jam team</option>
                         <option value='atl'>hawks - dominique & augmon</option>
                         <option value='bos'>celtics - lewis & mchale </option>
                         <option value='cha'>hornets - lj & gill</option>
@@ -213,24 +236,25 @@
     </form> <br>
     <div id='masterblock' style="display: inline-flex;">
         <div id='block1'>
-            <div> <i class="arrow blank"></i><div style="display: inline-block;"> <b>Team / Record</b>  </div> <i class="arrow blank"></i> </div>
-            <div> 16 <i class="arrow blank"></i><div id='rank16' class='rankstyle' > Jazz 52-20 </div><img src="down.jpg" onclick="moveitem(16,-1)"></i> </div>
-            <div> 15 <img src="up.jpg" onclick="moveitem(15,1)"> <div id='rank15' class='rankstyle' > Suns 51-19 </div><img src="down.jpg" onclick="moveitem(15,-1)"></i> </div>
-            <div> 14 <img src="up.jpg" onclick="moveitem(14,1)"></i>  <div id='rank14' class='rankstyle' > 76ers 49-23 </div><img src="down.jpg" onclick="moveitem(14,-1)"></i> </div>
-            <div> 13 <img src="up.jpg" onclick="moveitem(13,1)"></i>  <div id='rank13' class='rankstyle' > Nets 48-24 </div><img src="down.jpg"  onclick="moveitem(13,-1)"></i> </div>
-            <div> 12 <img src="up.jpg" onclick="moveitem(12,1)"></i>  <div id='rank12' class='rankstyle' > Nuggets 47-25 </div><img src="down.jpg"  onclick="moveitem(12,-1)"></i> </div>
-            <div> 11 <img src="up.jpg" onclick="moveitem(11,1)"></i>  <div id='rank11' class='rankstyle' > Clippers 47-25 </div><img src="down.jpg" onclick="moveitem(11,-1)"></i> </div>
-            <div> 10 <img src="up.jpg" onclick="moveitem(10,1)"></i>  <div id='rank10' class='rankstyle' > Bucks 46-26 </div><img src="down.jpg" onclick="moveitem(10,-1)"></i> </div>
-            <div> 09 <img src="up.jpg" onclick="moveitem(9,1)"></i>  <div id='rank9' class='rankstyle' > Mavericks 42-30 </div><img src="down.jpg"  onclick="moveitem(9,-1)"></i> </div>
-            <div> 08 <img src="up.jpg" onclick="moveitem(8,1)"></i>  <div id='rank8' class='rankstyle' > Blazers 42-30 </div><img src="down.jpg"  onclick="moveitem(8,-1)"></i> </div>
-            <div> 07 <img src="up.jpg" onclick="moveitem(7,1)"></i>  <div id='rank7' class='rankstyle' > Lakers 42-30 </div><img src="down.jpg" onclick="moveitem(7,-1)"></i> </div>
-            <div> 06 <img src="up.jpg" onclick="moveitem(6,1)"></i>  <div id='rank6' class='rankstyle' > Knicks 41-31 </div><img src="down.jpg" onclick="moveitem(6,-1)"></i> </div>
-            <div> 05 <img src="up.jpg" onclick="moveitem(5,1)"></i>  <div id='rank5' class='rankstyle' > Hawks 41-31 </div><img src="down.jpg"  onclick="moveitem(5,-1)"></i> </div>
-            <div> 04 <img src="up.jpg" onclick="moveitem(4,1)"></i>  <div id='rank4' class='rankstyle' > Heat 40-32 </div><img src="down.jpg"  onclick="moveitem(4,-1)"></i> </div>
-            <div> 03 <img src="up.jpg" onclick="moveitem(3,1)"></i>  <div id='rank3' class='rankstyle' > Warriors 39-33 </div><img src="down.jpg" onclick="moveitem(3,-1)"></i> </div>
-            <div> 02 <img src="up.jpg" onclick="moveitem(2,1)"></i>  <div id='rank2' class='rankstyle' > Celtics 36-46 </div><img src="down.jpg" onclick="moveitem(2,-1)"></i> </div>
-            <div> 01 <img src="up.jpg" onclick="moveitem(1,1)"></i>  <div id='rank1' class='rankstyle' > Wizards 34-38 </div> <i class="arrow blank"  onclick="moveitem(1,-1)"></i> </div>
+            <div> <i class="arrow blank"></i><div style="display: inline-block;"> <b>Team / Record</b>  </div> <i class="arrow blank"></i></div>
+            <div> 16 <i class="arrow blank"></i><div id='rank16' class='rankstyle' > Jazz 52-20 </div><img src="down.jpg" onclick="moveitem(16,-1)"> </div>
+            <div> 15 <img src="up.jpg" onclick="moveitem(15,1)"> <div id='rank15' class='rankstyle' > 76ers 49-23 </div><img src="down.jpg" onclick="moveitem(15,-1)"> </div>
+            <div> 14 <img src="up.jpg" onclick="moveitem(14,1)">  <div id='rank14' class='rankstyle' > Suns 51-19 </div><img src="down.jpg" onclick="moveitem(14,-1)"> </div>
+            <div> 13 <img src="up.jpg" onclick="moveitem(13,1)">  <div id='rank13' class='rankstyle' > Nets 48-24 </div><img src="down.jpg"  onclick="moveitem(13,-1)"> </div>
+            <div> 12 <img src="up.jpg" onclick="moveitem(12,1)">  <div id='rank12' class='rankstyle' > Nuggets 47-25 </div><img src="down.jpg"  onclick="moveitem(12,-1)"> </div>
+            <div> 11 <img src="up.jpg" onclick="moveitem(11,1)">  <div id='rank11' class='rankstyle' > Bucks 46-26 </div><img src="down.jpg" onclick="moveitem(11,-1)"> </div>
+            <div> 10 <img src="up.jpg" onclick="moveitem(10,1)">  <div id='rank10' class='rankstyle' > Clippers 47-25 </div><img src="down.jpg" onclick="moveitem(10,-1)"> </div>
+            <div> 09 <img src="up.jpg" onclick="moveitem(9,1)">  <div id='rank9' class='rankstyle' > Knicks 41-31 </div><img src="down.jpg"  onclick="moveitem(9,-1)"> </div>
+            <div> 08 <img src="up.jpg" onclick="moveitem(8,1)">  <div id='rank8' class='rankstyle' > Mavs 42-30 </div><img src="down.jpg"  onclick="moveitem(8,-1)"> </div>
+            <div> 07 <img src="up.jpg" onclick="moveitem(7,1)">  <div id='rank7' class='rankstyle' > Hawks 41-31 </div><img src="down.jpg" onclick="moveitem(7,-1)"> </div>
+            <div> 06 <img src="up.jpg" onclick="moveitem(6,1)">  <div id='rank6' class='rankstyle' > Blazers 42-30 </div><img src="down.jpg" onclick="moveitem(6,-1)"> </div>
+            <div> 05 <img src="up.jpg" onclick="moveitem(5,1)">  <div id='rank5' class='rankstyle' > Heat 40-32 </div><img src="down.jpg"  onclick="moveitem(5,-1)"> </div>
+            <div> 04 <img src="up.jpg" onclick="moveitem(4,1)">  <div id='rank4' class='rankstyle' > Lakers 42-30 </div><img src="down.jpg"  onclick="moveitem(4,-1)"> </div>
+            <div> 03 <img src="up.jpg" onclick="moveitem(3,1)">  <div id='rank3' class='rankstyle' > Celtics 36-36 </div><img src="down.jpg" onclick="moveitem(3,-1)"> </div>
+            <div> 02 <img src="up.jpg" onclick="moveitem(2,1)">  <div id='rank2' class='rankstyle' > Grizz 38-34 </div><img src="down.jpg" onclick="moveitem(2,-1)"> </div>
+            <div> 01 <img src="up.jpg" onclick="moveitem(1,1)">  <div id='rank1' class='rankstyle' > Wizards 34-38 </div> <i class="arrow blank"></i> </div>
         </div> <!-- //end block1 -->
+        <!--
         <div id='block3' style="padding-left: 7px;"> 
         <textarea name="textarea" id = "ranklist" 
                     rows="18" cols="22" 
@@ -240,7 +264,9 @@
         <input type="button" id='rankbutton' value="Rank" onclick="jsonrank();">
         <button id="copybutton" onclick="copyranks()">Copy</button>
         <button id="resetbutton" onclick="location.reload()">Reset</button>
-        </div> <!-- //end block3 -->
+        </div> 
+        -->
+        <!-- //end block3 -->
     </div> <!-- //end masterblock -->
 </body>
 </html>
