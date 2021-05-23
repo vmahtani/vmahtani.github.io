@@ -1,26 +1,44 @@
 #ranks {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    /*font-size: 0.9em;*/
 }
 
-#ranks td, #ranks th {
+#ranks td {
   border: 1px solid #ddd;
+  text-align: center;
   padding: 6px;
 }
 
-#ranks tr:nth-child(even){background-color: #f2f2f2;}
+#ranks tr:nth-child(even){
+    background-color: #232F3E;
+    color: #FF9900;
 
-#ranks tr:hover {background-color: #ddd;}
+}
+#ranks tr:hover {background-color: #537093;}
 
 #ranks th {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  text-align: left;
-  background-color: #539ec3;
-  color: white;
+    padding: 4px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    text-align: left;
+    background-color:#2e3e52; 
+    /*background-color: #232F3E;*/
+    /*color: #FF9900;*/
+    color:whitesmoke;
 }
+
 td.bold {
     font-weight: bold;
 }
-
+body {
+    background-color:#2e3e52; 
+    /*background-color: #232F3E;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+h1,h2,h3 {
+    color: whitesmoke;
+}
