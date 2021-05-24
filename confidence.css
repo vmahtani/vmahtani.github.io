@@ -16,7 +16,10 @@
     background-color: #232F3E;
     /*color: #FF9900;*/
 }
-#ranks tr:hover {background-color: #537093;}
+#ranks tr:hover {
+    background-color: #537093;
+    color: #FF9900;
+}
 
 #ranks th {
     padding: 4px;
