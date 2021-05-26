@@ -48,3 +48,12 @@ h1,h2,h3 {
     color: #FF9900;
     /*color:whitesmoke;*/
 }
+.accordion {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s; 
+}
+
