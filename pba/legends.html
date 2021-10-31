@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title> League of Legends </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="legends.css">
+    <script>
+        function toggle(callerid) {
+            var togglediv = document.getElementById(callerid+'div');
+            var togglelabel = document.getElementById(callerid);
+            if(togglediv.style.display=='block')
+            {
+                togglediv.style.display='none';
+                togglelabel.innerText = "+" + togglelabel.innerText.substring(1);
+            }
+            else
+            {
+                togglediv.style.display='block';
+                togglelabel.innerText = "-" + togglelabel.innerText.substring(1);
+            }    
+    }
+    </script>
+</head>
+<body>
+
+<img src="pics/donnyinspire_rim3.jpg">
+<h1 >Welcome Legends</h1>
+<hr width=100%>
+<div id='headerdiv' class="bgimg">
+    <h1>
+        <br /> <br /><br />
+        <br /> <br /><br />
+        <br /> <br /><br />
+    </h1>
+    <hr width=100%>
+</div>
+<h2 class="accordion" id='2018awards' onclick ="toggle('2018awards')">- 2018 Awards</h2>
+<div style='display:block;' id='2018awardsdiv'>
+    <table class="fixedheader" id="sng" width=100%>
+        <thead>
+            <tr><th>MVP</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Damian</td><td>93</td><td>8</td><td>2</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Sadat</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td></tr>
+        </tbody>
+    </table>
+</div>
+<hr width=100%>
+<h2 class="accordion" id='2021awards' onclick ="toggle('2021awards')">+ 2021 Awards</h2>
+<div style='display:none;' id='2021awardsdiv'>
+<h3>Coming Soon... </h3><hr width=100%>
+</body>
+</html>
