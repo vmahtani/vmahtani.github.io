@@ -55,4 +55,8 @@ body {
     background-size: cover; 
     */
 }
-.w3-image{max-width:100%;height:auto};
+
+@media only screen and (max-width: 600px) {
+    #legends {
+      width: 100%;
+    }
