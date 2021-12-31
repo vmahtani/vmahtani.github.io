@@ -1,0 +1,326 @@
+
+        <html><head><title> Today's Games </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="sng.css"><script src="sng.js"></script>
+        </head><body><h1>Today's Games</h1><hr width=100%>
+        
+        <h2 class="accordion" id='game0' onclick ="toggle('game0')">+ PHX @ BOS</h2>
+        <div style="display:none;" id='game0div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game0','game0')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDPHX','game0')">PHX</th>
+        <th onclick="getfile1('AVG3PHX','game0')">3</th>
+        <th onclick="getfile1('AVG5PHX','game0')">5</th>
+        <th onclick="getfile1('AVG7PHX','game0')">7</th>
+        <th onclick="getfile1('AVG10PHX','game0')">10</th>
+        <th onclick="getfile1('AVG82PHX','game0')">S</th>
+        <th onclick="getfile1('BOX1PHX','game0')">1</th>
+        <th onclick="getfile1('BOX2PHX','game0')">2</th>
+        <th onclick="getfile1('BOX3PHX','game0')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDBOS','game0')">BOS</th>
+        <th onclick="getfile1('AVG3BOS','game0')">3</th>
+        <th onclick="getfile1('AVG5BOS','game0')">5</th>
+        <th onclick="getfile1('AVG7BOS','game0')">7</th>
+        <th onclick="getfile1('AVG10BOS','game0')">10</th>
+        <th onclick="getfile1('AVG82BOS','game0')">S</th>
+        <th onclick="getfile1('BOX1BOS','game0')">1</th>
+        <th onclick="getfile1('BOX2BOS','game0')">2</th>
+        <th onclick="getfile1('BOX3BOS','game0')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame0'></div>
+        </div>
+        
+        <h2 class="accordion" id='game1' onclick ="toggle('game1')">+ CHI @ IND</h2>
+        <div style="display:none;" id='game1div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game1','game1')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDCHI','game1')">CHI</th>
+        <th onclick="getfile1('AVG3CHI','game1')">3</th>
+        <th onclick="getfile1('AVG5CHI','game1')">5</th>
+        <th onclick="getfile1('AVG7CHI','game1')">7</th>
+        <th onclick="getfile1('AVG10CHI','game1')">10</th>
+        <th onclick="getfile1('AVG82CHI','game1')">S</th>
+        <th onclick="getfile1('BOX1CHI','game1')">1</th>
+        <th onclick="getfile1('BOX2CHI','game1')">2</th>
+        <th onclick="getfile1('BOX3CHI','game1')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDIND','game1')">IND</th>
+        <th onclick="getfile1('AVG3IND','game1')">3</th>
+        <th onclick="getfile1('AVG5IND','game1')">5</th>
+        <th onclick="getfile1('AVG7IND','game1')">7</th>
+        <th onclick="getfile1('AVG10IND','game1')">10</th>
+        <th onclick="getfile1('AVG82IND','game1')">S</th>
+        <th onclick="getfile1('BOX1IND','game1')">1</th>
+        <th onclick="getfile1('BOX2IND','game1')">2</th>
+        <th onclick="getfile1('BOX3IND','game1')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame1'></div>
+        </div>
+        
+        <h2 class="accordion" id='game2' onclick ="toggle('game2')">+ DAL @ SAC</h2>
+        <div style="display:none;" id='game2div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game2','game2')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDDAL','game2')">DAL</th>
+        <th onclick="getfile1('AVG3DAL','game2')">3</th>
+        <th onclick="getfile1('AVG5DAL','game2')">5</th>
+        <th onclick="getfile1('AVG7DAL','game2')">7</th>
+        <th onclick="getfile1('AVG10DAL','game2')">10</th>
+        <th onclick="getfile1('AVG82DAL','game2')">S</th>
+        <th onclick="getfile1('BOX1DAL','game2')">1</th>
+        <th onclick="getfile1('BOX2DAL','game2')">2</th>
+        <th onclick="getfile1('BOX3DAL','game2')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDSAC','game2')">SAC</th>
+        <th onclick="getfile1('AVG3SAC','game2')">3</th>
+        <th onclick="getfile1('AVG5SAC','game2')">5</th>
+        <th onclick="getfile1('AVG7SAC','game2')">7</th>
+        <th onclick="getfile1('AVG10SAC','game2')">10</th>
+        <th onclick="getfile1('AVG82SAC','game2')">S</th>
+        <th onclick="getfile1('BOX1SAC','game2')">1</th>
+        <th onclick="getfile1('BOX2SAC','game2')">2</th>
+        <th onclick="getfile1('BOX3SAC','game2')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame2'></div>
+        </div>
+        
+        <h2 class="accordion" id='game3' onclick ="toggle('game3')">+ MIA @ HOU</h2>
+        <div style="display:none;" id='game3div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game3','game3')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDMIA','game3')">MIA</th>
+        <th onclick="getfile1('AVG3MIA','game3')">3</th>
+        <th onclick="getfile1('AVG5MIA','game3')">5</th>
+        <th onclick="getfile1('AVG7MIA','game3')">7</th>
+        <th onclick="getfile1('AVG10MIA','game3')">10</th>
+        <th onclick="getfile1('AVG82MIA','game3')">S</th>
+        <th onclick="getfile1('BOX1MIA','game3')">1</th>
+        <th onclick="getfile1('BOX2MIA','game3')">2</th>
+        <th onclick="getfile1('BOX3MIA','game3')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDHOU','game3')">HOU</th>
+        <th onclick="getfile1('AVG3HOU','game3')">3</th>
+        <th onclick="getfile1('AVG5HOU','game3')">5</th>
+        <th onclick="getfile1('AVG7HOU','game3')">7</th>
+        <th onclick="getfile1('AVG10HOU','game3')">10</th>
+        <th onclick="getfile1('AVG82HOU','game3')">S</th>
+        <th onclick="getfile1('BOX1HOU','game3')">1</th>
+        <th onclick="getfile1('BOX2HOU','game3')">2</th>
+        <th onclick="getfile1('BOX3HOU','game3')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame3'></div>
+        </div>
+        
+        <h2 class="accordion" id='game4' onclick ="toggle('game4')">+ ATL @ CLE</h2>
+        <div style="display:none;" id='game4div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game4','game4')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDATL','game4')">ATL</th>
+        <th onclick="getfile1('AVG3ATL','game4')">3</th>
+        <th onclick="getfile1('AVG5ATL','game4')">5</th>
+        <th onclick="getfile1('AVG7ATL','game4')">7</th>
+        <th onclick="getfile1('AVG10ATL','game4')">10</th>
+        <th onclick="getfile1('AVG82ATL','game4')">S</th>
+        <th onclick="getfile1('BOX1ATL','game4')">1</th>
+        <th onclick="getfile1('BOX2ATL','game4')">2</th>
+        <th onclick="getfile1('BOX3ATL','game4')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDCLE','game4')">CLE</th>
+        <th onclick="getfile1('AVG3CLE','game4')">3</th>
+        <th onclick="getfile1('AVG5CLE','game4')">5</th>
+        <th onclick="getfile1('AVG7CLE','game4')">7</th>
+        <th onclick="getfile1('AVG10CLE','game4')">10</th>
+        <th onclick="getfile1('AVG82CLE','game4')">S</th>
+        <th onclick="getfile1('BOX1CLE','game4')">1</th>
+        <th onclick="getfile1('BOX2CLE','game4')">2</th>
+        <th onclick="getfile1('BOX3CLE','game4')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame4'></div>
+        </div>
+        
+        <h2 class="accordion" id='game5' onclick ="toggle('game5')">+ LAC @ TOR</h2>
+        <div style="display:none;" id='game5div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game5','game5')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDLAC','game5')">LAC</th>
+        <th onclick="getfile1('AVG3LAC','game5')">3</th>
+        <th onclick="getfile1('AVG5LAC','game5')">5</th>
+        <th onclick="getfile1('AVG7LAC','game5')">7</th>
+        <th onclick="getfile1('AVG10LAC','game5')">10</th>
+        <th onclick="getfile1('AVG82LAC','game5')">S</th>
+        <th onclick="getfile1('BOX1LAC','game5')">1</th>
+        <th onclick="getfile1('BOX2LAC','game5')">2</th>
+        <th onclick="getfile1('BOX3LAC','game5')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDTOR','game5')">TOR</th>
+        <th onclick="getfile1('AVG3TOR','game5')">3</th>
+        <th onclick="getfile1('AVG5TOR','game5')">5</th>
+        <th onclick="getfile1('AVG7TOR','game5')">7</th>
+        <th onclick="getfile1('AVG10TOR','game5')">10</th>
+        <th onclick="getfile1('AVG82TOR','game5')">S</th>
+        <th onclick="getfile1('BOX1TOR','game5')">1</th>
+        <th onclick="getfile1('BOX2TOR','game5')">2</th>
+        <th onclick="getfile1('BOX3TOR','game5')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame5'></div>
+        </div>
+        
+        <h2 class="accordion" id='game6' onclick ="toggle('game6')">+ SAS @ MEM</h2>
+        <div style="display:none;" id='game6div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game6','game6')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDSAS','game6')">SAS</th>
+        <th onclick="getfile1('AVG3SAS','game6')">3</th>
+        <th onclick="getfile1('AVG5SAS','game6')">5</th>
+        <th onclick="getfile1('AVG7SAS','game6')">7</th>
+        <th onclick="getfile1('AVG10SAS','game6')">10</th>
+        <th onclick="getfile1('AVG82SAS','game6')">S</th>
+        <th onclick="getfile1('BOX1SAS','game6')">1</th>
+        <th onclick="getfile1('BOX2SAS','game6')">2</th>
+        <th onclick="getfile1('BOX3SAS','game6')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDMEM','game6')">MEM</th>
+        <th onclick="getfile1('AVG3MEM','game6')">3</th>
+        <th onclick="getfile1('AVG5MEM','game6')">5</th>
+        <th onclick="getfile1('AVG7MEM','game6')">7</th>
+        <th onclick="getfile1('AVG10MEM','game6')">10</th>
+        <th onclick="getfile1('AVG82MEM','game6')">S</th>
+        <th onclick="getfile1('BOX1MEM','game6')">1</th>
+        <th onclick="getfile1('BOX2MEM','game6')">2</th>
+        <th onclick="getfile1('BOX3MEM','game6')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame6'></div>
+        </div>
+        
+        <h2 class="accordion" id='game7' onclick ="toggle('game7')">+ NYK @ OKC</h2>
+        <div style="display:none;" id='game7div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game7','game7')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDNYK','game7')">NYK</th>
+        <th onclick="getfile1('AVG3NYK','game7')">3</th>
+        <th onclick="getfile1('AVG5NYK','game7')">5</th>
+        <th onclick="getfile1('AVG7NYK','game7')">7</th>
+        <th onclick="getfile1('AVG10NYK','game7')">10</th>
+        <th onclick="getfile1('AVG82NYK','game7')">S</th>
+        <th onclick="getfile1('BOX1NYK','game7')">1</th>
+        <th onclick="getfile1('BOX2NYK','game7')">2</th>
+        <th onclick="getfile1('BOX3NYK','game7')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDOKC','game7')">OKC</th>
+        <th onclick="getfile1('AVG3OKC','game7')">3</th>
+        <th onclick="getfile1('AVG5OKC','game7')">5</th>
+        <th onclick="getfile1('AVG7OKC','game7')">7</th>
+        <th onclick="getfile1('AVG10OKC','game7')">10</th>
+        <th onclick="getfile1('AVG82OKC','game7')">S</th>
+        <th onclick="getfile1('BOX1OKC','game7')">1</th>
+        <th onclick="getfile1('BOX2OKC','game7')">2</th>
+        <th onclick="getfile1('BOX3OKC','game7')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame7'></div>
+        </div>
+        
+        <h2 class="accordion" id='game8' onclick ="toggle('game8')">+ MIN @ UTA</h2>
+        <div style="display:none;" id='game8div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game8','game8')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDMIN','game8')">MIN</th>
+        <th onclick="getfile1('AVG3MIN','game8')">3</th>
+        <th onclick="getfile1('AVG5MIN','game8')">5</th>
+        <th onclick="getfile1('AVG7MIN','game8')">7</th>
+        <th onclick="getfile1('AVG10MIN','game8')">10</th>
+        <th onclick="getfile1('AVG82MIN','game8')">S</th>
+        <th onclick="getfile1('BOX1MIN','game8')">1</th>
+        <th onclick="getfile1('BOX2MIN','game8')">2</th>
+        <th onclick="getfile1('BOX3MIN','game8')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDUTA','game8')">UTA</th>
+        <th onclick="getfile1('AVG3UTA','game8')">3</th>
+        <th onclick="getfile1('AVG5UTA','game8')">5</th>
+        <th onclick="getfile1('AVG7UTA','game8')">7</th>
+        <th onclick="getfile1('AVG10UTA','game8')">10</th>
+        <th onclick="getfile1('AVG82UTA','game8')">S</th>
+        <th onclick="getfile1('BOX1UTA','game8')">1</th>
+        <th onclick="getfile1('BOX2UTA','game8')">2</th>
+        <th onclick="getfile1('BOX3UTA','game8')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame8'></div>
+        </div>
+        
+        <h2 class="accordion" id='game9' onclick ="toggle('game9')">+ POR @ LAL</h2>
+        <div style="display:none;" id='game9div'>
+        <table id='sng'>
+        <tr>
+        <th onclick="getfile1('game9','game9')"></th>
+        <th colspan=5>AVERAGES</th><th colspan=3>BOX</th></tr>
+        <tr>
+        <th onclick="getfile1('TRENDPOR','game9')">POR</th>
+        <th onclick="getfile1('AVG3POR','game9')">3</th>
+        <th onclick="getfile1('AVG5POR','game9')">5</th>
+        <th onclick="getfile1('AVG7POR','game9')">7</th>
+        <th onclick="getfile1('AVG10POR','game9')">10</th>
+        <th onclick="getfile1('AVG82POR','game9')">S</th>
+        <th onclick="getfile1('BOX1POR','game9')">1</th>
+        <th onclick="getfile1('BOX2POR','game9')">2</th>
+        <th onclick="getfile1('BOX3POR','game9')">3</th>
+        </tr>
+        <tr>
+        <th onclick="getfile1('TRENDLAL','game9')">LAL</th>
+        <th onclick="getfile1('AVG3LAL','game9')">3</th>
+        <th onclick="getfile1('AVG5LAL','game9')">5</th>
+        <th onclick="getfile1('AVG7LAL','game9')">7</th>
+        <th onclick="getfile1('AVG10LAL','game9')">10</th>
+        <th onclick="getfile1('AVG82LAL','game9')">S</th>
+        <th onclick="getfile1('BOX1LAL','game9')">1</th>
+        <th onclick="getfile1('BOX2LAL','game9')">2</th>
+        <th onclick="getfile1('BOX3LAL','game9')">3</th>
+        </tr>
+        </table>
+        <div id='statsdivgame9'></div>
+        </div>
+        </body></html>
