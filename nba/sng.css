@@ -1,8 +1,9 @@
 #sng {
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
     border-collapse: collapse;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 14px;
+    /*font-weight: bold;*/
     /*font-size: 0.9em;*/
 }
 
@@ -26,7 +27,7 @@
 #sng th {
     padding: 10px;
     border: 1px solid #ddd;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     background-color:#040d44; 
     /*background-color:#6487b1;*/ 
@@ -38,11 +39,12 @@ td.bold {
 }
 body {
     background-color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
+    font-size: 12px;
     color:#040d44;
     /*color:rgb(23, 126, 121);*/
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .accordion {
