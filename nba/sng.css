@@ -13,7 +13,7 @@
   padding: 6px;
 }
 
-#sng tr:nth-child(even){
+#sng tr:nth-child(odd){
     background-color: #e2e2e2; 
     /*color:rgb(23, 126, 121);*/
 }
@@ -29,9 +29,11 @@
     border: 1px solid #ddd;
     font-size: 16px;
     text-align: left;
-    background-color:#040d44; 
+    /*background-color:#040d44;*/ 
+    background-color:#e2e2e2; 
     /*background-color:#6487b1;*/ 
-    color: white;
+    /* color: white; */
+    color:#040d44;
 }
 
 td.bold {
