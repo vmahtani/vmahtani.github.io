@@ -30,6 +30,21 @@
         document.getElementById("statsdiv" + gameid).innerHTML = filetag;
     }
 
+    function getexternal(stattype, teamname, gameid) {
+        console.log(stattype, teamname);
+        var teamnameespn = teamname;
+        if(teamnameespn == "NOP")
+            teamnameespn == "NO";
+        else if(teamnameespn == "UTA")
+            teamnameespn == "UTAH";
+        if(stattype=="DEP")
+            url = "https://www.espn.com/nba/team/depth/_/name/" + teamnameespn.toLowerCase();
+        else if(stattype=="INJ")
+            url = "https://www.espn.com/nba/team/injuries/_/name/" + teamnameespn.toLowerCase();
+        console.log(url);
+        window.open(url, '_blank').focus();
+    }
+
     function getdepth2(file,gameid) {
         file = "files/" + file + ".png";
         filetag = "<img src='" + file + "'>";
