@@ -10,7 +10,7 @@
 #sng td {
   border: 1px solid #ddd;
   text-align: left;
-  padding: 6px;
+  padding: 4px;
 }
 
 #sng tr:nth-child(odd){

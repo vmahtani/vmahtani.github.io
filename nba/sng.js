@@ -19,6 +19,15 @@
         document.getElementById("statsdiv" + gameid).innerHTML = myText;
       }
 
+    function getgamelog(file, x) {
+        console.log(file);
+        console.log(x);
+        var gamepos = x.indexOf('game');
+        var gameid = x.substring(gamepos);
+        console.log(gameid);
+        getfile1(file,gameid);
+    }
+
     function getfile1(file,gameid) {
         file = "files/" + file + ".html";
         console.log(file);
