@@ -19,14 +19,18 @@
         document.getElementById("statsdiv" + gameid).innerHTML = myText;
       }
 
+
     function getgamelog(file, x) {
         console.log(file);
         console.log(x);
-        var gamepos = x.indexOf('game');
-        var gameid = x.substring(gamepos);
+        gameinfo = x.parentElement.parentElement.parentElement.parentElement.id
+        var gamepos = gameinfo.indexOf('game');
+        var gameid = gameinfo.substring(gamepos);
         console.log(gameid);
         getfile1(file,gameid);
     }
+
+
 
     function getfile1(file,gameid) {
         file = "files/" + file + ".html";
