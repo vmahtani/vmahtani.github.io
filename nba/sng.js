@@ -3,6 +3,7 @@
         var togglelabel = document.getElementById(callerid);
         if(togglediv.style.display=='block')
         {
+            cleargame(callerid);
             togglediv.style.display='none';
             togglelabel.innerText = "+" + togglelabel.innerText.substring(1);
         }
@@ -19,7 +20,6 @@
         document.getElementById("statsdiv" + gameid).innerHTML = myText;
       }
 
-
     function getgamelog(file, x) {
         console.log(file);
         console.log(x);
@@ -30,8 +30,6 @@
         getfile1(file,gameid);
     }
 
-
-
     function getfile1(file,gameid) {
         file = "files/" + file + ".html";
         console.log(file);
@@ -41,6 +39,10 @@
         file = "files/" + file + ".png";
         filetag = "<img src='" + file + "'>";
         document.getElementById("statsdiv" + gameid).innerHTML = filetag;
+    }
+
+    function cleargame(gameid) {
+        document.getElementById("statsdiv" + gameid).innerHTML = "";
     }
 
     function getexternal(stattype, teamname, gameid) {
