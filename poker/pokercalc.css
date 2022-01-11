@@ -1,11 +1,11 @@
 select, button {
-  font-family: sans-serif, Arial, Helvetica;
-  font-size: 20px;
+  font-family: "Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
+  font-size: 12px;
 }
 
 body {
-  font-family: sans-serif, Arial, Helvetica;
-  font-size: 16px;
+  font-family: "Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
+  font-size: 12px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -15,8 +15,8 @@ body {
 }
 
 td.hand {
-  font-family: sans-serif, Arial, Helvetica;
-  font-size: 24px;
+  font-family: "Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
+  font-size: 12px;
   padding: 5px;
   vertical-align: top;
   text-align: left;
@@ -26,8 +26,8 @@ td.hand {
 div.combodiv {
   background-color: whitesmoke;
   display: inline-flex;
-  font-family: sans-serif, Arial, Helvetica;
-  font-size: 24px;
+  font-family: "Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
+  font-size: 12px;
 }
 
 .on {
