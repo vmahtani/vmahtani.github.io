@@ -1,0 +1,39 @@
+select, button {
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 20px;
+}
+
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 16px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+td.hand {
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 24px;
+  padding: 5px;
+  vertical-align: top;
+  text-align: left;
+  background-color: white;
+}
+
+div.combodiv {
+  background-color: whitesmoke;
+  display: inline-flex;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 24px;
+}
+
+.on {
+    background-color: lightblue;
+}
+.off {
+    background-color: pink;
+}
+

@@ -1,0 +1,325 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="pokercalc.css">
+        <script>
+            let gComboCount = 0;
+
+            const HAND_ON = 'lightblue';
+            const HAND_OFF = 'white';
+
+            const combodictionary = {"suited":4, "offsuit":12, "pair":6 }
+
+            function tierchange() {
+                let range = document.getElementById("tierselector").value;
+                if(range!='tier')
+                {
+                    range = parseInt(range);
+                    console.log(range);
+                    var elements = document.getElementsByClassName("hand");
+                    for (var i = 0; i < elements.length; i++) {
+                        if (elements[i].dataset.tier <= range)
+                            togglehand(elements[i].id,true);
+                    }
+                    updatecombodiv();
+                }
+            }
+
+            function selectrange(range) {
+                console.log(range);
+                var elements = document.getElementsByClassName("hand");
+                //let datacriteria = 'range';
+                //if(range=='pair' || range=='suited')
+                //    datacriteria = 'handtype';
+                for (var i = 0; i < elements.length; i++) {
+                    if (elements[i].dataset.handtype == range || elements[i].dataset.range == range)
+                        togglehand(elements[i].id,true);
+                }
+                updatecombodiv();
+            }
+
+            function resetranges() {
+                var elements = document.getElementsByClassName("hand");
+                for (var i = 0; i < elements.length; i++) {
+                    togglehand(elements[i].id,false);
+                }
+                updatecombodiv();
+                document.getElementById("tierselector").value = 'tier';
+            }
+
+            function updatecombodiv() {
+                let cd = document.getElementById('combodiv');
+                let handpercentage = (gComboCount/1326) * 100;
+                cd.innerHTML = "1326 possible hands <br />" + gComboCount.toString() + " combos" + "<br />" + handpercentage.toPrecision(2) + "%";
+            }
+
+
+            function togglehand(hand,toggle){
+                console.log(hand);
+                let h = document.getElementById(hand);
+                let combocount = combodictionary[h.dataset.handtype];
+                console.log(toggle);
+                console.log(h.style.backgroundColor);
+
+                if(toggle==true && h.style.backgroundColor==HAND_OFF) {
+                    h.style.backgroundColor = HAND_ON;
+                    gComboCount += combocount;
+                }
+                else if(toggle==false && h.style.backgroundColor==HAND_ON) {
+                    h.style.backgroundColor = HAND_OFF;
+                    gComboCount -= combocount;
+                }
+                else if(toggle===''){
+                    if(h.style.backgroundColor == HAND_ON){
+                        h.style.backgroundColor =  HAND_OFF;
+                        gComboCount -= combocount;
+                    }
+                    else{
+                        h.style.backgroundColor =  HAND_ON;
+                        gComboCount += combocount;
+                    }
+                }
+            }
+
+            function loadtheclicks() {
+                var handpercentage;
+                var elements = document.getElementsByClassName("hand");
+                var togglecell = function() {
+                    togglehand(this.id,'');
+                    updatecombodiv();
+                };
+ 
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].addEventListener('mousedown', togglecell , false);
+                    elements[i].style.backgroundColor = HAND_OFF;
+                }
+            }
+
+        </script>
+    </head>
+    <body onload=loadtheclicks()>    
+        <div style="display: inline-flex;" id=masterblock>
+            <div id=rangegrid>
+                <table cellspacing="3" cellpadding="0">  
+                    <tr>    
+                        <td class='hand' id='AA'  data-handtype='pair' data-tier=1> AA </td>
+                        <td class='hand' id='AKs' data-handtype='suited'  data-range='broadway' data-tier=2>AKs</td>
+                        <td class='hand' id='AQs' data-handtype='suited'  data-range='broadway' data-tier=2>AQs</td>
+                        <td class='hand' id='AJs' data-handtype='suited'  data-range='broadway' data-tier=2>AJs</td>
+                        <td class='hand' id='ATs' data-handtype='suited'  data-range='broadway' data-tier=2>ATs</td>
+                        <td class='hand' id='A9s' data-handtype='suited'  data-tier=3>A9s</td>
+                        <td class='hand' id='A8s' data-handtype='suited'  data-tier=3>A8s</td>
+                        <td class='hand' id='A7s' data-handtype='suited'  data-tier=3>A7s</td>
+                        <td class='hand' id='A6s' data-handtype='suited'  data-tier=3>A6s</td>
+                        <td class='hand' id='A5s' data-handtype='suited'  data-tier=3>A5s</td>
+                        <td class='hand' id='A4s' data-handtype='suited'  data-tier=3>A4s</td>
+                        <td class='hand' id='A3s' data-handtype='suited'  data-tier=3>A3s</td>
+                        <td class='hand' id='A2s' data-handtype='suited'  data-tier=3>A2s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='AKo' data-handtype='offsuit'  data-range='broadway' data-tier=2>AKo</td>
+                        <td class='hand' id='KK'  data-handtype='pair' data-tier=1> KK </td>
+                        <td class='hand' id='KQs' data-handtype='suited'  data-range='broadway' data-tier=2>KQs</td>
+                        <td class='hand' id='KJs' data-handtype='suited'  data-range='broadway' data-tier=2>KJs</td>
+                        <td class='hand' id='KTs' data-handtype='suited'  data-range='broadway' data-tier=2>KTs</td>
+                        <td class='hand' id='K9s' data-handtype='suited'  data-tier=4>K9s</td>
+                        <td class='hand' id='K8s' data-handtype='suited'  data-tier=4>K8s</td>
+                        <td class='hand' id='K7s' data-handtype='suited'  data-tier=4>K7s</td>
+                        <td class='hand' id='K6s' data-handtype='suited'  data-tier=4>K6s</td>
+                        <td class='hand' id='K5s' data-handtype='suited'  data-tier=4>K5s</td>
+                        <td class='hand' id='K4s' data-handtype='suited'  data-tier=4>K4s</td>
+                        <td class='hand' id='K3s' data-handtype='suited'  data-tier=4>K3s</td>
+                        <td class='hand' id='K2s' data-handtype='suited'  data-tier=4>K2s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='AQo' data-handtype='offsuit'  data-range='broadway' data-tier=2>AQo</td>
+                        <td class='hand' id='KQo' data-handtype='offsuit'  data-range='broadway' data-tier=2>KQo</td>
+                        <td class='hand' id='QQ'  data-handtype='pair' data-tier=1>QQ</td>
+                        <td class='hand' id='QJs' data-handtype='suited'  data-range='broadway' data-tier=2>QJs</td>
+                        <td class='hand' id='QTs' data-handtype='suited'  data-range='broadway' data-tier=2>QTs</td>
+                        <td class='hand' id='Q9s' data-handtype='suited'  data-tier=4>Q9s</td>
+                        <td class='hand' id='Q8s' data-handtype='suited'  data-tier=4>Q8s</td>
+                        <td class='hand' id='Q7s' data-handtype='suited'  data-tier=4>Q7s</td>
+                        <td class='hand' id='Q6s' data-handtype='suited'  data-tier=5>Q6s</td>
+                        <td class='hand' id='Q5s' data-handtype='suited'  data-tier=5>Q5s</td>
+                        <td class='hand' id='Q4s' data-handtype='suited'  data-tier=5>Q4s</td>
+                        <td class='hand' id='Q3s' data-handtype='suited'  data-tier=5>Q3s</td>
+                        <td class='hand' id='Q2s' data-handtype='suited'  data-tier=5>Q2s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='AJo' data-handtype='offsuit'  data-range='broadway' data-tier=2>AJo</td>
+                        <td class='hand' id='KJo' data-handtype='offsuit'  data-range='broadway' data-tier=3>KJo</td>
+                        <td class='hand' id='QJo' data-handtype='offsuit'  data-range='broadway' data-tier=3>QJo</td>
+                        <td class='hand' id='JJ'  data-handtype='pair' data-tier=2>JJ</td>
+                        <td class='hand' id='JTs' data-handtype='suited'  data-range='broadway' data-tier=3>JTs</td>
+                        <td class='hand' id='J9s' data-handtype='suited'  data-tier=3>J9s</td>
+                        <td class='hand' id='J8s' data-handtype='suited'  data-tier=4>J8s</td>
+                        <td class='hand' id='J7s' data-handtype='suited'  data-tier=5>J7s</td>
+                        <td class='hand' id='J6s' data-handtype='suited'  data-tier=5>J6s</td>
+                        <td class='hand' id='J5s' data-handtype='suited'  data-tier=5>J5s</td>
+                        <td class='hand' id='J4s' data-handtype='suited'  data-tier=5>J4s</td>
+                        <td class='hand' id='J3s' data-handtype='suited'  data-tier=5>J3s</td>
+                        <td class='hand' id='J2s' data-handtype='suited'  data-tier=5>J2s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='ATo' data-handtype='offsuit'  data-range='broadway' data-tier=3>ATo</td>
+                        <td class='hand' id='KTo' data-handtype='offsuit'  data-range='broadway' data-tier=3>KTo</td>
+                        <td class='hand' id='QTo' data-handtype='offsuit'  data-range='broadway' data-tier=3>QTo</td>
+                        <td class='hand' id='JTo' data-handtype='offsuit'  data-range='broadway' data-tier=3>JTo</td>
+                        <td class='hand' id='TT'  data-handtype='pair' data-tier=2>TT</td>
+                        <td class='hand' id='T9s' data-handtype='suited'  data-tier=3>T9s</td>
+                        <td class='hand' id='T8s' data-handtype='suited'  data-tier=4>T8s</td>
+                        <td class='hand' id='T7s' data-handtype='suited'  data-tier=4>T7s</td>
+                        <td class='hand' id='T6s' data-handtype='suited'  data-tier=5>T6s</td>
+                        <td class='hand' id='T5s' data-handtype='suited'  data-tier=5>T5s</td>
+                        <td class='hand' id='T4s' data-handtype='suited'  data-tier=5>T4s</td>
+                        <td class='hand' id='T3s' data-handtype='suited'  data-tier=5>T3s</td>
+                        <td class='hand' id='T2s' data-handtype='suited'  data-tier=5>T2s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='A9o' data-handtype='offsuit'  data-tier=4>A9o</td>
+                        <td class='hand' id='K9o' data-handtype='offsuit'  data-tier=4>K9o</td>
+                        <td class='hand' id='Q9o' data-handtype='offsuit'  data-tier=4>Q9o</td>
+                        <td class='hand' id='J9o' data-handtype='offsuit'  data-tier=4>J9o</td>
+                        <td class='hand' id='T9o' data-handtype='offsuit'  data-tier=4>T9o</td>
+                        <td class='hand' id='99'  data-handtype='pair' data-tier=2>99</td>
+                        <td class='hand' id='98s' data-handtype='suited'  data-tier=3>98s</td>
+                        <td class='hand' id='97s' data-handtype='suited'  data-tier=4>97s</td>
+                        <td class='hand' id='96s' data-handtype='suited'  data-tier=5>96s</td>
+                        <td class='hand' id='95s' data-handtype='suited'  data-tier=5>95s</td>
+                        <td class='hand' id='94s' data-handtype='suited'  data-tier=5>94s</td>
+                        <td class='hand' id='93s' data-handtype='suited'  data-tier=5>93s</td>
+                        <td class='hand' id='92s' data-handtype='suited'  data-tier=5>92s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='A8o' data-handtype='offsuit'  data-tier=4>A8o</td>
+                        <td class='hand' id='K8o' data-handtype='offsuit'  data-tier=4>K8o</td>
+                        <td class='hand' id='Q8o' data-handtype='offsuit'  data-tier=4>Q8o</td>
+                        <td class='hand' id='J8o' data-handtype='offsuit'  data-tier=4>J8o</td>
+                        <td class='hand' id='T8o' data-handtype='offsuit'  data-tier=4>T8o</td>
+                        <td class='hand' id='98o' data-handtype='offsuit'  data-tier=4>98o</td>
+                        <td class='hand' id='88'  data-handtype='pair' data-tier=2>88</td>
+                        <td class='hand' id='87s' data-handtype='suited'  data-tier=4>87s</td>
+                        <td class='hand' id='86s' data-handtype='suited'  data-tier=5>86s</td>
+                        <td class='hand' id='85s' data-handtype='suited'  data-tier=5>85s</td>
+                        <td class='hand' id='84s' data-handtype='suited'  data-tier=5>84s</td>
+                        <td class='hand' id='83s' data-handtype='suited'  data-tier=5>83s</td>
+                        <td class='hand' id='82s' data-handtype='suited'  data-tier=5>82s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='A7o' data-handtype='offsuit'  data-tier=4>A7o</td>
+                        <td class='hand' id='K7o' data-handtype='offsuit'  data-tier=4>K7o</td>
+                        <td class='hand' id='Q7o' data-handtype='offsuit'  data-tier=5>Q7o</td>
+                        <td class='hand' id='J7o' data-handtype='offsuit'  data-tier=5>J7o</td>
+                        <td class='hand' id='T7o' data-handtype='offsuit'  data-tier=5>T7o</td>
+                        <td class='hand' id='97o' data-handtype='offsuit'  data-tier=5>97o</td>
+                        <td class='hand' id='87o' data-handtype='offsuit'  data-tier=4>87o</td>
+                        <td class='hand' id='77'  data-handtype='pair' data-tier=3>77</td>
+                        <td class='hand' id='76s' data-handtype='suited'  data-tier=4>76s</td>
+                        <td class='hand' id='75s' data-handtype='suited'  data-tier=5>75s</td>
+                        <td class='hand' id='74s' data-handtype='suited'  data-tier=5>74s</td>
+                        <td class='hand' id='73s' data-handtype='suited'  data-tier=5>73s</td>
+                        <td class='hand' id='72s' data-handtype='suited'  data-tier=5>72s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='A6o' data-handtype='offsuit'  data-tier=4>A6o</td>
+                        <td class='hand' id='K6o' data-handtype='offsuit'  data-tier=6>K6o</td>
+                        <td class='hand' id='Q6o' data-handtype='offsuit'  data-tier=6>Q6o</td>
+                        <td class='hand' id='J6o' data-handtype='offsuit'  data-tier=6>J6o</td>
+                        <td class='hand' id='T6o' data-handtype='offsuit'  data-tier=6>T6o</td>
+                        <td class='hand' id='96o' data-handtype='offsuit'  data-tier=6>96o</td>
+                        <td class='hand' id='860' data-handtype='offsuit'  data-tier=6>86o</td>
+                        <td class='hand' id='76o' data-handtype='offsuit'  data-tier=5>76o</td>
+                        <td class='hand' id='66'  data-handtype='pair' data-tier=3>66</td>
+                        <td class='hand' id='65s' data-handtype='suited'  data-tier=5>65s</td>
+                        <td class='hand' id='64s' data-handtype='suited'  data-tier=5>64s</td>
+                        <td class='hand' id='63s' data-handtype='suited'  data-tier=5>63s</td>
+                        <td class='hand' id='62s' data-handtype='suited'  data-tier=5>62s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='A5o' data-handtype='offsuit'  data-tier=4>A5o</td>
+                        <td class='hand' id='K5o' data-handtype='offsuit'  data-tier=6>K5o</td>
+                        <td class='hand' id='Q5o' data-handtype='offsuit'  data-tier=6>Q5o</td>
+                        <td class='hand' id='J5o' data-handtype='offsuit'  data-tier=6>J5o</td>
+                        <td class='hand' id='T5o' data-handtype='offsuit'  data-tier=6>T5o</td>
+                        <td class='hand' id='95o' data-handtype='offsuit'  data-tier=6>95o</td>
+                        <td class='hand' id='85o' data-handtype='offsuit'  data-tier=5>85o</td>
+                        <td class='hand' id='75o' data-handtype='offsuit'  data-tier=5>75o</td>
+                        <td class='hand' id='65o' data-handtype='offsuit'  data-tier=5>65o</td>
+                        <td class='hand' id='55'  data-handtype='pair' data-tier=3>55</td>
+                        <td class='hand' id='54s' data-handtype='suited'  data-tier=5>54s</td>
+                        <td class='hand' id='53s' data-handtype='suited'  data-tier=5>53s</td>
+                        <td class='hand' id='52s' data-handtype='suited'  data-tier=5>52s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='A4o' data-handtype='offsuit'  data-tier=4>A4o</td>
+                        <td class='hand' id='K4o' data-handtype='offsuit'  data-tier=6>K4o</td>
+                        <td class='hand' id='Q4o' data-handtype='offsuit'  data-tier=6>Q4o</td>
+                        <td class='hand' id='J4o' data-handtype='offsuit'  data-tier=6>J4o</td>
+                        <td class='hand' id='T4o' data-handtype='offsuit'  data-tier=6>T4o</td>
+                        <td class='hand' id='94o' data-handtype='offsuit'  data-tier=6>94o</td>
+                        <td class='hand' id='84o' data-handtype='offsuit'  data-tier=6>84o</td>
+                        <td class='hand' id='74o' data-handtype='offsuit'  data-tier=6>74o</td>
+                        <td class='hand' id='64o' data-handtype='offsuit'  data-tier=6>64o</td>
+                        <td class='hand' id='54o' data-handtype='offsuit'  data-tier=6>54o</td>
+                        <td class='hand' id='44'  data-handtype='pair' data-tier=3>44</td>
+                        <td class='hand' id='43s' data-handtype='suited'  data-tier=5>43s</td>
+                        <td class='hand' id='42s' data-handtype='suited'  data-tier=6>42s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='A3o' data-handtype='offsuit'  data-tier=4>A3o</td>
+                        <td class='hand' id='K3o' data-handtype='offsuit'  data-tier=6>K3o</td>
+                        <td class='hand' id='Q3o' data-handtype='offsuit'  data-tier=6>Q3o</td>
+                        <td class='hand' id='J3o' data-handtype='offsuit'  data-tier=6>J3o</td>
+                        <td class='hand' id='T3o' data-handtype='offsuit'  data-tier=6>T3o</td>
+                        <td class='hand' id='93o' data-handtype='offsuit'  data-tier=6>93o</td>
+                        <td class='hand' id='83o' data-handtype='offsuit'  data-tier=6>83o</td>
+                        <td class='hand' id='73o' data-handtype='offsuit'  data-tier=6>73o</td>
+                        <td class='hand' id='63o' data-handtype='offsuit'  data-tier=6>63o</td>
+                        <td class='hand' id='53o' data-handtype='offsuit'  data-tier=6>53o</td>
+                        <td class='hand' id='43o' data-handtype='offsuit'  data-tier=6>43o</td>
+                        <td class='hand' id='33'  data-handtype='pair' data-tier=3>33</td>
+                        <td class='hand' id='32s' data-handtype='suited'  data-tier=5>32s</td>
+                    </tr>
+                    <tr>   
+                        <td class='hand' id='A2o' data-handtype='offsuit'  data-tier=4>A2o</td>
+                        <td class='hand' id='K2o' data-handtype='offsuit'  data-tier=6>K2o</td>
+                        <td class='hand' id='Q2o' data-handtype='offsuit'  data-tier=6>Q2o</td>
+                        <td class='hand' id='J2o' data-handtype='offsuit'  data-tier=6>J2o</td>
+                        <td class='hand' id='T2o' data-handtype='offsuit'  data-tier=6>T2o</td>
+                        <td class='hand' id='92o' data-handtype='offsuit'  data-tier=6>92o</td>
+                        <td class='hand' id='82o' data-handtype='offsuit'  data-tier=6>82o</td>
+                        <td class='hand' id='72o' data-handtype='offsuit'  data-tier=6>72o</td>
+                        <td class='hand' id='62o' data-handtype='offsuit'  data-tier=6>62o</td>
+                        <td class='hand' id='52o' data-handtype='offsuit'  data-tier=6>52o</td>
+                        <td class='hand' id='42o' data-handtype='offsuit'  data-tier=6>42o</td>
+                        <td class='hand' id='32o' data-handtype='offsuit'  data-tier=6>32o</td>
+                        <td class='hand' id='22'  data-handtype='pair' data-tier=3>22</td>
+                    </tr>
+                </table>
+            </div>
+            <div id='comboblock'>
+                <select id='tierselector' onchange='tierchange()''>
+                    <option value='tier'>tier</option>            
+                    <option value=1>1</option>            
+                    <option value=2>2</option>            
+                    <option value=3>3</option>            
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                </select>
+                <button onclick="selectrange('pair')">pairs</button>            
+                <button onclick="selectrange('broadway')">broadway</button>            
+                <button onclick="selectrange('suited')">suits</button>            
+                <button onclick="selectrange('fish')">fish</button>            
+                <button onclick="resetranges()">reset</button>
+                <br /> <br />
+                <div id='combodiv' class='combodiv'>
+                    1326 possible hands <br />
+                    0 combos <br />
+                    0%         
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
