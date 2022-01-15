@@ -1,46 +1,46 @@
-2022-01-15 13:12:36.825096
-no arb Brandon Ingram
+2022-01-15 13:14:40.072897
+no arb Brandon Ingram pts
 dk: 25.5  100/-125
 fd: 24.5  -122/100
-no arb Darius Garland
+no arb Darius Garland pts
 dk: 19.5  100/-125
 fd: 20.5  -106/-114
-no arb Jarrett Allen
+no arb Jarrett Allen pts
 dk: 16.5  -125/100
 fd: 17.5  -104/-118
-no arb Spencer Dinwiddie
+no arb Spencer Dinwiddie pts
 dk: 16.5  -115/-110
 fd: 17.5  -104/-118
-no arb Malik Monk
+no arb Malik Monk pts
 dk: 17.5  -105/-125
 fd: 16.5  -108/-112
-no arb Evan Mobley
+no arb Evan Mobley pts
 dk: 15.5  -115/-110
 fd: 16.5  100/-122
-no arb Coby White
+no arb Coby White pts
 dk: 16.5  100/-125
 fd: 15.5  -122/100
-no arb Herbert Jones
+no arb Herbert Jones pts
 dk: 10.5  -125/100
 fd: 11.5  104/-128
-no arb Bobby Portis
+no arb Bobby Portis reb
 dk: 8.5  -150/115
 fd: 9.5  100/-120
-no arb Josh Hart
+no arb Josh Hart reb
 dk: 8.5  110/-145
 fd: 7.5  -138/112
-no arb Jimmy Butler
+no arb Jimmy Butler reb
 dk: 6.5  110/-145
 fd: 5.5  -144/118
-arb James Harden
+arb James Harden ast
 dk: 9.5  -150/110
 fd: 10.5  118/-144
-no arb Giannis Antetokounmpo
+no arb Giannis Antetokounmpo ast
 dk: 6.5  -150/115
 fd: 7.5  112/-138
-no arb RJ Barrett
+no arb RJ Barrett ast
 dk: 3.5  135/-185
 fd: 2.5  -140/114
-no arb Evan Mobley
+no arb Evan Mobley ast
 dk: 2.5  -180/135
 fd: 3.5  132/-162
