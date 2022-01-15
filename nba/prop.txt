@@ -1,73 +1,100 @@
-2022-01-15 14:51:08.827713
+2022-01-15 15:01:08.919118
+no arb DeMar DeRozan pts
+fd: 27.5  -104/-118
+dk: 26.5  -110/-115
+no arb Trae Young pts
+dk: 26.5  -110/-115
+fd: 25.5  -120/-102
 no arb Brandon Ingram pts
 dk: 25.5  100/-125
-fd: 24.5  -118/-104
+fd: 24.5  -120/-102
 no arb Fred VanVleet pts
-fd: 23.5  -105/-115
+fd: 23.5  -106/-114
 dk: 22.5  -115/-110
 no arb Jimmy Butler pts
 fd: 22.5  -105/-115
 dk: 21.5  -110/-115
+no arb Darius Garland pts
+fd: 19.5  -110/-110
+dk: 18.5  -125/100
 no arb OG Anunoby pts
-fd: 18.5  100/-122
+fd: 18.5  -105/-115
 dk: 17.5  -120/-105
-no arb Spencer Dinwiddie pts
-fd: 17.5  -102/-120
-dk: 16.5  -120/-105
+no arb Nikola Vucevic pts
+fd: 18.5  -102/-120
+dk: 17.5  -125/100
 no arb Luguentz Dort pts
-fd: 17.5  -102/-120
-dk: 16.5  -125/100
+fd: 17.5  100/-122
+dk: 16.5  -120/-105
 no arb Malik Monk pts
 dk: 17.5  -105/-125
-fd: 16.5  -110/-110
+fd: 16.5  -110/-112
 no arb Coby White pts
-dk: 16.5  100/-125
-fd: 15.5  -122/100
+fd: 17.5  -102/-120
+dk: 16.5  -110/-115
+no arb Evan Fournier pts
+fd: 15.5  104/-128
+dk: 14.5  -120/-105
+no arb Jeff Green pts
+dk: 12.5  -110/-115
+fd: 11.5  -122/100
 no arb Furkan Korkmaz pts
 dk: 12.5  -105/-120
 fd: 11.5  -128/104
+no arb Dorian Finney-Smith pts
+fd: 11.5  102/-124
+dk: 10.5  -125/100
 no arb Doug McDermott pts
-dk: 11.5  -115/-110
+dk: 11.5  -110/-115
 fd: 10.5  -115/-105
+arb Ivica Zubac pts
+fd: 7.5  -104/-118
+dk: 7.5  -130/105
 no arb Dejounte Murray reb
-dk: 9.5  100/-130
-fd: 8.5  -130/106
+dk: 9.5  105/-135
+fd: 8.5  -132/108
 no arb Josh Hart reb
 dk: 8.5  110/-145
-fd: 7.5  -134/110
+fd: 7.5  -140/114
 no arb Jimmy Butler reb
 dk: 6.5  110/-145
-fd: 5.5  -142/116
+fd: 5.5  -140/114
 no arb Aaron Gordon reb
 dk: 6.5  115/-150
-fd: 5.5  -134/110
+fd: 5.5  -140/114
+no arb Nassir Little reb
+fd: 6.5  118/-144
+dk: 5.5  -155/115
 no arb Bogdan Bogdanovic reb
 dk: 4.5  130/-170
-fd: 3.5  -120/-102
-no arb Doug McDermott reb
-dk: 3.5  130/-175
-fd: 2.5  -130/106
+fd: 3.5  -124/102
 no arb James Harden ast
-fd: 10.5  122/-150
+fd: 10.5  120/-148
 dk: 9.5  -150/110
 no arb Luka Doncic ast
 dk: 9.5  105/-140
-fd: 8.5  -140/114
+fd: 8.5  -138/112
+no arb Darius Garland ast
+dk: 9.5  105/-140
+fd: 8.5  -114/-106
+no arb Dejounte Murray ast
+fd: 9.5  110/-134
+dk: 8.5  -145/110
 no arb Giannis Antetokounmpo ast
-fd: 7.5  108/-132
-dk: 6.5  -150/115
-no arb LeBron James ast
 fd: 7.5  118/-144
 dk: 6.5  -150/115
-no arb Pascal Siakam ast
-fd: 5.5  110/-134
-dk: 4.5  -145/110
-no arb Evan Mobley ast
-fd: 3.5  138/-170
-dk: 2.5  -180/135
+no arb DeMar DeRozan ast
+fd: 6.5  118/-144
+dk: 5.5  -140/100
+no arb Coby White ast
+dk: 4.5  130/-170
+fd: 3.5  -158/128
+no arb RJ Barrett ast
+dk: 3.5  135/-185
+fd: 2.5  -150/122
 no arb Jalen Brunson threes
 fd: 1.5  190/-250
 dk: 0.5  -230/175
 no arb Pascal Siakam threes
-fd: 1.5  148/-194
+fd: 1.5  146/-188
 dk: 0.5  -240/180
