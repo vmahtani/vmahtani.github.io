@@ -1,73 +1,61 @@
-2022-01-15 16:50:56.417859
-no arb DeMar DeRozan pts
-fd: 27.5  -105/-115
-dk: 26.5  -110/-115
-no arb Joel Embiid pts
-dk: 27.5  -105/-125
-fd: 26.5  -114/-106
-no arb Trae Young pts
-dk: 26.5  -110/-115
-fd: 25.5  -118/-104
-no arb Brandon Ingram pts
-dk: 25.5  100/-125
-fd: 24.5  -112/-108
-no arb Fred VanVleet pts
-fd: 23.5  100/-122
-dk: 22.5  -115/-110
+2022-01-15 17:21:39.571355
+no arb Jimmy Butler pts
+fd: 22.5  100/-122
+dk: 21.5  -110/-115
 no arb Darius Garland pts
-fd: 19.5  -115/-105
+fd: 19.5  -112/-108
 dk: 18.5  -125/100
-no arb OG Anunoby pts
-fd: 18.5  -108/-112
-dk: 17.5  -130/100
+no arb Jarrett Allen pts
+fd: 16.5  -112/-108
+dk: 15.5  -125/100
 no arb Luguentz Dort pts
-fd: 17.5  100/-122
+fd: 17.5  -104/-118
 dk: 16.5  -120/-105
 no arb Malik Monk pts
 dk: 17.5  -105/-125
-fd: 16.5  -106/-114
+fd: 16.5  -108/-112
 no arb Coby White pts
 fd: 17.5  -104/-118
 dk: 16.5  -110/-115
+no arb Josh Giddey pts
+dk: 13.5  100/-130
+fd: 12.5  -124/102
+no arb Montrezl Harrell pts
+fd: 12.5  -108/-112
+dk: 11.5  -115/-110
 no arb De'Andre Hunter pts
 fd: 12.5  -110/-110
 dk: 11.5  -120/-105
-no arb Dorian Finney-Smith pts
-fd: 11.5  104/-128
-dk: 10.5  -125/100
+no arb Avery Bradley pts
+dk: 8.5  100/-130
+fd: 7.5  -115/-105
+no arb Omer Yurtseven reb
+dk: 10.5  110/-145
+fd: 9.5  -142/116
 no arb Dejounte Murray reb
 dk: 9.5  105/-135
-fd: 8.5  -134/110
-no arb Josh Hart reb
-dk: 8.5  110/-145
-fd: 7.5  -124/102
+fd: 8.5  -132/108
 no arb Aaron Gordon reb
 dk: 6.5  115/-150
-fd: 5.5  -140/114
+fd: 5.5  -138/112
+no arb Pat Connaughton reb
+dk: 3.5  135/-180
+fd: 2.5  -164/134
 no arb James Harden ast
-fd: 10.5  124/-150
+fd: 10.5  124/-152
 dk: 9.5  -150/110
-no arb Luka Doncic ast
-dk: 9.5  105/-140
-fd: 8.5  -140/114
 no arb Dejounte Murray ast
-fd: 9.5  106/-130
+fd: 9.5  110/-134
 dk: 8.5  -145/110
 no arb Giannis Antetokounmpo ast
 fd: 7.5  116/-142
 dk: 6.5  -150/115
-no arb DeMar DeRozan ast
-fd: 6.5  118/-144
-dk: 5.5  -140/100
 no arb Coby White ast
 dk: 4.5  130/-170
-fd: 3.5  -134/110
-no arb RJ Barrett ast
-dk: 3.5  135/-185
-fd: 2.5  -154/126
-no arb Jalen Brunson threes
-fd: 1.5  186/-245
-dk: 0.5  -230/175
+fd: 3.5  -138/112
+no arb Gary Harris threes
+fd: 2.5  164/-215
+dk: 1.5  -170/130
 no arb Pascal Siakam threes
 fd: 1.5  146/-188
 dk: 0.5  -240/180
