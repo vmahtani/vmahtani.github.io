@@ -1,79 +1,45 @@
-no arb Pascal Siakam
-dk: 21.5  -120/-105
-fd: 20.5  -122/100
+2022-01-15 13:01:47.080801no arb Brandon Ingram
+dk: 25.5  100/-125
+fd: 24.5  -122/100
 no arb Darius Garland
 dk: 19.5  100/-125
-fd: 20.5  -114/-106
-no arb Kyle Kuzma
-dk: 19.5  -125/-105
-fd: 20.5  -108/-112
-no arb Nikola Vucevic
-dk: 17.5  -125/100
-fd: 18.5  -102/-120
+fd: 20.5  -106/-114
+no arb Jarrett Allen
+dk: 16.5  -125/100
+fd: 17.5  -104/-118
 no arb Spencer Dinwiddie
-dk: 16.5  -110/-115
-fd: 17.5  -102/-120
-no arb Luguentz Dort
-dk: 17.5  100/-125
-fd: 16.5  100/-122
+dk: 16.5  -115/-110
+fd: 17.5  -104/-118
 no arb Malik Monk
 dk: 17.5  -105/-125
 fd: 16.5  -108/-112
-no arb Reggie Jackson
-dk: 16.5  -120/-105
-fd: 15.5  -118/-104
 no arb Evan Mobley
 dk: 15.5  -115/-110
 fd: 16.5  100/-122
-no arb Kentavious Caldwell-Pope
-dk: 13.5  -105/-120
-fd: 12.5  -115/-105
-no arb Lauri Markkanen
-dk: 13.5  -105/-120
-fd: 12.5  -128/104
-no arb Corey Kispert
-dk: 11.5  -105/-120
-fd: 9.5  -124/102
-no arb Jarrett Allen
-dk: 11.5  100/-135
-fd: 12.5  110/-134
+no arb Coby White
+dk: 16.5  100/-125
+fd: 15.5  -122/100
+no arb Herbert Jones
+dk: 10.5  -125/100
+fd: 11.5  104/-128
 no arb Bobby Portis
 dk: 8.5  -150/115
-fd: 9.5  100/-122
+fd: 9.5  100/-120
 no arb Josh Hart
 dk: 8.5  110/-145
-fd: 7.5  -140/114
-no arb Marcus Morris
-dk: 5.5  100/-130
-fd: 4.5  -142/116
-no arb Corey Kispert
-dk: 3.5  125/-165
-fd: 2.5  -164/134
-no arb Tyrese Maxey
-dk: 3.5  130/-175
-fd: 2.5  -162/132
+fd: 7.5  -138/112
+no arb Jimmy Butler
+dk: 6.5  110/-145
+fd: 5.5  -144/118
 arb James Harden
 dk: 9.5  -150/110
-fd: 10.5  122/-150
-no arb Darius Garland
-dk: 8.5  -130/100
-fd: 7.5  -142/116
+fd: 10.5  118/-144
 no arb Giannis Antetokounmpo
 dk: 6.5  -150/115
-fd: 7.5  106/-130
-no arb Jayson Tatum
-dk: 3.5  -165/125
-fd: 4.5  132/-162
+fd: 7.5  112/-138
 no arb RJ Barrett
 dk: 3.5  135/-185
-fd: 2.5  -142/116
+fd: 2.5  -140/114
 no arb Evan Mobley
 dk: 2.5  -180/135
-fd: 3.5  116/-142
-no arb Jarrett Allen
-dk: 1.5  -160/120
-fd: 2.5  152/-188
-no arb Marcus Morris
-dk: 1.5  -170/130
-fd: 2.5  132/-170
-2022-01-15 12:45:03.098547
+fd: 3.5  132/-162
