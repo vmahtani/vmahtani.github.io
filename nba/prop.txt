@@ -1,4 +1,4 @@
-2022-01-16 15:20:08.883256
+2022-01-16 15:30:08.779114
 no arb Tom Brady comp
 fd: 26.5  0/0
 dk: 25.5  0/0
@@ -8,7 +8,7 @@ ARB Patrick Mahomes comp
 dk: 27.5  0/0
 fd: 25.5  122/-156
 pb: null  0/0
-mg: 27.5  0/0
+mg: 25.5  -105/-125
 no arb Jalen Hurts passatt
 dk: 37.5  -120/-110
 fd: 28.5  0/0
@@ -73,7 +73,7 @@ no arb Patrick Mahomes passyds
 fd: 280.5  -110/-110
 dk: 278.5  -115/-115
 pb: 280.5  -115/-115
-mg: 321.5  0/0
+mg: 277.5  -118/-111
 no arb Dak Prescott passyds
 dk: 293.5  -115/-115
 fd: 280.5  -110/-110
@@ -94,14 +94,9 @@ dk: 5.5  0/0
 fd: 2.5  0/0
 pb: null  0/0
 mg: 5.5  0/0
-ARB Rob Gronkowski recs
-fd: 5.5  0/0
-dk: 5.5  115/-155
-pb: null  0/0
-mg: 2.5  0/0
-no arb Tyler Higbee recs
-fd: 4.5  116/-154
-dk: 2.5  0/0
+ARB Tyler Higbee recs
+dk: 3.5  -175/130
+fd: 2.5  0/0
 pb: null  0/0
 mg: 3.5  -175/130
 no arb Robert Tonyan recs
@@ -139,6 +134,21 @@ dk: 6.5  120/-160
 fd: 4.5  0/0
 pb: null  0/0
 mg: 4.5  0/0
+ARB Rob Gronkowski recs
+fd: 5.5  0/0
+dk: 5.5  115/-155
+pb: null  0/0
+mg: 5.5  0/0
+no arb Tyreek Hill recs
+dk: 6.5  0/0
+fd: 5.5  -125/-102
+pb: null  0/0
+mg: 5.5  -139/105
+no arb Travis Kelce recs
+dk: 7.5  0/0
+fd: 5.5  -136/106
+pb: null  0/0
+mg: 5.5  -143/110
 no arb Tony Pollard rushrec
 dk: 53.5  -110/-120
 fd: 52.5  -113/-113
@@ -184,9 +194,9 @@ fd: 8.5  -110/-110
 dk: 7.5  -130/-105
 pb: null  0/0
 mg: 7.5  -115/-115
-no arb Scotty Miller recyds
+ARB Scotty Miller recyds
 fd: 8.5  0/0
-dk: 7.5  0/0
+dk: 8.5  200/-280
 pb: 10.5  0/0
 mg: 7.5  0/0
 no arb Jalen Reagor recyds
@@ -194,10 +204,15 @@ fd: 15.5  0/0
 dk: 8.5  -115/-115
 pb: 15.5  0/0
 mg: 14.5  0/0
+no arb Darrel Williams recyds
+fd: 21.5  -110/-110
+dk: 13.5  0/0
+pb: 13.5  0/0
+mg: 23.5  -111/-118
 no arb Cameron Brate recyds
 fd: 15.5  0/0
 dk: 14.5  -115/-115
-pb: 10.5  0/0
+pb: 22.5  0/0
 mg: 16.5  0/0
 no arb Giovani Bernard recyds
 dk: 17.5  -110/-120
@@ -213,7 +228,7 @@ no arb Demarcus Robinson recyds
 fd: 35.5  0/0
 dk: 16.5  0/0
 pb: 39.5  0/0
-mg: 38.5  0/0
+mg: 16.5  0/0
 no arb Breshad Perriman recyds
 fd: 37.5  0/0
 dk: 17.5  -120/-110
@@ -234,16 +249,16 @@ fd: 21.5  -110/-110
 dk: 20.5  -120/-110
 pb: 20.5  -125/-105
 mg: 20.5  -115/-115
-no arb Darrel Williams recyds
-dk: 23.5  -110/-120
-fd: 21.5  -110/-110
-pb: 20.5  -125/-105
-mg: 23.5  -111/-118
 no arb Marquez Valdes-Scantling recyds
 fd: 24.5  0/0
 dk: 23.5  0/0
 pb: 25.5  0/0
 mg: 25.5  0/0
+no arb Mecole Hardman recyds
+dk: 34.5  0/0
+fd: 25.5  -115/-105
+pb: 25.5  -115/-115
+mg: 33.5  0/0
 no arb Jauan Jennings recyds
 dk: 28.5  -105/-125
 fd: 26.5  -110/-110
@@ -254,16 +269,6 @@ dk: 51.5  -115/-115
 fd: 25.5  0/0
 pb: 30.5  0/0
 mg: 25.5  0/0
-no arb Tyler Higbee recyds
-fd: 38.5  -110/-110
-dk: 27.5  0/0
-pb: 40.5  -105/-125
-mg: 40.5  -115/-115
-no arb Rob Gronkowski recyds
-fd: 61.5  0/0
-dk: 45.5  -120/-110
-pb: 55.5  0/0
-mg: 28.5  0/0
 no arb Byron Pringle recyds
 dk: 31.5  -115/-115
 fd: 29.5  -110/-110
@@ -279,6 +284,11 @@ fd: 31.5  -110/-110
 dk: 30.5  -110/-125
 pb: 30.5  -125/-105
 mg: 30.5  -118/-111
+no arb Tyler Higbee recyds
+dk: 40.5  -115/-115
+fd: 30.5  0/0
+pb: 40.5  -105/-125
+mg: 40.5  -115/-115
 no arb Jared Cook recyds
 fd: 33.5  0/0
 dk: 31.5  0/0
@@ -334,6 +344,11 @@ dk: 46.5  -115/-115
 fd: 44.5  -110/-110
 pb: 45.5  -115/-115
 mg: 46.5  -115/-115
+no arb Rob Gronkowski recyds
+fd: 61.5  0/0
+dk: 45.5  -120/-110
+pb: 55.5  0/0
+mg: 62.5  0/0
 no arb Zach Ertz recyds
 dk: 53.5  -115/-115
 fd: 52.5  -110/-110
@@ -380,10 +395,15 @@ dk: 67.5  0/0
 pb: 67.5  0/0
 mg: 67.5  0/0
 no arb Travis Kelce recyds
+dk: 94.5  0/0
 fd: 69.5  -110/-110
-dk: 68.5  -130/-105
 pb: 70.5  -105/-125
 mg: 68.5  -118/-111
+no arb Tyreek Hill recyds
+dk: 87.5  0/0
+fd: 70.5  -110/-110
+pb: 70.5  -115/-115
+mg: 70.5  -115/-115
 no arb Davante Adams recyds
 fd: 76.5  0/0
 dk: 75.5  0/0
@@ -434,6 +454,16 @@ fd: 20.5  0/0
 dk: 19.5  0/0
 pb: 21.5  0/0
 mg: 20.5  0/0
+no arb Le'Veon Bell rushyds
+fd: 42.5  0/0
+dk: 22.5  0/0
+pb: 42.5  0/0
+mg: null  0/0
+no arb Darrel Williams rushyds
+fd: 56.5  -110/-110
+dk: 23.5  0/0
+pb: 23.5  0/0
+mg: 56.5  -118/-111
 no arb Deebo Samuel rushyds
 dk: 30.5  -110/-120
 fd: 29.5  -122/100
@@ -449,11 +479,6 @@ fd: 34.5  -110/-110
 dk: 33.5  -110/-120
 pb: 30.5  -130/100
 mg: 33.5  -111/-118
-no arb Le'Veon Bell rushyds
-dk: 50.5  0/0
-fd: 42.5  0/0
-pb: 42.5  0/0
-mg: null  0/0
 no arb Ezekiel Elliott rushyds
 fd: 50.5  -110/-110
 dk: 49.5  -115/-115
