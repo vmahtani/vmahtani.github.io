@@ -1,4 +1,4 @@
-2022-01-16 15:30:08.779114
+2022-01-16 15:40:08.795547
 no arb Tom Brady comp
 fd: 26.5  0/0
 dk: 25.5  0/0
@@ -94,11 +94,6 @@ dk: 5.5  0/0
 fd: 2.5  0/0
 pb: null  0/0
 mg: 5.5  0/0
-ARB Tyler Higbee recs
-dk: 3.5  -175/130
-fd: 2.5  0/0
-pb: null  0/0
-mg: 3.5  -175/130
 no arb Robert Tonyan recs
 dk: 3.5  0/0
 fd: 2.5  0/0
@@ -109,6 +104,11 @@ dk: 3.5  -110/-120
 fd: 2.5  0/0
 pb: null  0/0
 mg: 2.5  0/0
+no arb Tyler Higbee recs
+fd: 4.5  116/-154
+dk: 3.5  -175/130
+pb: null  0/0
+mg: 3.5  -175/130
 ARB Tyler Johnson recs
 fd: 3.5  0/0
 dk: 3.5  115/-155
@@ -139,16 +139,6 @@ fd: 5.5  0/0
 dk: 5.5  115/-155
 pb: null  0/0
 mg: 5.5  0/0
-no arb Tyreek Hill recs
-dk: 6.5  0/0
-fd: 5.5  -125/-102
-pb: null  0/0
-mg: 5.5  -139/105
-no arb Travis Kelce recs
-dk: 7.5  0/0
-fd: 5.5  -136/106
-pb: null  0/0
-mg: 5.5  -143/110
 no arb Tony Pollard rushrec
 dk: 53.5  -110/-120
 fd: 52.5  -113/-113
@@ -204,15 +194,10 @@ fd: 15.5  0/0
 dk: 8.5  -115/-115
 pb: 15.5  0/0
 mg: 14.5  0/0
-no arb Darrel Williams recyds
-fd: 21.5  -110/-110
-dk: 13.5  0/0
-pb: 13.5  0/0
-mg: 23.5  -111/-118
 no arb Cameron Brate recyds
 fd: 15.5  0/0
 dk: 14.5  -115/-115
-pb: 22.5  0/0
+pb: 10.5  0/0
 mg: 16.5  0/0
 no arb Giovani Bernard recyds
 dk: 17.5  -110/-120
@@ -249,6 +234,11 @@ fd: 21.5  -110/-110
 dk: 20.5  -120/-110
 pb: 20.5  -125/-105
 mg: 20.5  -115/-115
+no arb Darrel Williams recyds
+dk: 23.5  -110/-120
+fd: 21.5  -110/-110
+pb: 20.5  -125/-105
+mg: 23.5  -111/-118
 no arb Marquez Valdes-Scantling recyds
 fd: 24.5  0/0
 dk: 23.5  0/0
@@ -284,11 +274,6 @@ fd: 31.5  -110/-110
 dk: 30.5  -110/-125
 pb: 30.5  -125/-105
 mg: 30.5  -118/-111
-no arb Tyler Higbee recyds
-dk: 40.5  -115/-115
-fd: 30.5  0/0
-pb: 40.5  -105/-125
-mg: 40.5  -115/-115
 no arb Jared Cook recyds
 fd: 33.5  0/0
 dk: 31.5  0/0
@@ -319,6 +304,11 @@ fd: 40.5  0/0
 dk: 36.5  0/0
 pb: null  0/0
 mg: null  0/0
+no arb Tyler Higbee recyds
+dk: 40.5  -115/-115
+fd: 38.5  -110/-110
+pb: 40.5  -105/-125
+mg: 40.5  -115/-115
 no arb Dalton Schultz recyds
 dk: 42.5  -115/-115
 fd: 39.5  -110/-110
@@ -395,15 +385,10 @@ dk: 67.5  0/0
 pb: 67.5  0/0
 mg: 67.5  0/0
 no arb Travis Kelce recyds
-dk: 94.5  0/0
 fd: 69.5  -110/-110
+dk: 68.5  -130/-105
 pb: 70.5  -105/-125
 mg: 68.5  -118/-111
-no arb Tyreek Hill recyds
-dk: 87.5  0/0
-fd: 70.5  -110/-110
-pb: 70.5  -115/-115
-mg: 70.5  -115/-115
 no arb Davante Adams recyds
 fd: 76.5  0/0
 dk: 75.5  0/0
@@ -459,11 +444,6 @@ fd: 42.5  0/0
 dk: 22.5  0/0
 pb: 42.5  0/0
 mg: null  0/0
-no arb Darrel Williams rushyds
-fd: 56.5  -110/-110
-dk: 23.5  0/0
-pb: 23.5  0/0
-mg: 56.5  -118/-111
 no arb Deebo Samuel rushyds
 dk: 30.5  -110/-120
 fd: 29.5  -122/100
