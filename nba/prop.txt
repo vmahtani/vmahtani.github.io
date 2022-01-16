@@ -1,4 +1,4 @@
-2022-01-16 13:40:08.871608
+2022-01-16 13:50:08.778674
 no arb Tom Brady comp
 fd: 26.5  -106/-120
 dk: 25.5  0/0
@@ -79,21 +79,16 @@ dk: 5.5  0/0
 fd: 2.5  0/0
 pb: null  0/0
 mg: 5.5  0/0
+no arb Tyler Higbee recs
+fd: 4.5  116/-154
+dk: 2.5  0/0
+pb: null  0/0
+mg: 4.5  130/-167
 no arb Robert Tonyan recs
 dk: 3.5  0/0
 fd: 2.5  0/0
 pb: null  0/0
 mg: 3.5  0/0
-no arb Tyreek Hill recs
-dk: 6.5  0/0
-fd: 5.5  -125/-102
-pb: null  0/0
-mg: 5.5  -133/100
-no arb Travis Kelce recs
-dk: 7.5  0/0
-fd: 5.5  -136/106
-pb: null  0/0
-mg: 5.5  -133/100
 no arb Ezekiel Elliott rushrec
 dk: 68.5  -115/-115
 fd: 67.5  -113/-113
@@ -134,15 +129,20 @@ fd: 8.5  -110/-110
 dk: 7.5  -120/-110
 pb: null  0/0
 mg: 7.5  -110/-120
+ARB Scotty Miller recyds
+fd: 8.5  -128/104
+dk: 7.5  0/0
+pb: 10.5  -115/-115
+mg: 7.5  0/0
 no arb Elijah Mitchell recyds
 fd: 8.5  -106/-114
 dk: 7.5  -120/-110
 pb: 10.5  100/-130
 mg: 7.5  -120/-110
 no arb Darrel Williams recyds
-dk: 22.5  -115/-115
 fd: 21.5  -110/-110
-pb: 13.5  0/0
+dk: 13.5  0/0
+pb: 20.5  -125/-105
 mg: 22.5  -115/-115
 no arb Jalen Reagor recyds
 fd: 15.5  -110/-110
@@ -199,11 +199,11 @@ dk: 28.5  -110/-120
 fd: 26.5  -110/-110
 pb: 25.5  -125/-105
 mg: 28.5  -111/-118
-no arb Rob Gronkowski recyds
-dk: 62.5  -115/-115
-fd: 61.5  -110/-110
-pb: 29.5  0/0
-mg: 62.5  -118/-111
+no arb Tyler Higbee recyds
+fd: 38.5  -110/-110
+dk: 27.5  0/0
+pb: 40.5  -105/-125
+mg: 40.5  -115/-115
 no arb Byron Pringle recyds
 dk: 30.5  -120/-110
 fd: 29.5  -110/-110
@@ -244,11 +244,6 @@ fd: 40.5  0/0
 dk: 36.5  0/0
 pb: null  0/0
 mg: null  0/0
-no arb Tyler Higbee recyds
-dk: 40.5  -115/-115
-fd: 38.5  -110/-110
-pb: 40.5  -105/-125
-mg: 40.5  -115/-115
 no arb Dalton Schultz recyds
 dk: 41.5  -115/-115
 fd: 39.5  -110/-110
@@ -298,7 +293,7 @@ no arb Mike Evans recyds
 dk: 57.5  -115/-115
 fd: 56.5  -110/-110
 pb: 55.5  -115/-115
-mg: 68.5  0/0
+mg: 57.5  -118/-115
 no arb Robert Woods recyds
 dk: 57.5  0/0
 fd: 55.5  0/0
@@ -309,6 +304,11 @@ dk: 61.5  -115/-115
 fd: 57.5  -110/-110
 pb: 60.5  -120/-110
 mg: 61.5  -115/-115
+no arb Rob Gronkowski recyds
+dk: 62.5  -115/-115
+fd: 61.5  -110/-110
+pb: 60.5  -115/-115
+mg: 62.5  -118/-111
 no arb CeeDee Lamb recyds
 dk: 65.5  -115/-115
 fd: 62.5  -110/-110
@@ -320,13 +320,13 @@ dk: 67.5  0/0
 pb: 67.5  0/0
 mg: 67.5  0/0
 no arb Travis Kelce recyds
-dk: 94.5  0/0
 fd: 69.5  -110/-110
+dk: 68.5  -125/-110
 pb: 70.5  -115/-115
 mg: 68.5  -115/-115
 no arb Tyreek Hill recyds
-dk: 87.5  0/0
 fd: 70.5  -110/-110
+dk: 69.5  -110/-120
 pb: 70.5  -115/-115
 mg: 69.5  -115/-115
 no arb Davante Adams recyds
@@ -369,15 +369,10 @@ fd: 20.5  0/0
 dk: 19.5  0/0
 pb: 21.5  0/0
 mg: 20.5  0/0
-no arb Le'Veon Bell rushyds
-fd: 42.5  0/0
-dk: 22.5  -115/-115
-pb: 42.5  0/0
-mg: null  0/0
 no arb Darrel Williams rushyds
-dk: 57.5  -115/-115
 fd: 56.5  -110/-110
-pb: 23.5  0/0
+dk: 23.5  0/0
+pb: 55.5  -115/-115
 mg: 57.5  -111/-118
 no arb Jordan Howard rushyds
 fd: 30.5  -110/-110
@@ -389,6 +384,11 @@ dk: 77.5  0/0
 fd: 32.5  -114/-114
 pb: 30.5  -130/100
 mg: 83.5  0/0
+no arb Le'Veon Bell rushyds
+dk: 50.5  0/0
+fd: 42.5  0/0
+pb: 42.5  0/0
+mg: null  0/0
 no arb Miles Sanders rushyds
 dk: 44.5  -120/-110
 fd: 43.5  -110/-110
