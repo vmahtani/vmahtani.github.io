@@ -1,1 +1,36 @@
-2022-01-16 18:20:09.631003
+2022-01-16 18:30:09.239029
+no arb Nikola Jokic pts
+fd: 25.5  -104/-118
+dk: 24.5  -135/105
+pb: 24.5  -125/-105
+mg: 24.5  -120/-110
+no arb De'Aaron Fox pts
+fd: 24.5  100/-122
+dk: 23.5  -145/115
+pb: null  0/0
+mg: 23.5  -125/-105
+no arb Christian Wood pts
+fd: 20.5  -110/-110
+dk: 19.5  -135/100
+pb: 20.5  -115/-115
+mg: 19.5  -120/-110
+no arb Jae'Sean Tate reb
+dk: 6.5  115/-150
+fd: 5.5  -140/114
+pb: 6.5  135/-175
+mg: 6.5  110/-149
+no arb Jalen Green reb
+fd: 3.5  122/-150
+dk: 2.5  -165/125
+pb: 3.5  115/-145
+mg: 2.5  -167/125
+no arb Anthony Edwards threes
+fd: 3.5  142/-184
+dk: 2.5  -175/135
+pb: null  0/0
+mg: null  0/0
+no arb D'Angelo Russell threes
+fd: 3.5  142/-184
+dk: 2.5  -160/125
+pb: null  0/0
+mg: null  0/0
