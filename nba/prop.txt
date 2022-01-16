@@ -1,76 +1,28 @@
-2022-01-15 19:11:01.223335
-no arb Nikola Jokic pts
-dk: 27.5  -115/-110
-fd: 26.5  -114/-106
-no arb Brandon Ingram pts
-dk: 25.5  100/-125
-fd: 24.5  -122/100
-no arb Jimmy Butler pts
-fd: 22.5  100/-122
-dk: 21.5  -130/105
-no arb Darius Garland pts
-fd: 19.5  -110/-110
-dk: 18.5  -125/100
-no arb Nikola Vucevic pts
-dk: 18.5  100/-130
-fd: 17.5  -124/102
-no arb Jarrett Allen pts
-fd: 16.5  -104/-118
-dk: 15.5  -125/100
-no arb Malik Monk pts
-dk: 17.5  105/-140
-fd: 16.5  -110/-110
-no arb Coby White pts
-fd: 17.5  -102/-120
-dk: 16.5  -110/-115
-no arb Tyrese Maxey pts
-fd: 16.5  102/-124
-dk: 15.5  -120/-105
-no arb Seth Curry pts
-fd: 15.5  -102/-120
-dk: 14.5  -115/-110
-no arb Aaron Gordon pts
-dk: 14.5  -110/-115
-fd: 13.5  -114/-106
-no arb Josh Giddey pts
-dk: 13.5  -105/-120
-fd: 12.5  -128/104
-no arb Montrezl Harrell pts
-fd: 12.5  -104/-118
-dk: 11.5  -125/100
-no arb Avery Bradley pts
-dk: 8.5  100/-130
-fd: 7.5  -110/-110
-no arb Omer Yurtseven reb
-fd: 10.5  112/-140
-dk: 9.5  -135/105
-no arb Josh Hart reb
-dk: 8.5  110/-145
-fd: 7.5  -130/106
-no arb Jimmy Butler reb
-dk: 6.5  110/-145
-fd: 5.5  -134/110
-no arb Aaron Gordon reb
-dk: 6.5  115/-150
-fd: 5.5  -138/112
-no arb Kyle Lowry reb
-fd: 4.5  122/-150
-dk: 3.5  -160/120
-no arb Seth Curry reb
-fd: 3.5  122/-150
-dk: 2.5  -180/135
-no arb James Harden ast
-fd: 10.5  120/-148
-dk: 9.5  -150/110
-no arb Darius Garland ast
-dk: 9.5  105/-140
-fd: 8.5  -142/116
-no arb Trae Young ast
-fd: 9.5  106/-130
-dk: 8.5  -140/105
-no arb DeMar DeRozan ast
-fd: 6.5  118/-144
-dk: 5.5  -140/100
-no arb Jayson Tatum ast
-fd: 4.5  122/-150
-dk: 3.5  -175/130
+2022-01-16 08:30:40.713183
+no arb Chris Paul reb
+fd: 4.5  124/-152
+dk: 3.5  -155/115
+no arb Jalen Green reb
+fd: 3.5  132/-162
+dk: 2.5  -175/130
+no arb Eric Gordon ast
+fd: 3.5  140/-172
+dk: 2.5  -165/125
+no arb Saddiq Bey ast
+fd: 2.5  138/-172
+dk: 1.5  -185/140
+no arb Anthony Edwards threes
+fd: 3.5  140/-180
+dk: 2.5  -175/135
+no arb D'Angelo Russell threes
+fd: 3.5  144/-186
+dk: 2.5  -160/125
+no arb Harrison Barnes threes
+fd: 2.5  154/-200
+dk: 1.5  -185/145
+no arb Jae Crowder threes
+fd: 2.5  158/-205
+dk: 1.5  -170/130
+no arb Chris Paul threes
+fd: 1.5  215/-290
+dk: 0.5  -200/150
