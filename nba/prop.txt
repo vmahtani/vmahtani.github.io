@@ -1,4 +1,4 @@
-2022-01-16 13:10:08.748232
+2022-01-16 13:20:08.836434
 no arb Tom Brady comp
 fd: 26.5  -106/-120
 dk: 25.5  0/0
@@ -8,7 +8,7 @@ ARB Patrick Mahomes comp
 dk: 27.5  0/0
 fd: 25.5  122/-156
 pb: null  0/0
-mg: 25.5  -105/-128
+mg: 27.5  0/0
 no arb Dak Prescott passatt
 dk: 38.5  -120/-110
 fd: 36.5  -114/-114
@@ -63,7 +63,7 @@ no arb Patrick Mahomes passyds
 fd: 280.5  -110/-110
 dk: 278.5  -115/-115
 pb: 280.5  -115/-115
-mg: 277.5  -118/-115
+mg: 321.5  0/0
 no arb Dak Prescott passyds
 dk: 291.5  -115/-115
 fd: 280.5  -110/-110
@@ -78,22 +78,17 @@ no arb Leonard Fournette recs
 dk: 5.5  0/0
 fd: 2.5  0/0
 pb: null  0/0
-mg: 2.5  0/0
+mg: 5.5  0/0
+no arb Tyler Higbee recs
+fd: 4.5  116/-154
+dk: 2.5  0/0
+pb: null  0/0
+mg: 4.5  130/-167
 no arb Robert Tonyan recs
 dk: 3.5  0/0
 fd: 2.5  0/0
 pb: null  0/0
 mg: 3.5  0/0
-no arb Travis Kelce recs
-dk: 7.5  0/0
-fd: 5.5  -136/106
-pb: null  0/0
-mg: 5.5  -133/100
-no arb Leonard Fournette rushrec
-fd: 97.5  0/0
-dk: 96.5  0/0
-pb: null  0/0
-mg: 58.5  0/0
 no arb Ezekiel Elliott rushrec
 dk: 68.5  -115/-115
 fd: 67.5  -113/-113
@@ -122,6 +117,11 @@ mg: 94.5  -115/-115
 no arb Aaron Jones rushrec
 fd: 96.5  0/0
 dk: 95.5  0/0
+pb: null  0/0
+mg: 96.5  0/0
+no arb Leonard Fournette rushrec
+fd: 97.5  0/0
+dk: 96.5  0/0
 pb: null  0/0
 mg: 96.5  0/0
 no arb Kyle Juszczyk recyds
@@ -154,11 +154,6 @@ dk: 17.5  -110/-120
 fd: 16.5  -110/-110
 pb: 15.5  -120/-110
 mg: 17.5  -111/-120
-no arb Leonard Fournette recyds
-fd: 32.5  0/0
-dk: 31.5  0/0
-pb: 30.5  0/0
-mg: 17.5  0/0
 no arb Cam Akers recyds
 fd: 19.5  0/0
 dk: 18.5  0/0
@@ -168,7 +163,7 @@ no arb Demarcus Robinson recyds
 fd: 35.5  0/0
 dk: 18.5  -115/-115
 pb: 39.5  0/0
-mg: 18.5  -111/-118
+mg: 38.5  0/0
 no arb Gerald Everett recyds
 dk: 24.5  0/0
 fd: 22.5  0/0
@@ -189,21 +184,26 @@ fd: 24.5  0/0
 dk: 23.5  0/0
 pb: 25.5  0/0
 mg: 25.5  0/0
-no arb Mecole Hardman recyds
-dk: 34.5  0/0
-fd: 25.5  -115/-105
-pb: 25.5  -115/-115
-mg: 33.5  0/0
 no arb Jauan Jennings recyds
 dk: 28.5  -110/-120
 fd: 26.5  -110/-110
 pb: 25.5  -125/-105
 mg: 28.5  -111/-118
+no arb Tyler Higbee recyds
+fd: 38.5  -110/-110
+dk: 27.5  0/0
+pb: 40.5  -105/-125
+mg: 40.5  -115/-115
 no arb Byron Pringle recyds
 dk: 30.5  -120/-110
 fd: 29.5  -110/-110
 pb: 30.5  -115/-115
 mg: 30.5  -118/-111
+no arb Leonard Fournette recyds
+fd: 32.5  0/0
+dk: 31.5  0/0
+pb: 30.5  0/0
+mg: 31.5  0/0
 no arb Pat Freiermuth recyds
 fd: 31.5  -110/-110
 dk: 30.5  -110/-125
@@ -234,11 +234,6 @@ fd: 40.5  0/0
 dk: 36.5  0/0
 pb: null  0/0
 mg: null  0/0
-no arb Tyler Higbee recyds
-dk: 40.5  -115/-115
-fd: 38.5  -110/-110
-pb: 40.5  -105/-125
-mg: 40.5  -115/-115
 no arb Dalton Schultz recyds
 dk: 41.5  -115/-115
 fd: 39.5  -110/-110
@@ -288,7 +283,7 @@ no arb Mike Evans recyds
 dk: 57.5  -115/-115
 fd: 56.5  -110/-110
 pb: 55.5  -115/-115
-mg: 68.5  0/0
+mg: 57.5  -118/-115
 no arb Robert Woods recyds
 dk: 57.5  0/0
 fd: 55.5  0/0
@@ -315,14 +310,14 @@ dk: 67.5  0/0
 pb: 67.5  0/0
 mg: 67.5  0/0
 no arb Travis Kelce recyds
-dk: 94.5  0/0
 fd: 69.5  -110/-110
+dk: 68.5  -125/-110
 pb: 70.5  -115/-115
 mg: 68.5  -115/-115
 no arb Tyreek Hill recyds
 fd: 70.5  -110/-110
 dk: 69.5  -110/-120
-pb: 70.5  -115/-115
+pb: 87.5  0/0
 mg: 69.5  -115/-115
 no arb Davante Adams recyds
 fd: 76.5  0/0
@@ -364,11 +359,6 @@ fd: 20.5  0/0
 dk: 19.5  0/0
 pb: 21.5  0/0
 mg: 20.5  0/0
-no arb Le'Veon Bell rushyds
-fd: 42.5  0/0
-dk: 22.5  -115/-115
-pb: 42.5  0/0
-mg: null  0/0
 no arb Jordan Howard rushyds
 fd: 30.5  -110/-110
 dk: 29.5  -120/-110
@@ -379,11 +369,11 @@ dk: 77.5  0/0
 fd: 32.5  -114/-114
 pb: 30.5  -130/100
 mg: 83.5  0/0
-no arb Leonard Fournette rushyds
-dk: 59.5  0/0
-fd: 58.5  0/0
-pb: 60.5  0/0
-mg: 40.5  0/0
+no arb Le'Veon Bell rushyds
+dk: 50.5  0/0
+fd: 42.5  0/0
+pb: 42.5  0/0
+mg: null  0/0
 no arb Miles Sanders rushyds
 dk: 44.5  -120/-110
 fd: 43.5  -110/-110
@@ -409,6 +399,11 @@ dk: 57.5  -115/-115
 fd: 56.5  -110/-110
 pb: 55.5  -115/-115
 mg: 57.5  -111/-118
+no arb Leonard Fournette rushyds
+dk: 59.5  0/0
+fd: 58.5  0/0
+pb: 60.5  0/0
+mg: 59.5  0/0
 no arb Najee Harris rushyds
 fd: 63.5  -110/-110
 dk: 62.5  -120/-115
