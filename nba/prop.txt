@@ -1,4 +1,4 @@
-2022-01-16 08:30:40.713183
+2022-01-16 09:00:57.315595
 no arb Chris Paul reb
 fd: 4.5  124/-152
 dk: 3.5  -155/115
@@ -8,14 +8,11 @@ dk: 2.5  -175/130
 no arb Eric Gordon ast
 fd: 3.5  140/-172
 dk: 2.5  -165/125
-no arb Saddiq Bey ast
-fd: 2.5  138/-172
-dk: 1.5  -185/140
 no arb Anthony Edwards threes
-fd: 3.5  140/-180
+fd: 3.5  142/-184
 dk: 2.5  -175/135
 no arb D'Angelo Russell threes
-fd: 3.5  144/-186
+fd: 3.5  140/-180
 dk: 2.5  -160/125
 no arb Harrison Barnes threes
 fd: 2.5  154/-200
