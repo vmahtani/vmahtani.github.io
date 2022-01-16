@@ -1,4 +1,4 @@
-2022-01-16 13:50:08.778674
+2022-01-16 14:00:08.773299
 no arb Tom Brady comp
 fd: 26.5  -106/-120
 dk: 25.5  0/0
@@ -79,11 +79,6 @@ dk: 5.5  0/0
 fd: 2.5  0/0
 pb: null  0/0
 mg: 5.5  0/0
-no arb Tyler Higbee recs
-fd: 4.5  116/-154
-dk: 2.5  0/0
-pb: null  0/0
-mg: 4.5  130/-167
 no arb Robert Tonyan recs
 dk: 3.5  0/0
 fd: 2.5  0/0
@@ -129,21 +124,11 @@ fd: 8.5  -110/-110
 dk: 7.5  -120/-110
 pb: null  0/0
 mg: 7.5  -110/-120
-ARB Scotty Miller recyds
-fd: 8.5  -128/104
-dk: 7.5  0/0
-pb: 10.5  -115/-115
-mg: 7.5  0/0
 no arb Elijah Mitchell recyds
 fd: 8.5  -106/-114
 dk: 7.5  -120/-110
 pb: 10.5  100/-130
 mg: 7.5  -120/-110
-no arb Darrel Williams recyds
-fd: 21.5  -110/-110
-dk: 13.5  0/0
-pb: 20.5  -125/-105
-mg: 22.5  -115/-115
 no arb Jalen Reagor recyds
 fd: 15.5  -110/-110
 dk: 14.5  -115/-115
@@ -184,6 +169,11 @@ fd: 21.5  -110/-110
 dk: 20.5  -120/-110
 pb: 20.5  -125/-105
 mg: 20.5  -118/-115
+no arb Darrel Williams recyds
+dk: 22.5  -115/-115
+fd: 21.5  -110/-110
+pb: 20.5  -125/-105
+mg: 22.5  -115/-115
 no arb Marquez Valdes-Scantling recyds
 fd: 24.5  0/0
 dk: 23.5  0/0
@@ -199,11 +189,11 @@ dk: 28.5  -110/-120
 fd: 26.5  -110/-110
 pb: 25.5  -125/-105
 mg: 28.5  -111/-118
-no arb Tyler Higbee recyds
-fd: 38.5  -110/-110
-dk: 27.5  0/0
-pb: 40.5  -105/-125
-mg: 40.5  -115/-115
+no arb Rob Gronkowski recyds
+dk: 62.5  -115/-115
+fd: 61.5  -110/-110
+pb: 29.5  0/0
+mg: 62.5  -118/-111
 no arb Byron Pringle recyds
 dk: 30.5  -120/-110
 fd: 29.5  -110/-110
@@ -244,6 +234,11 @@ fd: 40.5  0/0
 dk: 36.5  0/0
 pb: null  0/0
 mg: null  0/0
+no arb Tyler Higbee recyds
+dk: 40.5  -115/-115
+fd: 38.5  -110/-110
+pb: 40.5  -105/-125
+mg: 40.5  -115/-115
 no arb Dalton Schultz recyds
 dk: 41.5  -115/-115
 fd: 39.5  -110/-110
@@ -293,7 +288,7 @@ no arb Mike Evans recyds
 dk: 57.5  -115/-115
 fd: 56.5  -110/-110
 pb: 55.5  -115/-115
-mg: 57.5  -118/-115
+mg: 68.5  0/0
 no arb Robert Woods recyds
 dk: 57.5  0/0
 fd: 55.5  0/0
@@ -304,11 +299,6 @@ dk: 61.5  -115/-115
 fd: 57.5  -110/-110
 pb: 60.5  -120/-110
 mg: 61.5  -115/-115
-no arb Rob Gronkowski recyds
-dk: 62.5  -115/-115
-fd: 61.5  -110/-110
-pb: 60.5  -115/-115
-mg: 62.5  -118/-111
 no arb CeeDee Lamb recyds
 dk: 65.5  -115/-115
 fd: 62.5  -110/-110
@@ -369,11 +359,6 @@ fd: 20.5  0/0
 dk: 19.5  0/0
 pb: 21.5  0/0
 mg: 20.5  0/0
-no arb Darrel Williams rushyds
-fd: 56.5  -110/-110
-dk: 23.5  0/0
-pb: 55.5  -115/-115
-mg: 57.5  -111/-118
 no arb Jordan Howard rushyds
 fd: 30.5  -110/-110
 dk: 29.5  -120/-110
@@ -409,6 +394,11 @@ fd: 58.5  -114/-114
 dk: 55.5  -120/-110
 pb: 60.5  -105/-125
 mg: 55.5  -118/-115
+no arb Darrel Williams rushyds
+dk: 57.5  -115/-115
+fd: 56.5  -110/-110
+pb: 55.5  -115/-115
+mg: 57.5  -111/-118
 no arb Leonard Fournette rushyds
 dk: 59.5  0/0
 fd: 58.5  0/0
@@ -429,73 +419,63 @@ dk: 82.5  100/-135
 fd: 79.5  -110/-110
 pb: 80.5  -115/-115
 mg: 82.5  -115/-115
+no arb De'Aaron Fox pts
+fd: 24.5  -102/-120
+dk: 23.5  -135/105
+pb: 23.5  -135/105
+mg: 23.5  -115/-115
 no arb Christian Wood pts
-fd: 20.5  -110/-110
-dk: 19.5  -120/-105
+fd: 20.5  -112/-110
+dk: 19.5  -135/100
 pb: 20.5  -115/-115
 mg: 19.5  -120/-110
-no arb Saddiq Bey pts
-dk: 17.5  100/-125
-fd: 16.5  -122/100
-pb: 17.5  110/-140
-mg: 17.5  -125/-105
-no arb Cameron Payne pts
-dk: 10.5  100/-125
-fd: 9.5  -128/104
-pb: 10.5  105/-135
-mg: 10.5  -105/-128
+no arb D'Angelo Russell pts
+dk: 19.5  -105/-120
+fd: 18.5  -115/-105
+pb: 18.5  -125/-105
+mg: 19.5  -105/-125
+no arb Klay Thompson pts
+dk: 17.5  -105/-120
+fd: 16.5  -120/-102
+pb: 16.5  -125/-105
+mg: null  0/0
+no arb Rudy Gobert pts
+dk: 14.5  110/-140
+fd: 13.5  -124/102
+pb: 14.5  105/-135
+mg: 14.5  100/-133
+no arb Marvin Bagley reb
+fd: 9.5  110/-134
+dk: 8.5  -150/110
+pb: 8.5  -130/100
+mg: 8.5  -149/110
 no arb Jae'Sean Tate reb
 dk: 6.5  115/-150
 fd: 5.5  -140/112
 pb: 6.5  125/-160
 mg: 6.5  110/-143
-no arb Hamidou Diallo reb
-dk: 5.5  105/-140
-fd: 4.5  -144/118
-pb: null  0/0
-mg: 5.5  110/-143
-no arb Chris Paul reb
-fd: 4.5  120/-148
-dk: 3.5  -165/125
-pb: 4.5  105/-140
-mg: 3.5  -161/120
 no arb Jalen Green reb
-fd: 3.5  130/-160
+fd: 3.5  128/-158
 dk: 2.5  -175/130
 pb: 3.5  115/-145
 mg: 2.5  -175/130
-no arb Cade Cunningham ast
-fd: 5.5  120/-148
-dk: 4.5  -145/110
-pb: 4.5  -160/125
-mg: 4.5  -139/105
-no arb Devin Booker ast
-dk: 4.5  115/-155
-fd: 3.5  -154/126
-pb: 3.5  -160/125
-mg: 4.5  120/-161
 no arb Eric Gordon ast
-fd: 3.5  140/-172
+fd: 3.5  134/-164
 dk: 2.5  -165/125
-pb: 3.5  135/-175
+pb: 3.5  125/-160
 mg: 2.5  -167/125
 no arb Anthony Edwards threes
-fd: 3.5  140/-180
+fd: 3.5  142/-184
 dk: 2.5  -175/135
 pb: null  0/0
 mg: null  0/0
 no arb D'Angelo Russell threes
-fd: 3.5  146/-188
+fd: 3.5  144/-186
 dk: 2.5  -160/125
 pb: null  0/0
 mg: null  0/0
 no arb Harrison Barnes threes
-fd: 2.5  154/-200
+fd: 2.5  152/-196
 dk: 1.5  -185/145
-pb: null  0/0
-mg: null  0/0
-no arb Chris Paul threes
-fd: 1.5  215/-290
-dk: 0.5  -215/160
 pb: null  0/0
 mg: null  0/0
