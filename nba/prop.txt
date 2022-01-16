@@ -1,4 +1,4 @@
-2022-01-16 12:30:28.834378
+2022-01-16 12:40:08.815708
 no arb Tom Brady comp
 fd: 26.5  -106/-120
 dk: 25.5  0/0
@@ -55,8 +55,8 @@ dk: 272.5  -115/-115
 pb: 275.5  -115/-115
 mgm: 274.5  -110/-120
 no arb Patrick Mahomes passyds
-dk: 320.5  0/0
 fd: 280.5  -110/-110
+dk: 277.5  -115/-115
 pb: 280.5  -115/-115
 mgm: 277.5  -115/-115
 no arb Dak Prescott passyds
@@ -84,11 +84,16 @@ dk: 5.5  0/0
 fd: 4.5  0/0
 pb: null  0/0
 mgm: 4.5  0/0
-no arb Travis Kelce recs
-fd: 7.5  0/0
-dk: 5.5  -135/100
+no arb Tyreek Hill recs
+dk: 6.5  0/0
+fd: 5.5  -125/-102
 pb: null  0/0
-mgm: 7.5  0/0
+mgm: 5.5  -128/100
+no arb Travis Kelce recs
+dk: 7.5  0/0
+fd: 5.5  -136/106
+pb: null  0/0
+mgm: 5.5  -139/105
 no arb Ezekiel Elliott rushrec
 dk: 68.5  -115/-115
 fd: 67.5  -113/-113
@@ -134,6 +139,11 @@ dk: 9.5  -110/-120
 fd: 8.5  -110/-110
 pb: 10.5  100/-130
 mgm: null  0/0
+no arb Darrel Williams recyds
+dk: 22.5  -115/-115
+fd: 21.5  -110/-110
+pb: 13.5  0/0
+mgm: 22.5  -111/-118
 no arb Ezekiel Elliott recyds
 fd: 16.5  -122/100
 dk: 14.5  -120/-110
@@ -164,11 +174,6 @@ fd: 21.5  -110/-110
 dk: 20.5  -115/-115
 pb: 20.5  -125/-105
 mgm: 20.5  -115/-115
-no arb Darrel Williams recyds
-dk: 22.5  -115/-115
-fd: 21.5  -110/-110
-pb: 20.5  -115/-115
-mgm: 22.5  -111/-118
 no arb Marquez Valdes-Scantling recyds
 fd: 24.5  0/0
 dk: 23.5  0/0
@@ -193,7 +198,7 @@ no arb Rob Gronkowski recyds
 dk: 63.5  -115/-115
 fd: 61.5  -110/-110
 pb: 29.5  0/0
-mgm: 28.5  0/0
+mgm: 63.5  -115/-118
 no arb Byron Pringle recyds
 dk: 31.5  -115/-115
 fd: 29.5  -110/-110
@@ -330,15 +335,15 @@ dk: 67.5  0/0
 pb: 67.5  0/0
 mgm: 67.5  0/0
 no arb Travis Kelce recyds
-fd: 95.5  0/0
-dk: 68.5  -125/-110
+dk: 94.5  0/0
+fd: 69.5  -110/-110
 pb: 70.5  -105/-125
-mgm: 93.5  0/0
+mgm: 68.5  -111/-118
 no arb Tyreek Hill recyds
+dk: 87.5  0/0
 fd: 70.5  -110/-110
-dk: 69.5  -110/-120
-pb: 70.5  -115/-115
-mgm: 87.5  0/0
+pb: 87.5  0/0
+mgm: 69.5  -118/-115
 no arb Davante Adams recyds
 fd: 76.5  0/0
 dk: 75.5  0/0
@@ -370,7 +375,7 @@ dk: 12.5  0/0
 pb: 13.5  0/0
 mgm: 12.5  0/0
 no arb Patrick Mahomes rushyds
-dk: 22.5  0/0
+dk: 19.5  -110/-120
 fd: 18.5  -122/100
 pb: 20.5  105/-135
 mgm: null  0/0
