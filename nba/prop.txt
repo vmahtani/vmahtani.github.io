@@ -1,19 +1,19 @@
-2022-01-16 16:20:08.776606
+2022-01-16 16:30:08.758717
 no arb Tom Brady comp
 fd: 26.5  0/0
 dk: 25.5  0/0
 pb: null  0/0
 mg: 26.5  0/0
-ARB Patrick Mahomes comp
-dk: 27.5  0/0
-fd: 25.5  122/-156
-pb: null  0/0
-mg: 25.5  -105/-128
 no arb Jalen Hurts passatt
 dk: 37.5  -120/-110
 fd: 28.5  0/0
 pb: 29.5  0/0
 mg: 28.5  0/0
+no arb Patrick Mahomes passatt
+fd: 39.5  0/0
+dk: 37.5  -110/-120
+pb: 37.5  -105/-125
+mg: 37.5  -105/-125
 no arb Tom Brady passatt
 dk: 40.5  100/-130
 fd: 38.5  0/0
@@ -70,7 +70,7 @@ dk: 272.5  -115/-115
 pb: 275.5  -115/-115
 mg: 274.5  -110/-120
 no arb Patrick Mahomes passyds
-fd: 280.5  -110/-110
+fd: 324.5  0/0
 dk: 278.5  -115/-115
 pb: 280.5  -115/-115
 mg: 277.5  -125/-105
@@ -94,11 +94,6 @@ dk: 5.5  0/0
 fd: 2.5  0/0
 pb: null  0/0
 mg: 5.5  0/0
-ARB Tyler Higbee recs
-dk: 3.5  -175/130
-fd: 2.5  0/0
-pb: null  0/0
-mg: 3.5  -175/130
 no arb Robert Tonyan recs
 dk: 3.5  0/0
 fd: 2.5  0/0
@@ -109,6 +104,11 @@ dk: 3.5  -110/-120
 fd: 2.5  0/0
 pb: null  0/0
 mg: 2.5  0/0
+no arb Tyler Higbee recs
+fd: 4.5  116/-154
+dk: 3.5  -175/130
+pb: null  0/0
+mg: 3.5  -175/130
 ARB Tyler Johnson recs
 fd: 3.5  0/0
 dk: 3.5  115/-155
@@ -134,6 +134,11 @@ dk: 6.5  120/-160
 fd: 4.5  0/0
 pb: null  0/0
 mg: 4.5  0/0
+ARB Cooper Kupp recs
+fd: 7.5  -154/116
+dk: 4.5  0/0
+pb: null  0/0
+mg: 7.5  -133/100
 ARB Rob Gronkowski recs
 fd: 5.5  0/0
 dk: 5.5  115/-155
@@ -284,11 +289,6 @@ fd: 31.5  -110/-110
 dk: 30.5  -110/-125
 pb: 30.5  -125/-105
 mg: 31.5  -111/-118
-no arb Tyler Higbee recyds
-dk: 40.5  -115/-115
-fd: 30.5  0/0
-pb: 40.5  -105/-125
-mg: 40.5  -115/-115
 no arb Jared Cook recyds
 fd: 33.5  0/0
 dk: 31.5  0/0
@@ -319,6 +319,11 @@ fd: 40.5  0/0
 dk: 36.5  0/0
 pb: null  0/0
 mg: null  0/0
+no arb Tyler Higbee recyds
+dk: 40.5  -115/-115
+fd: 38.5  -110/-110
+pb: 40.5  -105/-125
+mg: 40.5  -115/-115
 no arb Dalton Schultz recyds
 dk: 42.5  -115/-115
 fd: 39.5  -110/-110
@@ -349,6 +354,11 @@ fd: 61.5  0/0
 dk: 45.5  -120/-110
 pb: 55.5  0/0
 mg: 62.5  0/0
+no arb Cooper Kupp recyds
+fd: 103.5  -110/-110
+dk: 49.5  0/0
+pb: 105.5  -105/-125
+mg: 106.5  -115/-115
 no arb Zach Ertz recyds
 dk: 53.5  -115/-115
 fd: 52.5  -110/-110
@@ -402,18 +412,13 @@ mg: 69.5  -111/-118
 no arb Tyreek Hill recyds
 dk: 87.5  0/0
 fd: 70.5  -110/-110
-pb: 70.5  -115/-115
+pb: 87.5  0/0
 mg: 70.5  -115/-118
 no arb Davante Adams recyds
 fd: 76.5  0/0
 dk: 75.5  0/0
 pb: 75.5  0/0
 mg: 78.5  0/0
-no arb Cooper Kupp recyds
-dk: 106.5  -115/-115
-fd: 103.5  -110/-110
-pb: 105.5  -105/-125
-mg: 106.5  -115/-115
 no arb Tom Brady rushyds
 dk: 2.5  0/0
 fd: 1.5  0/0
@@ -439,11 +444,6 @@ fd: 15.5  0/0
 dk: 12.5  0/0
 pb: 13.5  0/0
 mg: 12.5  0/0
-no arb Patrick Mahomes rushyds
-dk: 20.5  -110/-120
-fd: 18.5  -122/100
-pb: 20.5  -115/-115
-mg: null  0/0
 no arb Miles Sanders rushyds
 fd: 43.5  0/0
 dk: 18.5  -120/-110
@@ -454,6 +454,11 @@ fd: 20.5  0/0
 dk: 19.5  0/0
 pb: 21.5  0/0
 mg: 20.5  0/0
+no arb Patrick Mahomes rushyds
+fd: 24.5  0/0
+dk: 20.5  -110/-120
+pb: 20.5  -115/-115
+mg: null  0/0
 no arb Le'Veon Bell rushyds
 fd: 42.5  0/0
 dk: 22.5  0/0
