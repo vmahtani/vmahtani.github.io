@@ -1,4 +1,4 @@
-2022-01-16 16:00:08.812922
+2022-01-16 16:10:08.771452
 no arb Tom Brady comp
 fd: 26.5  0/0
 dk: 25.5  0/0
@@ -72,7 +72,7 @@ mg: 274.5  -110/-120
 no arb Patrick Mahomes passyds
 fd: 280.5  -110/-110
 dk: 278.5  -115/-115
-pb: 280.5  -115/-115
+pb: 328.5  0/0
 mg: 277.5  -118/-111
 no arb Dak Prescott passyds
 dk: 293.5  -115/-115
@@ -88,7 +88,7 @@ ARB Cameron Brate recs
 fd: 1.5  0/0
 dk: 1.5  -205/150
 pb: null  0/0
-mg: 2.5  0/0
+mg: 1.5  0/0
 no arb Leonard Fournette recs
 dk: 5.5  0/0
 fd: 2.5  0/0
@@ -134,6 +134,11 @@ dk: 6.5  120/-160
 fd: 4.5  0/0
 pb: null  0/0
 mg: 4.5  0/0
+ARB Cooper Kupp recs
+fd: 7.5  -154/116
+dk: 4.5  0/0
+pb: null  0/0
+mg: 7.5  -133/100
 ARB Rob Gronkowski recs
 fd: 5.5  0/0
 dk: 5.5  115/-155
@@ -197,8 +202,8 @@ mg: 14.5  0/0
 no arb Cameron Brate recyds
 fd: 15.5  0/0
 dk: 14.5  -115/-115
-pb: 10.5  0/0
-mg: 16.5  0/0
+pb: 22.5  0/0
+mg: 23.5  0/0
 no arb Giovani Bernard recyds
 dk: 17.5  -110/-120
 fd: 15.5  0/0
@@ -209,11 +214,6 @@ fd: 16.5  -122/100
 dk: 15.5  -110/-120
 pb: 15.5  -130/100
 mg: 15.5  -110/-120
-no arb Demarcus Robinson recyds
-fd: 35.5  0/0
-dk: 16.5  0/0
-pb: 39.5  0/0
-mg: 16.5  0/0
 no arb Breshad Perriman recyds
 fd: 37.5  0/0
 dk: 17.5  -120/-110
@@ -247,7 +247,7 @@ mg: 25.5  0/0
 no arb Mecole Hardman recyds
 dk: 34.5  0/0
 fd: 25.5  -115/-105
-pb: 25.5  -115/-115
+pb: 35.5  0/0
 mg: 33.5  0/0
 no arb Jauan Jennings recyds
 dk: 28.5  -105/-125
@@ -259,6 +259,11 @@ dk: 51.5  -115/-115
 fd: 25.5  0/0
 pb: 30.5  0/0
 mg: 25.5  0/0
+no arb Rob Gronkowski recyds
+fd: 61.5  0/0
+dk: 45.5  -120/-110
+pb: 29.5  0/0
+mg: 62.5  0/0
 no arb Byron Pringle recyds
 dk: 31.5  -115/-115
 fd: 29.5  -110/-110
@@ -299,6 +304,11 @@ fd: 37.5  -110/-110
 dk: 36.5  -115/-115
 pb: 35.5  -125/-105
 mg: 36.5  -115/-115
+no arb Demarcus Robinson recyds
+dk: 39.5  0/0
+fd: 35.5  0/0
+pb: 39.5  0/0
+mg: 38.5  0/0
 no arb Josh Reynolds recyds
 fd: 40.5  0/0
 dk: 36.5  0/0
@@ -334,11 +344,11 @@ dk: 46.5  -115/-115
 fd: 44.5  -110/-110
 pb: 45.5  -115/-115
 mg: 46.5  -115/-115
-no arb Rob Gronkowski recyds
-fd: 61.5  0/0
-dk: 45.5  -120/-110
-pb: 55.5  0/0
-mg: 62.5  0/0
+no arb Cooper Kupp recyds
+fd: 103.5  -110/-110
+dk: 49.5  0/0
+pb: 51.5  0/0
+mg: 106.5  -115/-115
 no arb Zach Ertz recyds
 dk: 53.5  -115/-115
 fd: 52.5  -110/-110
@@ -368,7 +378,7 @@ no arb Mike Evans recyds
 dk: 83.5  -115/-115
 fd: 56.5  0/0
 pb: 70.5  0/0
-mg: 57.5  0/0
+mg: 68.5  0/0
 no arb Amari Cooper recyds
 dk: 60.5  -115/-115
 fd: 59.5  -110/-110
@@ -394,11 +404,6 @@ fd: 76.5  0/0
 dk: 75.5  0/0
 pb: 75.5  0/0
 mg: 78.5  0/0
-no arb Cooper Kupp recyds
-dk: 106.5  -115/-115
-fd: 103.5  -110/-110
-pb: 105.5  -105/-125
-mg: 106.5  -115/-115
 no arb Tom Brady rushyds
 dk: 2.5  0/0
 fd: 1.5  0/0
@@ -427,7 +432,7 @@ mg: 12.5  0/0
 no arb Patrick Mahomes rushyds
 dk: 20.5  -110/-120
 fd: 18.5  -122/100
-pb: 20.5  -115/-115
+pb: 23.5  0/0
 mg: null  0/0
 no arb Miles Sanders rushyds
 fd: 43.5  0/0
