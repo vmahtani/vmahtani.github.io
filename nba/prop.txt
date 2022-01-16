@@ -1,4 +1,4 @@
-2022-01-16 10:43:30.982096
+2022-01-16 11:00:07.344315
 no arb Lamar Jackson comp
 dk: 17.5  0/0
 fd: 16.5  0/0
@@ -42,7 +42,7 @@ no arb Ben Roethlisberger passyds
 fd: 226.5  -113/-113
 dk: 224.5  -115/-115
 no arb Josh Allen passyds
-dk: 302.5  0/0
+dk: 317.5  0/0
 fd: 238.5  0/0
 no arb Jimmy Garoppolo passyds
 dk: 249.5  -115/-115
@@ -104,9 +104,6 @@ dk: 2.5  -135/105
 no arb Leonard Fournette recs
 dk: 5.5  0/0
 fd: 2.5  0/0
-no arb Tyler Higbee recs
-fd: 4.5  116/-154
-dk: 2.5  0/0
 no arb Josh Jacobs recs
 fd: 3.5  0/0
 dk: 2.5  0/0
@@ -203,9 +200,6 @@ dk: 7.5  0/0
 no arb Kyle Juszczyk recyds
 fd: 8.5  -110/-110
 dk: 7.5  -125/-105
-no arb Scotty Miller recyds
-fd: 8.5  -110/-110
-dk: 7.5  0/0
 no arb JaMycal Hasty recyds
 dk: 9.5  -115/-115
 fd: 8.5  -110/-110
@@ -263,23 +257,20 @@ dk: 23.5  0/0
 no arb Jauan Jennings recyds
 dk: 27.5  -110/-120
 fd: 26.5  -110/-110
-no arb Dawson Knox recyds
-dk: 89.5  0/0
-fd: 29.5  0/0
 no arb C.J. Uzomah recyds
 dk: 56.5  0/0
 fd: 25.5  0/0
 no arb Quez Watkins recyds
 dk: 26.5  -120/-110
 fd: 25.5  -110/-110
-no arb Tyler Higbee recyds
-fd: 38.5  -110/-110
-dk: 27.5  0/0
 no arb Tyler Boyd recyds
 fd: 40.5  0/0
 dk: 29.5  0/0
 no arb Hunter Henry recyds
 dk: 34.5  0/0
+fd: 29.5  0/0
+no arb Dawson Knox recyds
+dk: 89.5  0/0
 fd: 29.5  0/0
 no arb Byron Pringle recyds
 dk: 31.5  -115/-115
@@ -314,6 +305,9 @@ fd: 36.5  -110/-110
 no arb Josh Reynolds recyds
 fd: 40.5  0/0
 dk: 36.5  0/0
+no arb Tyler Higbee recyds
+dk: 40.5  -115/-115
+fd: 38.5  -110/-110
 no arb Dalton Schultz recyds
 dk: 41.5  -115/-115
 fd: 39.5  -110/-110
@@ -446,15 +440,15 @@ dk: 31.5  0/0
 no arb Gus Edwards rushyds
 fd: 37.5  0/0
 dk: 34.5  0/0
-no arb Josh Allen rushyds
-fd: 47.5  0/0
-dk: 38.5  0/0
 no arb Le'Veon Bell rushyds
 dk: 50.5  0/0
 fd: 42.5  0/0
 no arb Miles Sanders rushyds
 dk: 44.5  -110/-120
 fd: 43.5  -110/-110
+no arb Josh Allen rushyds
+dk: 66.5  0/0
+fd: 47.5  0/0
 no arb Ezekiel Elliott rushyds
 fd: 50.5  -110/-110
 dk: 48.5  -135/105
@@ -491,29 +485,41 @@ fd: 74.5  0/0
 no arb Elijah Mitchell rushyds
 dk: 82.5  100/-140
 fd: 79.5  -110/-110
-no arb Devin Booker pts
-fd: 24.5  -102/-120
-dk: 23.5  -115/-110
-no arb Deandre Ayton pts
-fd: 16.5  -106/-114
-dk: 15.5  -130/105
+no arb Christian Wood pts
+fd: 20.5  -108/-112
+dk: 19.5  -120/-105
+no arb Mikal Bridges pts
+fd: 11.5  104/-128
+dk: 10.5  -130/100
+no arb Isaiah Stewart pts
+dk: 8.5  100/-125
+fd: 7.5  -134/110
 no arb Harrison Barnes reb
-fd: 6.5  118/-144
+fd: 6.5  116/-142
 dk: 5.5  -160/120
+no arb Jae'Sean Tate reb
+dk: 6.5  115/-150
+fd: 5.5  -140/114
+no arb Andrew Wiggins reb
+fd: 5.5  120/-148
+dk: 4.5  -145/110
 no arb Chris Paul reb
 fd: 4.5  122/-150
 dk: 3.5  -155/115
 no arb Jalen Green reb
-fd: 3.5  128/-158
+fd: 3.5  132/-162
 dk: 2.5  -175/130
+no arb Tyrese Haliburton ast
+fd: 9.5  118/-144
+dk: 8.5  -140/105
 no arb Eric Gordon ast
-fd: 3.5  142/-176
+fd: 3.5  138/-170
 dk: 2.5  -165/125
 no arb Anthony Edwards threes
-fd: 3.5  140/-180
+fd: 3.5  142/-184
 dk: 2.5  -175/135
 no arb D'Angelo Russell threes
-fd: 3.5  142/-184
+fd: 3.5  144/-186
 dk: 2.5  -160/125
 no arb Harrison Barnes threes
 fd: 2.5  158/-205
@@ -522,5 +528,5 @@ no arb Jae Crowder threes
 fd: 2.5  158/-205
 dk: 1.5  -170/130
 no arb Chris Paul threes
-fd: 1.5  210/-280
+fd: 1.5  215/-290
 dk: 0.5  -200/150
