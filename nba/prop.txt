@@ -1,1 +1,551 @@
-2022-01-16 19:00:09.631278
+2022-01-16 19:10:09.235784
+no arb Tom Brady comp
+fd: 26.5  0/0
+dk: 25.5  0/0
+pb: null  0/0
+mg: 26.5  0/0
+ARB Patrick Mahomes comp
+dk: 27.5  0/0
+fd: 25.5  122/-156
+pb: null  0/0
+mg: 25.5  -105/-128
+no arb Jimmy Garoppolo passatt
+fd: 31.5  0/0
+dk: 28.5  -135/100
+pb: 31.5  0/0
+mg: 31.5  0/0
+no arb Jalen Hurts passatt
+dk: 37.5  0/0
+fd: 28.5  0/0
+pb: 29.5  0/0
+mg: 28.5  0/0
+no arb Dak Prescott passatt
+fd: 38.5  0/0
+dk: 36.5  -120/-110
+pb: 38.5  0/0
+mg: 39.5  0/0
+no arb Tom Brady passatt
+dk: 40.5  0/0
+fd: 38.5  0/0
+pb: 39.5  0/0
+mg: 38.5  0/0
+no arb Jalen Hurts passyds
+dk: 200.5  0/0
+fd: 190.5  0/0
+pb: 190.5  0/0
+mg: 192.5  0/0
+no arb Jared Goff passyds
+dk: 209.5  0/0
+fd: 206.5  0/0
+pb: 208.5  0/0
+mg: 204.5  0/0
+no arb Ben Roethlisberger passyds
+fd: 232.5  -110/-110
+dk: 230.5  -115/-115
+pb: 235.5  -105/-125
+mg: 230.5  -118/-111
+no arb Jimmy Garoppolo passyds
+dk: 261.5  -115/-115
+fd: 248.5  0/0
+pb: 245.5  100/-130
+mg: 254.5  0/0
+no arb Kyler Murray passyds
+fd: 255.5  -114/-114
+dk: 253.5  -115/-115
+pb: 255.5  -115/-115
+mg: 251.5  -120/-110
+no arb Aaron Rodgers passyds
+dk: 259.5  0/0
+fd: 257.5  0/0
+pb: 259.5  0/0
+mg: 261.5  0/0
+no arb Dak Prescott passyds
+fd: 288.5  0/0
+dk: 280.5  -115/-115
+pb: 260.5  -115/-115
+mg: 291.5  0/0
+no arb Tom Brady passyds
+dk: 276.5  0/0
+fd: 270.5  0/0
+pb: 265.5  0/0
+mg: 277.5  0/0
+no arb Matthew Stafford passyds
+fd: 274.5  -114/-114
+dk: 272.5  -115/-115
+pb: 275.5  -115/-115
+mg: 274.5  -110/-120
+no arb Jalen Reagor recs
+fd: 1.5  0/0
+dk: 0.5  0/0
+pb: null  0/0
+mg: 1.5  0/0
+no arb Ezekiel Elliott recs
+fd: 2.5  0/0
+dk: 1.5  -205/150
+pb: null  0/0
+mg: 2.5  0/0
+ARB Kyle Juszczyk recs
+dk: 2.5  -135/100
+fd: 1.5  0/0
+pb: null  0/0
+mg: 1.5  0/0
+no arb Tony Pollard recs
+fd: 2.5  0/0
+dk: 1.5  -175/135
+pb: null  0/0
+mg: 2.5  0/0
+no arb Leonard Fournette recs
+dk: 5.5  0/0
+fd: 2.5  0/0
+pb: null  0/0
+mg: 5.5  0/0
+ARB Jauan Jennings recs
+fd: 2.5  0/0
+dk: 2.5  150/-200
+pb: null  0/0
+mg: 2.5  0/0
+ARB George Kittle recs
+fd: 4.5  0/0
+dk: 2.5  140/-185
+pb: null  0/0
+mg: 4.5  0/0
+no arb Dalton Schultz recs
+fd: 3.5  0/0
+dk: 2.5  -110/-120
+pb: null  0/0
+mg: 4.5  0/0
+no arb Robert Tonyan recs
+dk: 3.5  0/0
+fd: 2.5  0/0
+pb: null  0/0
+mg: 3.5  0/0
+no arb Quez Watkins recs
+dk: 3.5  0/0
+fd: 2.5  0/0
+pb: null  0/0
+mg: 2.5  0/0
+ARB Brandon Aiyuk recs
+dk: 5.5  -175/130
+fd: 3.5  0/0
+pb: null  0/0
+mg: 3.5  0/0
+no arb Tyler Higbee recs
+fd: 4.5  116/-154
+dk: 3.5  -175/130
+pb: null  0/0
+mg: 3.5  -175/130
+no arb CeeDee Lamb recs
+fd: 5.5  0/0
+dk: 3.5  -135/105
+pb: null  0/0
+mg: 5.5  0/0
+ARB Amari Cooper recs
+dk: 6.5  -130/100
+fd: 4.5  0/0
+pb: null  0/0
+mg: 4.5  0/0
+no arb Mike Evans recs
+dk: 7.5  0/0
+fd: 4.5  0/0
+pb: null  0/0
+mg: 4.5  0/0
+no arb Dallas Goedert recs
+dk: 6.5  0/0
+fd: 4.5  0/0
+pb: null  0/0
+mg: 4.5  0/0
+ARB Deebo Samuel recs
+fd: 4.5  0/0
+dk: 4.5  135/-180
+pb: null  0/0
+mg: 4.5  0/0
+ARB Cedrick Wilson recs
+fd: 4.5  0/0
+dk: 4.5  -160/120
+pb: null  0/0
+mg: 4.5  0/0
+no arb Tony Pollard rushrec
+dk: 54.5  -120/-110
+fd: 52.5  0/0
+pb: null  0/0
+mg: 53.5  0/0
+no arb Ezekiel Elliott rushrec
+fd: 67.5  0/0
+dk: 53.5  -115/-115
+pb: null  0/0
+mg: 67.5  0/0
+no arb Elijah Mitchell rushrec
+fd: 91.5  0/0
+dk: 84.5  -120/-110
+pb: null  0/0
+mg: 94.5  0/0
+no arb Cam Akers rushrec
+fd: 101.5  0/0
+dk: 87.5  0/0
+pb: null  0/0
+mg: 107.5  0/0
+no arb Najee Harris rushrec
+dk: 89.5  -115/-115
+fd: 88.5  -113/-113
+pb: null  0/0
+mg: 88.5  -111/-118
+no arb Aaron Jones rushrec
+fd: 96.5  0/0
+dk: 95.5  0/0
+pb: null  0/0
+mg: 96.5  0/0
+no arb Leonard Fournette rushrec
+fd: 97.5  0/0
+dk: 96.5  0/0
+pb: null  0/0
+mg: 96.5  0/0
+ARB JaMycal Hasty recyds
+fd: 9.5  0/0
+dk: 0.5  105/-140
+pb: 10.5  0/0
+mg: null  0/0
+no arb Blake Jarwin recyds
+fd: 9.5  0/0
+dk: 0.5  -105/-130
+pb: 10.5  0/0
+mg: null  0/0
+no arb Elijah Mitchell recyds
+fd: 8.5  0/0
+dk: 6.5  -120/-115
+pb: 10.5  0/0
+mg: 7.5  0/0
+no arb Kyle Juszczyk recyds
+dk: 16.5  -115/-115
+fd: 8.5  0/0
+pb: null  0/0
+mg: 8.5  0/0
+no arb Jalen Reagor recyds
+fd: 15.5  0/0
+dk: 8.5  0/0
+pb: 15.5  0/0
+mg: 14.5  0/0
+no arb Cameron Brate recyds
+fd: 15.5  0/0
+dk: 14.5  0/0
+pb: 10.5  0/0
+mg: 16.5  0/0
+no arb Ezekiel Elliott recyds
+fd: 16.5  0/0
+dk: 12.5  -110/-120
+pb: 20.5  0/0
+mg: 14.5  0/0
+no arb Tony Pollard recyds
+fd: 16.5  0/0
+dk: 12.5  -115/-115
+pb: 20.5  0/0
+mg: 15.5  0/0
+no arb Demarcus Robinson recyds
+dk: 14.5  -110/-120
+fd: 13.5  -110/-110
+pb: 15.5  -115/-115
+mg: 14.5  -118/-111
+no arb Giovani Bernard recyds
+dk: 17.5  0/0
+fd: 15.5  0/0
+pb: 30.5  0/0
+mg: null  0/0
+no arb Breshad Perriman recyds
+fd: 37.5  0/0
+dk: 17.5  0/0
+pb: 25.5  0/0
+mg: 37.5  0/0
+no arb Cam Akers recyds
+fd: 19.5  0/0
+dk: 18.5  0/0
+pb: 18.5  0/0
+mg: 20.5  0/0
+no arb Gerald Everett recyds
+dk: 24.5  0/0
+fd: 22.5  0/0
+pb: 20.5  0/0
+mg: 24.5  0/0
+no arb Najee Harris recyds
+dk: 22.5  -115/-120
+fd: 21.5  -110/-110
+pb: 20.5  -115/-115
+mg: 21.5  -115/-115
+no arb George Kittle recyds
+fd: 51.5  0/0
+dk: 24.5  -115/-115
+pb: 20.5  -120/-110
+mg: 51.5  0/0
+no arb Darrel Williams recyds
+dk: 22.5  -115/-115
+fd: 21.5  -110/-110
+pb: 20.5  -125/-105
+mg: 22.5  -111/-118
+no arb Mecole Hardman recyds
+fd: 25.5  -115/-105
+dk: 21.5  -120/-110
+pb: 25.5  100/-130
+mg: 22.5  -115/-115
+no arb Jauan Jennings recyds
+fd: 24.5  0/0
+dk: 22.5  -115/-115
+pb: 25.5  0/0
+mg: 26.5  0/0
+no arb Marquez Valdes-Scantling recyds
+fd: 24.5  0/0
+dk: 23.5  0/0
+pb: 25.5  0/0
+mg: 25.5  0/0
+no arb Dalton Schultz recyds
+fd: 39.5  0/0
+dk: 24.5  -120/-110
+pb: 45.5  -115/-115
+mg: 42.5  0/0
+no arb Quez Watkins recyds
+dk: 51.5  0/0
+fd: 25.5  0/0
+pb: 30.5  0/0
+mg: 25.5  0/0
+no arb Byron Pringle recyds
+dk: 32.5  -110/-120
+fd: 29.5  -110/-110
+pb: 30.5  -105/-125
+mg: 31.5  -118/-111
+no arb Leonard Fournette recyds
+fd: 32.5  0/0
+dk: 31.5  0/0
+pb: 30.5  0/0
+mg: 31.5  0/0
+no arb Jared Cook recyds
+fd: 33.5  0/0
+dk: 31.5  0/0
+pb: 33.5  0/0
+mg: 33.5  0/0
+no arb Pat Freiermuth recyds
+fd: 32.5  -110/-110
+dk: 31.5  -115/-115
+pb: 35.5  100/-130
+mg: 31.5  -115/-115
+no arb Tyler Johnson recyds
+dk: 41.5  0/0
+fd: 32.5  0/0
+pb: 35.5  0/0
+mg: 36.5  0/0
+no arb DeVonta Smith recyds
+fd: 48.5  0/0
+dk: 32.5  0/0
+pb: 40.5  0/0
+mg: 49.5  0/0
+no arb Robert Tonyan recyds
+fd: 34.5  0/0
+dk: 33.5  0/0
+pb: 35.5  0/0
+mg: 34.5  0/0
+no arb Van Jefferson recyds
+fd: 37.5  -110/-110
+dk: 36.5  -115/-115
+pb: 35.5  -125/-105
+mg: 36.5  -115/-115
+no arb CeeDee Lamb recyds
+fd: 65.5  0/0
+dk: 48.5  -115/-115
+pb: 35.5  -105/-125
+mg: 66.5  0/0
+no arb Josh Reynolds recyds
+fd: 40.5  0/0
+dk: 36.5  0/0
+pb: null  0/0
+mg: null  0/0
+no arb Tyler Higbee recyds
+dk: 40.5  -115/-115
+fd: 38.5  -110/-110
+pb: 40.5  -105/-125
+mg: 40.5  -115/-115
+no arb Cedrick Wilson recyds
+dk: 56.5  -115/-115
+fd: 40.5  0/0
+pb: 45.5  -120/-110
+mg: 44.5  0/0
+no arb Chase Claypool recyds
+fd: 42.5  -110/-110
+dk: 41.5  -115/-115
+pb: 45.5  -105/-125
+mg: 41.5  -118/-111
+no arb A.J. Green recyds
+dk: 43.5  -115/-115
+fd: 42.5  -110/-110
+pb: 45.5  -105/-125
+mg: 43.5  -115/-115
+no arb Odell Beckham recyds
+dk: 46.5  -115/-115
+fd: 44.5  -110/-110
+pb: 45.5  -105/-125
+mg: 46.5  -115/-115
+no arb Rob Gronkowski recyds
+fd: 61.5  0/0
+dk: 45.5  0/0
+pb: 55.5  0/0
+mg: 62.5  0/0
+no arb Brandon Aiyuk recyds
+dk: 92.5  -115/-115
+fd: 48.5  0/0
+pb: 85.5  -125/-105
+mg: 48.5  0/0
+no arb Zach Ertz recyds
+dk: 53.5  -115/-115
+fd: 52.5  -110/-110
+pb: 50.5  -130/100
+mg: 53.5  -115/-115
+no arb Dallas Goedert recyds
+dk: 72.5  0/0
+fd: 51.5  0/0
+pb: 50.5  0/0
+mg: 57.5  0/0
+no arb Christian Kirk recyds
+dk: 53.5  -115/-115
+fd: 50.5  -110/-110
+pb: 50.5  -115/-115
+mg: 53.5  -115/-115
+no arb Robert Woods recyds
+dk: 57.5  0/0
+fd: 55.5  0/0
+pb: 57.5  0/0
+mg: 56.5  0/0
+no arb Mike Evans recyds
+dk: 83.5  0/0
+fd: 56.5  0/0
+pb: 70.5  0/0
+mg: 57.5  0/0
+no arb Amari Cooper recyds
+dk: 82.5  -115/-115
+fd: 59.5  0/0
+pb: 80.5  -115/-115
+mg: 61.5  0/0
+no arb Diontae Johnson recyds
+dk: 61.5  -110/-120
+fd: 60.5  -110/-110
+pb: 60.5  -115/-115
+mg: 61.5  -111/-120
+no arb Deebo Samuel recyds
+dk: 64.5  -115/-115
+fd: 63.5  0/0
+pb: 60.5  -105/-125
+mg: 64.5  0/0
+no arb Chris Godwin recyds
+fd: 69.5  0/0
+dk: 67.5  0/0
+pb: 67.5  0/0
+mg: 67.5  0/0
+no arb Travis Kelce recyds
+fd: 69.5  -110/-110
+dk: 67.5  -115/-115
+pb: 70.5  -115/-115
+mg: 67.5  -118/-111
+no arb Tyreek Hill recyds
+fd: 70.5  -110/-110
+dk: 69.5  -110/-125
+pb: 70.5  -115/-115
+mg: 69.5  -115/-115
+no arb Davante Adams recyds
+fd: 76.5  0/0
+dk: 75.5  0/0
+pb: 75.5  0/0
+mg: 78.5  0/0
+no arb Cooper Kupp recyds
+dk: 106.5  -115/-115
+fd: 103.5  -110/-110
+pb: 105.5  -105/-125
+mg: 106.5  -115/-115
+no arb Jimmy Garoppolo rushyds
+fd: 2.5  0/0
+dk: 0.5  -215/160
+pb: 5.5  0/0
+mg: 1.5  0/0
+no arb Tom Brady rushyds
+dk: 2.5  0/0
+fd: 1.5  0/0
+pb: 5.5  0/0
+mg: 2.5  0/0
+no arb Dak Prescott rushyds
+fd: 7.5  0/0
+dk: 6.5  -115/-115
+pb: 10.5  0/0
+mg: 9.5  0/0
+no arb Jordan Howard rushyds
+fd: 30.5  0/0
+dk: 9.5  0/0
+pb: 20.5  0/0
+mg: 29.5  0/0
+no arb Malcolm Brown rushyds
+fd: 15.5  0/0
+dk: 12.5  0/0
+pb: 13.5  0/0
+mg: 12.5  0/0
+no arb Patrick Mahomes rushyds
+dk: 20.5  -115/-115
+fd: 18.5  -122/100
+pb: 20.5  -115/-115
+mg: null  0/0
+no arb Miles Sanders rushyds
+fd: 43.5  0/0
+dk: 18.5  0/0
+pb: 35.5  0/0
+mg: 44.5  0/0
+no arb Jamaal Williams rushyds
+fd: 20.5  0/0
+dk: 19.5  0/0
+pb: 21.5  0/0
+mg: 20.5  0/0
+no arb Tony Pollard rushyds
+dk: 38.5  -115/-115
+fd: 34.5  0/0
+pb: 20.5  -160/125
+mg: 32.5  0/0
+no arb Le'Veon Bell rushyds
+fd: 42.5  0/0
+dk: 22.5  0/0
+pb: 42.5  0/0
+mg: null  0/0
+no arb Deebo Samuel rushyds
+dk: 30.5  -110/-120
+fd: 29.5  0/0
+pb: null  0/0
+mg: 31.5  0/0
+no arb Cam Akers rushyds
+dk: 77.5  0/0
+fd: 32.5  -114/-114
+pb: 30.5  -130/100
+mg: 83.5  0/0
+no arb Ezekiel Elliott rushyds
+fd: 50.5  0/0
+dk: 37.5  -110/-120
+pb: 40.5  110/-140
+mg: 47.5  0/0
+no arb Jalen Hurts rushyds
+dk: 61.5  0/0
+fd: 57.5  0/0
+pb: 55.5  0/0
+mg: 58.5  0/0
+no arb Sony Michel rushyds
+fd: 58.5  -114/-114
+dk: 56.5  -115/-115
+pb: 60.5  -105/-125
+mg: 56.5  -115/-118
+no arb Leonard Fournette rushyds
+dk: 59.5  0/0
+fd: 58.5  0/0
+pb: 60.5  0/0
+mg: 59.5  0/0
+no arb Najee Harris rushyds
+fd: 63.5  -110/-110
+dk: 62.5  -120/-115
+pb: 65.5  -105/-125
+mg: 63.5  -110/-120
+no arb Aaron Jones rushyds
+fd: 69.5  0/0
+dk: 68.5  0/0
+pb: 71.5  0/0
+mg: 68.5  0/0
+no arb Elijah Mitchell rushyds
+dk: 88.5  -115/-115
+fd: 79.5  0/0
+pb: 90.5  0/0
+mg: 81.5  0/0
