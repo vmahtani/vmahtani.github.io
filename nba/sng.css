@@ -18,6 +18,12 @@
     /*color:rgb(23, 126, 121);*/
 }
 
+.dfs tr:hover {
+    background-color: #537093;
+    color:#040d44;
+    font-weight: bold;
+}
+
 #sng th {
     padding: 10px;
     border: 1px solid #ddd;
