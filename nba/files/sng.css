@@ -24,6 +24,10 @@
     font-weight: bold;
 }
 
+#dfsdiv {
+    overflow-y:auto;
+    height: '25%';
+}
 #sng th {
     padding: 10px;
     border: 1px solid #ddd;
@@ -38,9 +42,6 @@
 
 td.bold {
     font-weight: bold;
-}
-h3 {
-    padding: 1px;
 }
 body {
     background-color: whitesmoke;
@@ -68,7 +69,3 @@ body {
     margin-bottom: 0px;
   }
 
-#dfsdiv {
-    height: '25%';
-    overflow-y: auto;
-}
