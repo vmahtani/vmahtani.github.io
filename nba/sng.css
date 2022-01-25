@@ -40,7 +40,12 @@ td.bold {
     font-weight: bold;
 }
 h3 {
-    padding: 1px;
+    padding: 0px;
+    margin: 0px;
+}
+#dfs_x{
+    color: red;
+    
 }
 body {
     background-color: whitesmoke;
@@ -68,7 +73,7 @@ body {
     margin-bottom: 0px;
   }
 
-#dfsdiv {
-    height: '25%';
+#statsdivdfs {
+    height: '200px';
     overflow-y: auto;
 }

@@ -98,14 +98,20 @@
            console.log(lineup);
            writelineupdiv();
        }
+       function cleardfskey(key){
+           lineup[key][0] = "";
+           lineup[key][1] = 0;
+           writelineupdiv();
+       }
        function writelineupdiv()
        {
            var dfslineuptext = "";
            var totalsalary = 0; 
            for (var key in lineup){
-               dfslineuptext += "<h3>" + key + " " + lineup[key][0] + " " + lineup[key][1] + "</h3>" ;
-               totalsalary += parseInt(lineup[key][1]);
-               //console.log( key, dict[key] );
+                spantext = "<span id=\"dfs_x\" onclick=\"cleardfskey('"+ key + "')\")>X</span>"
+                dfslineuptext += "<h3>" + key + " " + lineup[key][0] + " " + lineup[key][1] + " " + spantext + "</h3>" ;
+                totalsalary += parseInt(lineup[key][1]);
+                //console.log( key, dict[key] );
            }
            dfsdiv = document.getElementById('dfslineupdiv');
            dfsdiv.innerHTML = dfslineuptext + "<h3>" + totalsalary + "</h3>";
