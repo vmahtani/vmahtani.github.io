@@ -1,256 +1,2201 @@
-2022-01-26 17:03:30.855643
-no arb Jimmy Garoppolo passyds
-dk: 228.5  -115/-115
-fd: 222.5  -114/-114
-pb: 225.5  -105/-125
-mg: 228.5  -115/-115
-no arb Matthew Stafford passyds
-dk: 282.5  -115/-115
-fd: 277.5  -114/-114
-pb: 275.5  -120/-110
-mg: 282.5  -115/-115
-no arb Patrick Mahomes passyds
-dk: 291.5  -115/-115
-fd: 289.5  -114/-114
-pb: 290.5  -115/-115
-mg: 290.5  -118/-111
-no arb Tyler Higbee recs
-dk: 4.5  125/-170
-fd: 3.5  -172/128
-pb: null  0/0
-mg: 4.5  125/-161
-no arb Cooper Kupp recs
-dk: 8.5  115/-155
-fd: 7.5  -158/118
-pb: null  0/0
-mg: 8.5  115/-149
-no arb Joe Mixon rushrec
-dk: 90.5  -115/-115
-fd: 88.5  -114/-114
-pb: null  0/0
-mg: 90.5  -118/-111
-no arb Elijah Mitchell recyds
-fd: 11.5  -114/-114
-dk: 10.5  -115/-115
-pb: 10.5  -120/-110
-mg: 10.5  -111/-118
-no arb Cam Akers recyds
-fd: 18.5  -108/-122
-dk: 17.5  -115/-115
-pb: 15.5  -135/105
-mg: 18.5  0/0
-no arb Jauan Jennings recyds
-dk: 25.5  0/0
-fd: 23.5  -114/-114
-pb: 25.5  -105/-125
-mg: 25.5  0/0
-no arb C.J. Uzomah recyds
-fd: 36.5  -114/-114
-dk: 34.5  -115/-115
-pb: 40.5  0/0
-mg: 34.5  -118/-111
-no arb Tyler Boyd recyds
-dk: 38.5  -115/-115
-fd: 37.5  -114/-114
-pb: 35.5  -125/-105
-mg: 38.5  -115/-115
-no arb Byron Pringle recyds
-fd: 37.5  -114/-114
-dk: 36.5  -115/-115
-pb: 35.5  -125/-105
-mg: 35.5  -118/-111
-no arb Tyler Higbee recyds
-dk: 41.5  -115/-115
-fd: 39.5  -114/-114
-pb: 40.5  -110/-120
-mg: 41.5  -115/-115
-no arb Brandon Aiyuk recyds
-fd: 49.5  -114/-114
-dk: 47.5  -115/-115
-pb: 50.5  -105/-125
-mg: 47.5  -111/-118
-no arb Odell Beckham recyds
-dk: 52.5  -115/-115
-fd: 50.5  -114/-114
-pb: 50.5  -115/-115
-mg: 52.5  -115/-115
-no arb George Kittle recyds
-fd: 52.5  -114/-114
-dk: 51.5  -115/-115
-pb: 50.5  -125/-105
-mg: 51.5  -115/-115
-no arb Deebo Samuel recyds
-dk: 52.5  -115/-115
-fd: 51.5  -114/-114
-pb: 50.5  -120/-110
-mg: 52.5  -115/-115
-no arb Travis Kelce recyds
-dk: 75.5  -115/-115
-fd: 72.5  -122/-108
-pb: 70.5  -135/105
-mg: 75.5  -118/-111
-no arb Tyreek Hill recyds
-dk: 77.5  -115/-115
-fd: 76.5  -114/-114
-pb: 75.5  -120/-110
-mg: 77.5  -115/-115
-no arb Ja'Marr Chase recyds
-dk: 86.5  -115/-115
-fd: 85.5  -114/-114
-pb: 85.5  -115/-115
-mg: 86.5  -115/-115
-no arb Cooper Kupp recyds
-fd: 103.5  -114/-114
-dk: 102.5  -115/-115
-pb: 100.5  -130/100
-mg: 102.5  -115/-115
-no arb Deebo Samuel rushyds
-fd: 42.5  -114/-114
-dk: 40.5  -115/-115
-pb: 40.5  -115/-115
-mg: 40.5  -115/-115
-no arb Joe Mixon rushyds
-dk: 58.5  -115/-115
-fd: 57.5  -114/-114
-pb: 55.5  -125/-105
-mg: 58.5  -115/-115
-no arb Cam Akers rushyds
-dk: 60.5  -110/-120
-fd: 59.5  -114/-114
-pb: 60.5  -115/-115
-mg: 60.5  -111/-118
-no arb Elijah Mitchell rushyds
-fd: 72.5  -114/-114
-dk: 71.5  -120/-115
-pb: 70.5  -125/-105
-mg: 71.5  -115/-115
-no arb Darius Garland pts
-fd: 22.5  -104/-118
-dk: 21.5  -130/100
-pb: 21.5  -135/105
-mg: 21.5  -128/100
-no arb Khris Middleton pts
-dk: 20.5  -110/-115
-fd: 19.5  -118/-104
-pb: 20.5  -115/-115
-mg: 20.5  -115/-118
+2022-01-19 18:38:48.186153
+no arb LeBron James pts
+fd: 31.5  -102/-120
+dk: 30.5  -125/-105
+pb: 30.5  -135/105
+mg: 30.5  -120/-111
+no arb Giannis Antetokounmpo pts
+fd: 29.5  -106/-114
+dk: 29.5  -120/-105
+pb: 29.5  -115/-115
+mg: 29.5  -120/-110
+no arb Joel Embiid pts
+fd: 28.5  -110/-110
+dk: 28.5  -115/-110
+pb: 28.5  -115/-115
+mg: 28.5  -115/-115
+no arb Trae Young pts
+fd: 28.5  -105/-114
+dk: 28.5  -110/-115
+pb: 28.5  -115/-115
+mg: 28.5  -110/-120
+no arb Jayson Tatum pts
+dk: 27.5  -115/-110
+fd: 26.5  -115/-105
+pb: 26.5  -125/-105
+mg: 27.5  -118/-111
+no arb DeMar DeRozan pts
+fd: 26.5  -110/-110
+dk: 26.5  -120/-105
+pb: 26.5  -105/-125
+mg: 26.5  -120/-111
+no arb James Harden pts
+dk: 26.5  100/-125
+fd: 25.5  -114/-106
+pb: 26.5  100/-130
+mg: 26.5  -110/-120
+no arb Ja Morant pts
+fd: 26.5  -106/-114
+dk: 26.5  -110/-115
+pb: 26.5  -115/-115
+mg: 26.5  -115/-118
+no arb Jaylen Brown pts
+dk: 25.5  -105/-120
+fd: 24.5  -112/-108
+pb: 24.5  -115/-115
+mg: 25.5  -110/-120
+no arb Shai Gilgeous-Alexander pts
+fd: 25.5  -102/-120
+dk: 25.5  -105/-125
+pb: 24.5  -130/100
+mg: 25.5  -110/-120
+no arb Nikola Jokic pts
+fd: 25.5  -114/-106
+dk: 25.5  -115/-110
+pb: 25.5  -120/-110
+mg: 25.5  -125/-105
+no arb Luka Doncic pts
+fd: 24.5  -108/-112
+dk: 24.5  -115/-110
+pb: 24.5  -115/-115
+mg: 24.5  -118/-111
+no arb Kyrie Irving pts
+fd: 24.5  -110/-110
+dk: 24.5  -105/-120
+pb: 23.5  -135/105
+mg: 24.5  -105/-125
+no arb Karl-Anthony Towns pts
+fd: 24.5  -108/-112
+dk: 24.5  -115/-110
+pb: 24.5  -110/-120
+mg: 24.5  -118/-115
+no arb Bradley Beal pts
+fd: 23.5  -112/-108
+dk: 23.5  -125/-105
+pb: 23.5  -115/-115
+mg: 23.5  -111/-118
+no arb Bojan Bogdanovic pts
+fd: 23.5  -108/-112
+dk: 23.5  -115/-110
+pb: 22.5  -140/110
+mg: 23.5  -118/-111
 no arb Jimmy Butler pts
-fd: 19.5  100/-122
-dk: 18.5  -130/105
-pb: 18.5  -135/105
+fd: 22.5  -105/-115
+dk: 22.5  -105/-125
+pb: 22.5  -115/-115
+mg: 22.5  -110/-120
+no arb De'Aaron Fox pts
+fd: 22.5  -102/-120
+dk: 21.5  -130/105
+pb: 22.5  -105/-125
+mg: 21.5  -115/-115
+no arb Anthony Edwards pts
+fd: 21.5  -108/-112
+dk: 21.5  -115/-110
+pb: 21.5  -115/-115
+mg: 21.5  -118/-111
+no arb Caris LeVert pts
+fd: 21.5  -105/-115
+dk: 21.5  -110/-115
+pb: 21.5  -115/-115
+mg: 21.5  -115/-118
+no arb Khris Middleton pts
+fd: 20.5  -118/-102
+dk: 20.5  -120/-105
+pb: 21.5  -110/-120
+mg: 20.5  -125/-110
+no arb Pascal Siakam pts
+fd: 21.5  -104/-118
+dk: 21.5  -105/-120
+pb: 21.5  -105/-125
+mg: 21.5  -110/-120
+no arb Fred VanVleet pts
+fd: 21.5  -115/-105
+dk: 21.5  -125/100
+pb: 21.5  -115/-115
+mg: 21.5  -125/-105
+no arb Jordan Clarkson pts
+fd: 20.5  102/-124
+dk: 19.5  -135/105
+pb: 19.5  -140/110
+mg: 19.5  -125/-105
+no arb Rudy Gobert pts
+dk: 20.5  100/-125
+fd: 19.5  -108/-112
+pb: 18.5  -150/120
+mg: 20.5  -105/-128
+no arb Dejounte Murray pts
+fd: 20.5  100/-122
+dk: 20.5  -105/-120
+pb: 19.5  -135/105
+mg: 20.5  -110/-120
+no arb Domantas Sabonis pts
+fd: 20.5  -106/-114
+dk: 20.5  -110/-115
+pb: 20.5  -120/-110
+mg: 20.5  -105/-125
+no arb Miles Bridges pts
+fd: 19.5  -110/-110
+dk: 19.5  -125/-105
+pb: 19.5  -115/-115
+mg: 19.5  -128/-105
+no arb Darius Garland pts
+fd: 19.5  -120/-102
+dk: 19.5  -130/105
+pb: 19.5  -135/105
+mg: 19.5  -125/-110
+no arb Terry Rozier pts
+fd: 19.5  -104/-118
+dk: 19.5  -105/-125
+pb: 19.5  -105/-125
+mg: 19.5  -105/-125
+no arb Anfernee Simons pts
+fd: 18.5  -106/-114
+dk: 18.5  -105/-120
+pb: 19.5  105/-135
 mg: 18.5  -120/-110
-no arb Franz Wagner pts
-dk: 16.5  -105/-120
-fd: 15.5  -122/100
-pb: 16.5  -105/-125
-mg: 16.5  -115/-118
-no arb Bismack Biyombo pts
-dk: 12.5  105/-140
-fd: 11.5  -124/102
+no arb LaMelo Ball pts
+fd: 18.5  -102/-120
+dk: 18.5  100/-125
+pb: 18.5  -105/-125
+mg: 18.5  -105/-125
+no arb Tobias Harris pts
+fd: 18.5  -106/-114
+dk: 18.5  -105/-120
+pb: 18.5  -105/-125
+mg: 18.5  -111/-120
+no arb Kyle Kuzma pts
+dk: 18.5  105/-135
+fd: 17.5  -120/-102
+pb: 17.5  -130/100
+mg: 18.5  -105/-125
+no arb CJ McCollum pts
+dk: 18.5  -105/-120
+fd: 17.5  -118/-104
+pb: 17.5  -125/-105
+mg: 18.5  -105/-125
+no arb Marcus Morris pts
+fd: 17.5  -115/-105
+dk: 17.5  -115/-110
+pb: 18.5  110/-140
+mg: 17.5  -120/-111
+no arb Kristaps Porzingis pts
+fd: 18.5  102/-124
+dk: 17.5  -140/115
+pb: 17.5  -125/-105
+mg: 17.5  -125/-105
+no arb Nikola Vucevic pts
+dk: 18.5  110/-140
+fd: 17.5  -110/-110
+pb: 18.5  110/-140
+mg: 18.5  -105/-128
+no arb Russell Westbrook pts
+fd: 18.5  -105/-115
+dk: 18.5  -110/-115
+pb: 18.5  -105/-125
+mg: 18.5  -111/-118
+no arb Christian Wood pts
+fd: 17.5  -118/-104
+dk: 17.5  -110/-115
+pb: 18.5  105/-135
+mg: 17.5  -111/-118
+no arb Bam Adebayo pts
+fd: 16.5  -120/-102
+dk: 16.5  -115/-110
+pb: 17.5  105/-135
+mg: 16.5  -118/-115
+no arb John Collins pts
+dk: 17.5  105/-140
+fd: 16.5  -124/102
+pb: 17.5  105/-135
+mg: 17.5  -111/-120
+no arb Cade Cunningham pts
+fd: 17.5  -108/-112
+dk: 17.5  -110/-115
 pb: null  0/0
-mg: 12.5  100/-133
-no arb Mikal Bridges pts
-fd: 12.5  106/-130
-dk: 11.5  -125/100
-pb: 11.5  -130/100
-mg: 11.5  -128/100
-no arb Evan Fournier pts
+mg: 17.5  -105/-128
+no arb Luguentz Dort pts
+fd: 17.5  -110/-110
+dk: 17.5  -110/-115
+pb: 17.5  -115/-115
+mg: 17.5  -125/-110
+no arb Jaren Jackson pts
+dk: 17.5  100/-125
+fd: 16.5  -120/-102
+pb: 16.5  -120/-110
+mg: 17.5  100/-128
+no arb D'Angelo Russell pts
+fd: 17.5  -110/-110
+dk: 17.5  -125/100
+pb: 17.5  -115/-115
+mg: 17.5  -115/-115
+no arb Derrick White pts
+fd: 16.5  -110/-110
+dk: 16.5  -125/100
+pb: 17.5  115/-145
+mg: 16.5  -128/-105
+no arb Coby White pts
+fd: 17.5  -108/-112
+dk: 17.5  -110/-115
+pb: 17.5  -115/-115
+mg: 17.5  -111/-118
+no arb Cole Anthony pts
+fd: 16.5  -115/-105
+dk: 16.5  -115/-110
+pb: 16.5  -115/-115
+mg: 16.5  -120/-111
+no arb OG Anunoby pts
+fd: 16.5  -120/-102
+dk: 16.5  -120/-105
+pb: 16.5  -130/100
+mg: 16.5  -125/-105
+no arb Saddiq Bey pts
+dk: 16.5  100/-125
+fd: 15.5  -114/-106
+pb: 15.5  -115/-115
+mg: 16.5  -110/-120
+no arb Mike Conley pts
+fd: 16.5  -110/-110
+dk: 16.5  -115/-110
+pb: 16.5  -115/-115
+mg: 16.5  -120/-111
+no arb Gordon Hayward pts
+fd: 16.5  -110/-110
+dk: 16.5  -110/-115
+pb: 16.5  -115/-115
+mg: 16.5  -115/-115
+no arb Tyrese Maxey pts
+fd: 16.5  -106/-114
+dk: 16.5  -105/-125
+pb: 16.5  -115/-115
+mg: 16.5  -105/-125
+no arb Evan Mobley pts
+fd: 16.5  102/-124
+dk: 16.5  -105/-120
+pb: 16.5  100/-130
+mg: 16.5  -105/-125
+no arb Jarrett Allen pts
+fd: 15.5  -112/-108
+dk: 15.5  -105/-120
+pb: 15.5  -115/-115
+mg: 15.5  -110/-120
+no arb Harrison Barnes pts
+fd: 14.5  -110/-110
+dk: 14.5  100/-125
+pb: 15.5  115/-145
+mg: 14.5  -105/-128
+no arb Will Barton pts
+fd: 15.5  102/-124
+dk: 15.5  100/-125
+pb: 14.5  -125/-105
+mg: 15.5  -105/-128
+no arb Seth Curry pts
+fd: 15.5  -106/-114
+dk: 15.5  100/-125
+pb: 15.5  -105/-125
+mg: 15.5  -105/-128
+no arb Reggie Jackson pts
+fd: 15.5  -114/-106
+dk: 15.5  -115/-110
+pb: 15.5  -125/-105
+mg: 15.5  -110/-120
+no arb Keldon Johnson pts
+fd: 15.5  -115/-105
+dk: 15.5  -125/100
+pb: 15.5  -125/-105
+mg: 15.5  -128/-105
+no arb Jusuf Nurkic pts
+fd: 15.5  102/-124
+dk: 15.5  100/-130
+pb: 15.5  -105/-125
+mg: 15.5  -105/-125
+no arb Bobby Portis pts
+fd: 15.5  -114/-106
+dk: 15.5  -125/100
+pb: 15.5  -115/-115
+mg: 15.5  -128/100
+no arb Dennis Schroder pts
+dk: 15.5  -105/-120
+fd: 14.5  -122/100
+pb: 14.5  -115/-115
+mg: 15.5  -105/-125
+no arb Franz Wagner pts
+fd: 15.5  -106/-114
+dk: 15.5  -110/-110
+pb: null  0/0
+mg: 15.5  -115/-115
+no arb Jalen Brunson pts
+fd: 14.5  -108/-112
+dk: 14.5  -115/-110
+pb: 14.5  -115/-115
+mg: 14.5  -118/-111
+no arb Hamidou Diallo pts
+dk: 14.5  -105/-120
+fd: 13.5  -124/102
+pb: 14.5  100/-130
+mg: 14.5  -105/-125
+no arb Spencer Dinwiddie pts
+dk: 14.5  105/-135
+fd: 13.5  -118/-104
+pb: 14.5  100/-130
+mg: 14.5  -105/-125
+no arb Josh Giddey pts
+dk: 14.5  100/-125
+fd: 13.5  -118/-104
+pb: 13.5  -115/-115
+mg: 14.5  -110/-120
+no arb Eric Gordon pts
+fd: 14.5  -106/-114
+dk: 13.5  -120/-105
+pb: 13.5  -125/-105
+mg: 13.5  -120/-110
+no arb Aaron Gordon pts
+fd: 14.5  104/-128
+dk: 14.5  100/-125
+pb: 13.5  -140/110
+mg: 14.5  100/-128
+no arb Jalen Green pts
+fd: 14.5  -102/-120
+dk: 14.5  -105/-120
+pb: 14.5  -105/-125
+mg: 14.5  -111/-118
+no arb Buddy Hield pts
+fd: 14.5  -110/-110
+dk: 14.5  -115/-110
+pb: 14.5  -115/-115
+mg: 14.5  -120/-110
+no arb De'Andre Hunter pts
+fd: 14.5  -104/-118
+dk: 13.5  -130/100
+pb: 14.5  -115/-115
+mg: 13.5  -120/-110
+no arb Kevin Porter pts
+dk: 14.5  100/-125
+fd: 13.5  -120/100
+pb: 14.5  100/-130
+mg: 14.5  -105/-125
+no arb Chris Duarte pts
+fd: 13.5  -104/-118
+dk: 13.5  100/-130
+pb: 13.5  -115/-115
+mg: 13.5  100/-133
+no arb Danilo Gallinari pts
+dk: 13.5  100/-125
+fd: 12.5  -114/-106
+pb: 13.5  105/-135
+mg: 13.5  -105/-125
+no arb Kevin Huerter pts
+fd: 13.5  -110/-112
+dk: 13.5  -120/-105
+pb: 13.5  -115/-115
+mg: 13.5  -120/-110
+no arb Kevin Love pts
+fd: 13.5  -102/-120
+dk: 13.5  -115/-110
+pb: 13.5  -105/-125
+mg: 13.5  -115/-115
+no arb Lauri Markkanen pts
+fd: 13.5  -105/-115
+dk: 13.5  100/-125
+pb: 13.5  -105/-125
+mg: 13.5  -105/-125
+no arb Scottie Barnes pts
+fd: 12.5  -110/-110
+dk: 12.5  -115/-110
+pb: 12.5  -115/-115
+mg: 12.5  -118/-111
+no arb Jeff Green pts
 fd: 12.5  104/-128
+dk: 12.5  100/-130
+pb: 12.5  110/-140
+mg: 12.5  -105/-125
+no arb Tim Hardaway pts
+fd: 12.5  -106/-114
+dk: 12.5  -120/-105
+pb: 12.5  -115/-115
+mg: 12.5  -120/-110
+no arb Cory Joseph pts
+dk: 12.5  105/-130
+fd: 11.5  -110/-110
+pb: 12.5  120/-150
+mg: 12.5  100/-133
+no arb Nassir Little pts
+fd: 12.5  -104/-118
+dk: 12.5  100/-125
+pb: 12.5  -115/-115
+mg: 12.5  -110/-120
+no arb Patty Mills pts
+fd: 12.5  -122/100
+dk: 12.5  -115/-110
+pb: 12.5  -130/100
+mg: 12.5  -120/-111
+no arb Jakob Poeltl pts
+fd: 12.5  -115/-105
+dk: 12.5  -120/-105
+pb: 12.5  -120/-110
+mg: 12.5  -125/-105
+no arb Max Strus pts
+fd: 12.5  -108/-112
+dk: 12.5  -115/-110
+pb: 12.5  -115/-115
+mg: 12.5  -118/-111
+no arb Jae'Sean Tate pts
+fd: 12.5  -104/-118
+dk: 12.5  -110/-115
+pb: 12.5  -105/-125
+mg: 12.5  -115/-115
+no arb Gabe Vincent pts
+fd: 12.5  -106/-114
+dk: 11.5  -120/-105
+pb: 12.5  -115/-115
+mg: 11.5  -125/-110
+no arb Marvin Bagley pts
+fd: 11.5  -104/-118
+dk: 11.5  -110/-115
+pb: 11.5  -105/-125
+mg: 11.5  -115/-115
+no arb Kentavious Caldwell-Pope pts
+fd: 11.5  -104/-118
+dk: 11.5  -110/-115
+pb: 11.5  -115/-115
+mg: 11.5  -115/-115
+no arb Amir Coffey pts
+fd: 11.5  100/-122
+dk: 11.5  -105/-125
+pb: 11.5  -105/-125
+mg: 11.5  -105/-125
+no arb Montrezl Harrell pts
+fd: 11.5  -106/-114
+dk: 11.5  -115/-110
+pb: 11.5  -115/-115
+mg: 11.5  -120/-110
+no arb Gary Harris pts
+fd: 11.5  102/-124
+dk: 11.5  -110/-115
+pb: 11.5  105/-135
+mg: null  0/0
+no arb Justin Holiday pts
+fd: 11.5  -102/-120
+dk: 11.5  -110/-115
+pb: 11.5  -105/-125
+mg: 11.5  -111/-118
+no arb Al Horford pts
+dk: 11.5  -115/-110
+fd: 10.5  104/-128
+pb: 10.5  100/-130
+mg: 11.5  -118/-111
+no arb Doug McDermott pts
+fd: 11.5  -122/100
 dk: 11.5  -120/-105
 pb: 11.5  -125/-105
 mg: 11.5  -125/-105
-no arb Isaac Okoro pts
+no arb Monte Morris pts
+fd: 11.5  -118/-104
+dk: 11.5  -120/-105
+pb: 11.5  -120/-110
+mg: 11.5  -128/-105
+no arb Onyeka Okongwu pts
+fd: 11.5  -108/-112
 dk: 11.5  -110/-115
-fd: 10.5  -130/106
-pb: 11.5  100/-130
-mg: 11.5  -111/-120
-no arb Gabe Vincent pts
-dk: 11.5  -105/-120
+pb: 11.5  -105/-125
+mg: 11.5  -115/-118
+no arb Duncan Robinson pts
+fd: 11.5  -108/-112
+dk: 11.5  -115/-110
+pb: 11.5  -115/-115
+mg: 11.5  -118/-115
+no arb Grayson Allen pts
 fd: 10.5  -124/102
+dk: 10.5  -125/100
 pb: 10.5  -130/100
-mg: 11.5  -105/-125
-no arb Ayo Dosunmu pts
-dk: 10.5  100/-130
-fd: 9.5  -122/100
-pb: 10.5  110/-140
+mg: 10.5  -128/-105
+no arb Malik Beasley pts
+fd: 10.5  -106/-114
+dk: 10.5  -105/-120
+pb: 10.5  -115/-115
+mg: 10.5  -110/-125
+no arb Patrick Beverley pts
+fd: 10.5  100/-122
+dk: 10.5  105/-130
+pb: 9.5  -140/110
 mg: 10.5  100/-133
-no arb Maxi Kleber pts
-dk: 7.5  105/-130
-fd: 6.5  -128/104
-pb: 6.5  -125/-105
-mg: 7.5  100/-133
-no arb Clint Capela reb
-fd: 12.5  104/-128
-dk: 11.5  -130/100
-pb: 11.5  -135/105
-mg: 11.5  -128/100
+no arb Dorian Finney-Smith pts
+fd: 10.5  -112/-108
+dk: 10.5  -125/-105
+pb: 10.5  -125/-105
+mg: 10.5  -120/-110
+no arb Joe Ingles pts
+fd: 10.5  -108/-112
+dk: 10.5  -110/-120
+pb: 10.5  -125/-105
+mg: 10.5  -115/-118
+no arb Furkan Korkmaz pts
+fd: 10.5  -128/104
+dk: 10.5  -125/100
+pb: 10.5  -125/-105
+mg: 10.5  -128/100
+no arb Ben McLemore pts
+fd: 10.5  -110/-112
+dk: 10.5  -115/-110
+pb: 10.5  -115/-115
+mg: 10.5  -118/-111
+no arb Jaylen Nowell pts
+dk: 10.5  100/-125
+fd: 9.5  -124/102
+pb: 10.5  110/-140
+mg: null  0/0
+no arb Isaac Okoro pts
+dk: 10.5  100/-125
+fd: 9.5  -115/-105
+pb: 10.5  120/-150
+mg: 10.5  100/-128
+no arb Devin Vassell pts
+fd: 10.5  -110/-110
+dk: 10.5  -105/-125
+pb: 10.5  -110/-120
+mg: 10.5  -105/-125
+no arb Lonnie Walker pts
+fd: 10.5  -112/-108
+dk: 10.5  -125/100
+pb: 10.5  -115/-115
+mg: 10.5  -128/100
+no arb Kessler Edwards pts
+fd: 9.5  -108/-112
+dk: 9.5  -120/-105
+pb: 9.5  -115/-115
+mg: 9.5  -125/-105
+no arb Richaun Holmes pts
+fd: 8.5  -118/-104
+dk: 8.5  -120/-105
+pb: 9.5  105/-135
+mg: 8.5  -125/-105
+no arb Cedi Osman pts
+fd: 9.5  -115/-105
+dk: 9.5  -110/-115
+pb: 9.5  -115/-115
+mg: 9.5  -115/-115
+no arb Day'Ron Sharpe pts
+fd: 9.5  -115/-105
+dk: 9.5  -130/100
+pb: 9.5  -115/-115
+mg: null  0/0
+no arb Ziaire Williams pts
+fd: 9.5  -112/-110
+dk: 9.5  -125/-105
+pb: 9.5  -115/-115
+mg: 9.5  -125/-105
+no arb Avery Bradley pts
+dk: 8.5  100/-130
+fd: 7.5  -118/-104
+pb: 8.5  115/-145
+mg: 8.5  100/-133
+no arb Robert Covington pts
+fd: 8.5  -122/100
+dk: 8.5  -125/100
+pb: 8.5  -125/-105
+mg: 8.5  -125/-105
+no arb Georges Niang pts
+fd: 8.5  -105/-115
+dk: 8.5  -120/-105
+pb: 8.5  -115/-115
+mg: null  0/0
+no arb Royce O'Neale pts
+fd: 8.5  -118/-104
+dk: 8.5  -125/100
+pb: 8.5  -125/-105
+mg: 8.5  -128/-105
+no arb Jeremiah Robinson-Earl pts
+fd: 8.5  -104/-118
+dk: 8.5  -110/-115
+pb: 7.5  -160/125
+mg: 8.5  -111/-118
+no arb Isaiah Stewart pts
+fd: 8.5  -106/-114
+dk: 8.5  -105/-120
+pb: 8.5  -110/-120
+mg: 8.5  -110/-120
+no arb Dwight Howard pts
+fd: 7.5  102/-124
+dk: 7.5  -110/-115
+pb: 7.5  105/-135
+mg: 7.5  -115/-115
+no arb P.J. Tucker pts
+fd: 7.5  -128/104
+dk: 7.5  -125/100
+pb: 7.5  -125/-105
+mg: 7.5  -133/100
+no arb Jarred Vanderbilt pts
+fd: 7.5  -112/-108
+dk: 7.5  -120/-105
+pb: 7.5  -115/-115
+mg: 7.5  -125/-105
+no arb Steven Adams pts
+fd: 6.5  -104/-118
+dk: 6.5  -110/-115
+pb: 6.5  -110/-120
+mg: 6.5  -110/-120
+no arb Ivica Zubac pts
+fd: 6.5  -134/110
+dk: 6.5  -145/105
+pb: 6.5  -135/105
+mg: 6.5  -125/-105
+no arb Andre Drummond pts
+fd: 5.5  -114/-106
+dk: 5.5  -125/100
+pb: 5.5  -115/-115
+mg: null  0/0
+no arb Mason Plumlee pts
+fd: 5.5  -138/112
+dk: 5.5  -130/105
+pb: 5.5  -145/115
+mg: 5.5  -133/100
+no arb Rudy Gobert reb
+dk: 17.5  100/-135
+fd: 16.5  -122/100
+pb: 16.5  -125/-105
+mg: 17.5  100/-133
+no arb Nikola Jokic reb
+fd: 13.5  -105/-115
+dk: 13.5  100/-130
+pb: 12.5  -160/125
+mg: 13.5  -105/-128
+no arb Domantas Sabonis reb
+fd: 13.5  106/-130
+dk: 13.5  100/-135
+pb: 13.5  100/-130
+mg: 13.5  100/-133
 no arb Giannis Antetokounmpo reb
-fd: 11.5  112/-138
-dk: 10.5  -145/110
-pb: 10.5  -140/110
-mg: 10.5  -143/110
-no arb Bojan Bogdanovic reb
-dk: 5.5  105/-140
-fd: 4.5  -144/118
-pb: 5.5  125/-160
-mg: 5.5  100/-128
-no arb Kessler Edwards reb
-dk: 5.5  115/-150
-fd: 4.5  -142/116
-pb: 4.5  -180/140
-mg: 5.5  110/-149
-no arb Maxi Kleber reb
-dk: 5.5  120/-160
-fd: 4.5  -144/118
-pb: 4.5  -160/125
-mg: 5.5  120/-161
+dk: 11.5  110/-145
+fd: 10.5  -132/108
+pb: 11.5  110/-140
+mg: 11.5  110/-149
+no arb Nikola Vucevic reb
+fd: 11.5  -105/-115
+dk: 11.5  -115/-115
+pb: 11.5  -115/-115
+mg: 11.5  -111/-118
+no arb Jarrett Allen reb
+fd: 10.5  -106/-114
+dk: 10.5  -115/-115
+pb: 10.5  -105/-125
+mg: 10.5  -118/-111
+no arb Joel Embiid reb
+fd: 10.5  -115/-105
+dk: 10.5  -120/-110
+pb: 10.5  -110/-120
+mg: 10.5  -125/-105
+no arb Jusuf Nurkic reb
+fd: 10.5  -130/106
+dk: 10.5  -140/105
+pb: 10.5  -130/100
+mg: 10.5  -139/105
+no arb Jakob Poeltl reb
+fd: 10.5  104/-128
+dk: 9.5  -145/110
+pb: 9.5  -160/125
+mg: 9.5  -149/110
+no arb Luka Doncic reb
+fd: 8.5  -122/100
+dk: 8.5  -125/-105
+pb: 9.5  135/-175
+mg: 8.5  -125/-105
+no arb Kyle Kuzma reb
+fd: 9.5  -110/-110
+dk: 9.5  -105/-130
+pb: 9.5  100/-130
+mg: 9.5  -105/-128
+no arb Bobby Portis reb
+dk: 9.5  110/-145
+fd: 8.5  -132/108
+pb: 9.5  120/-150
+mg: 9.5  110/-143
+no arb Jayson Tatum reb
+fd: 9.5  100/-122
+dk: 9.5  105/-140
+pb: null  0/0
+mg: 9.5  105/-139
+no arb Karl-Anthony Towns reb
+fd: 9.5  -114/-106
+dk: 9.5  -115/-115
+pb: 9.5  -120/-110
+mg: 9.5  -115/-115
+no arb Jarred Vanderbilt reb
+fd: 9.5  -120/-102
+dk: 9.5  -120/-110
+pb: 9.5  -125/-105
+mg: 9.5  -120/-111
+no arb Christian Wood reb
+fd: 9.5  -102/-120
+dk: 9.5  -115/-115
+pb: null  0/0
+mg: 9.5  -125/-110
+no arb Steven Adams reb
+fd: 8.5  -122/100
+dk: 8.5  -120/-110
+pb: 8.5  -135/105
+mg: 8.5  -120/-110
+no arb Bam Adebayo reb
+fd: 8.5  -122/100
+dk: 8.5  -125/-105
+pb: 8.5  -135/105
+mg: 8.5  -125/-105
+no arb John Collins reb
+fd: 8.5  -115/-105
+dk: 8.5  -130/-105
+pb: 8.5  -125/-105
+mg: 8.5  -128/-105
+no arb James Harden reb
+fd: 8.5  112/-138
+dk: 8.5  115/-155
+pb: 7.5  -160/125
+mg: 8.5  115/-154
+no arb Al Horford reb
+dk: 8.5  -110/-125
+fd: 7.5  -110/-110
+pb: null  0/0
+mg: 8.5  -110/-125
+no arb LeBron James reb
+fd: 7.5  -118/-104
+dk: 7.5  -130/100
+pb: 8.5  125/-160
+mg: 7.5  -133/100
+no arb Evan Mobley reb
+dk: 8.5  115/-150
+fd: 7.5  -140/114
+pb: 8.5  115/-145
+mg: 8.5  115/-149
+no arb Dejounte Murray reb
+fd: 8.5  102/-124
+dk: 8.5  -105/-125
+pb: 8.5  105/-135
+mg: 8.5  -111/-118
+no arb Onyeka Okongwu reb
+fd: 8.5  -110/-110
+dk: 8.5  -115/-115
+pb: 7.5  -210/160
+mg: 8.5  -128/-105
+no arb Marvin Bagley reb
+fd: 7.5  110/-134
+dk: 7.5  -105/-130
+pb: 7.5  -105/-125
+mg: 7.5  -105/-128
+no arb Miles Bridges reb
+fd: 7.5  112/-138
+dk: 7.5  105/-140
+pb: 6.5  -160/125
+mg: 7.5  105/-139
+no arb Josh Giddey reb
+fd: 7.5  -102/-120
+dk: 7.5  -115/-115
+pb: 6.5  -180/140
+mg: 7.5  -120/-110
+no arb Tobias Harris reb
+fd: 7.5  110/-134
+dk: 6.5  -150/115
+pb: 6.5  -130/100
+mg: 6.5  -154/115
+no arb Dwight Howard reb
+fd: 7.5  110/-134
+dk: 7.5  100/-130
+pb: 7.5  -105/-125
+mg: 7.5  100/-128
+no arb Kristaps Porzingis reb
+fd: 7.5  -114/-106
+dk: 7.5  -130/-105
+pb: 7.5  -125/-105
+mg: 7.5  -128/-105
+no arb Day'Ron Sharpe reb
+fd: 7.5  106/-130
+dk: 7.5  -105/-130
+pb: 7.5  -105/-125
+mg: null  0/0
+no arb Pascal Siakam reb
+fd: 7.5  -114/-106
+dk: 7.5  -110/-120
+pb: 7.5  -105/-125
+mg: 7.5  -111/-120
+no arb Isaiah Stewart reb
+fd: 7.5  -115/-105
+dk: 7.5  -110/-120
+pb: 7.5  -120/-110
+mg: 7.5  -111/-118
+no arb Russell Westbrook reb
+fd: 7.5  -120/-102
+dk: 7.5  -125/-105
+pb: 7.5  -120/-110
+mg: 7.5  -125/-105
+no arb Cole Anthony reb
+fd: 6.5  110/-134
+dk: 6.5  120/-155
+pb: 5.5  -120/-110
+mg: 6.5  115/-154
+no arb LaMelo Ball reb
+fd: 5.5  -140/112
+dk: 5.5  -150/110
+pb: 6.5  145/-190
+mg: 5.5  -149/110
+no arb Scottie Barnes reb
+fd: 6.5  116/-142
+dk: 6.5  100/-135
+pb: 5.5  -150/120
+mg: 6.5  115/-149
+no arb Jaylen Brown reb
+fd: 6.5  -110/-110
+dk: 6.5  -145/110
+pb: null  0/0
+mg: 6.5  -143/110
+no arb Jimmy Butler reb
+fd: 6.5  -104/-118
+dk: 6.5  -105/-125
+pb: 6.5  -115/-115
+mg: 6.5  -111/-118
+no arb Robert Covington reb
+fd: 6.5  116/-142
+dk: 6.5  120/-160
+pb: 5.5  -175/135
+mg: 6.5  115/-154
+no arb Andre Drummond reb
+fd: 6.5  -115/-105
+dk: 6.5  -135/100
+pb: 6.5  -130/100
+mg: null  0/0
+no arb Montrezl Harrell reb
+fd: 6.5  -110/-110
+dk: 6.5  -115/-115
+pb: 6.5  -125/-105
+mg: 6.5  -115/-115
+no arb Richaun Holmes reb
+fd: 6.5  -106/-114
+dk: 6.5  -105/-125
+pb: 6.5  -105/-125
+mg: 6.5  -105/-128
+no arb Keldon Johnson reb
+fd: 6.5  -128/104
+dk: 6.5  -155/115
+pb: 6.5  -135/105
+mg: 6.5  -154/115
+no arb Kevin Love reb
+fd: 6.5  116/-142
+dk: 6.5  100/-130
+pb: 6.5  105/-135
+mg: 6.5  100/-128
 no arb Khris Middleton reb
-fd: 5.5  116/-142
-dk: 4.5  -155/115
+dk: 6.5  110/-145
+fd: 5.5  -124/102
+pb: 6.5  110/-140
+mg: 6.5  110/-143
+no arb Mason Plumlee reb
+fd: 6.5  102/-124
+dk: 6.5  115/-155
+pb: 6.5  -115/-115
+mg: 6.5  105/-139
+no arb Jeremiah Robinson-Earl reb
+fd: 6.5  102/-124
+dk: 6.5  -110/-125
+pb: 5.5  -175/135
+mg: 6.5  -110/-120
+no arb Ivica Zubac reb
+fd: 6.5  -102/-120
+dk: 6.5  105/-140
+pb: 6.5  -115/-115
+mg: 6.5  105/-143
+no arb Harrison Barnes reb
+fd: 5.5  -102/-120
+dk: 5.5  -105/-130
+pb: 5.5  -125/-105
+mg: 5.5  -105/-128
+no arb Saddiq Bey reb
+fd: 5.5  114/-140
+dk: 4.5  -145/110
+pb: 4.5  -170/130
+mg: 4.5  -149/115
+no arb Hamidou Diallo reb
+fd: 5.5  -122/100
+dk: 5.5  -120/-110
+pb: 5.5  -125/-105
+mg: 5.5  -118/-111
+no arb Kessler Edwards reb
+dk: 5.5  100/-130
+fd: 4.5  -144/118
+pb: 5.5  120/-150
+mg: 5.5  100/-128
+no arb Shai Gilgeous-Alexander reb
+fd: 5.5  102/-124
+dk: 5.5  -110/-120
 pb: 5.5  105/-135
-mg: 4.5  -154/115
-no arb Chris Paul reb
+mg: 5.5  -120/-110
+no arb Aaron Gordon reb
+fd: 5.5  -140/114
+dk: 5.5  -135/105
+pb: 5.5  -150/120
+mg: 5.5  -139/105
+no arb Kyrie Irving reb
+fd: 5.5  114/-140
 dk: 5.5  115/-150
-fd: 4.5  -140/114
+pb: 5.5  105/-135
+mg: 5.5  115/-149
+no arb Jaren Jackson reb
+fd: 5.5  -112/-108
+dk: 5.5  -105/-125
+pb: 5.5  -125/-105
+mg: 5.5  -110/-120
+no arb Nassir Little reb
+fd: 5.5  -138/112
+dk: 5.5  -145/110
+pb: 5.5  -145/115
+mg: 5.5  -149/110
+no arb Lauri Markkanen reb
+fd: 5.5  114/-140
+dk: 5.5  105/-140
+pb: 5.5  120/-150
+mg: 5.5  100/-133
+no arb Ja Morant reb
+fd: 5.5  -106/-114
+dk: 5.5  -120/-110
+pb: 5.5  -115/-115
+mg: 5.5  -120/-111
+no arb Marcus Morris reb
+fd: 5.5  118/-144
+dk: 5.5  125/-165
 pb: 5.5  130/-170
-mg: 5.5  115/-154
-no arb DeAndre' Bembry reb
-fd: 4.5  122/-150
-dk: 3.5  -165/125
-pb: 3.5  -175/135
-mg: 3.5  -161/125
+mg: 5.5  125/-167
+no arb Royce O'Neale reb
+fd: 5.5  -108/-112
+dk: 5.5  100/-135
+pb: 5.5  -120/-110
+mg: 5.5  100/-133
+no arb Jae'Sean Tate reb
+fd: 5.5  -120/-102
+dk: 5.5  -135/100
+pb: 5.5  -130/100
+mg: 5.5  -133/100
+no arb Franz Wagner reb
+fd: 5.5  100/-122
+dk: 5.5  100/-130
+pb: null  0/0
+mg: 5.5  100/-133
+no arb OG Anunoby reb
+fd: 4.5  116/-142
+dk: 4.5  110/-150
+pb: 4.5  110/-140
+mg: 4.5  115/-149
+no arb Will Barton reb
+fd: 4.5  106/-130
+dk: 4.5  -110/-120
+pb: 4.5  -105/-125
+mg: 4.5  -110/-120
+no arb Bradley Beal reb
+fd: 4.5  120/-148
+dk: 4.5  110/-145
+pb: 4.5  110/-140
+mg: 4.5  110/-143
+no arb Patrick Beverley reb
+fd: 4.5  -104/-118
+dk: 4.5  -110/-120
+pb: 4.5  -115/-115
+mg: 4.5  -111/-120
+no arb Bojan Bogdanovic reb
+fd: 4.5  -132/108
+dk: 4.5  -155/115
+pb: 4.5  -135/105
+mg: 4.5  -154/115
+no arb Jordan Clarkson reb
+fd: 4.5  118/-144
+dk: 4.5  130/-170
+pb: 4.5  110/-140
+mg: 4.5  130/-167
+no arb Amir Coffey reb
+fd: 4.5  -112/-108
+dk: 4.5  -115/-115
+pb: 4.5  -105/-125
+mg: 4.5  -118/-115
+no arb Cade Cunningham reb
+fd: 4.5  -128/104
+dk: 4.5  -120/-110
+pb: 4.5  -135/105
+mg: 4.5  -120/-110
+no arb DeMar DeRozan reb
+fd: 4.5  -144/118
+dk: 4.5  -150/115
+pb: 4.5  -135/105
+mg: 4.5  -154/115
+no arb Spencer Dinwiddie reb
+fd: 4.5  116/-142
+dk: 4.5  115/-155
+pb: 4.5  100/-130
+mg: 4.5  115/-154
+no arb Luguentz Dort reb
+fd: 4.5  -102/-120
+dk: 4.5  -110/-120
+pb: 4.5  100/-130
+mg: 4.5  -120/-111
+no arb Chris Duarte reb
+fd: 4.5  -105/-115
+dk: 4.5  -115/-115
+pb: 4.5  -115/-115
+mg: 4.5  -115/-115
+no arb Anthony Edwards reb
+fd: 4.5  -112/-108
+dk: 4.5  -120/-110
+pb: 4.5  -110/-120
+mg: 4.5  -120/-111
+no arb Dorian Finney-Smith reb
+fd: 4.5  114/-140
+dk: 4.5  -105/-130
+pb: 4.5  100/-130
+mg: 4.5  100/-133
+no arb De'Aaron Fox reb
+fd: 3.5  -134/110
+dk: 3.5  -135/105
+pb: 4.5  145/-190
+mg: 3.5  -139/105
+no arb Danilo Gallinari reb
+fd: 4.5  -132/108
+dk: 4.5  -165/125
+pb: 4.5  -150/120
+mg: 4.5  -161/120
+no arb Gordon Hayward reb
+fd: 4.5  -106/-114
+dk: 4.5  -125/-105
+pb: 4.5  -115/-115
+mg: 4.5  -125/-110
+no arb Kevin Huerter reb
+fd: 4.5  102/-124
+dk: 4.5  -115/-115
+pb: 4.5  -115/-115
+mg: 4.5  -115/-115
+no arb De'Andre Hunter reb
+fd: 4.5  112/-140
+dk: 4.5  115/-155
+pb: 4.5  115/-145
+mg: 4.5  115/-149
+no arb Caris LeVert reb
+fd: 4.5  100/-122
+dk: 4.5  -125/-110
+pb: 4.5  -115/-115
+mg: 4.5  -125/-110
+no arb Kevin Porter reb
+fd: 4.5  118/-144
+dk: 4.5  105/-140
+pb: 4.5  120/-150
+mg: 4.5  105/-139
 no arb Terry Rozier reb
 fd: 4.5  116/-142
-dk: 3.5  -170/130
-pb: 4.5  115/-145
-mg: 3.5  -167/125
-no arb Caris LeVert ast
-fd: 7.5  116/-142
-dk: 6.5  -155/115
-pb: 7.5  110/-140
-mg: 6.5  -154/115
-no arb Mike Conley ast
-dk: 5.5  120/-160
-fd: 4.5  -144/118
-pb: 4.5  -160/125
-mg: 5.5  120/-161
-no arb Jalen Suggs ast
-dk: 5.5  120/-160
-fd: 4.5  -158/128
-pb: null  0/0
-mg: 5.5  120/-154
-no arb Bam Adebayo ast
-dk: 4.5  125/-165
+dk: 4.5  110/-145
+pb: 4.5  120/-150
+mg: 4.5  110/-143
+no arb P.J. Tucker reb
+fd: 4.5  -132/108
+dk: 4.5  -145/110
+pb: 4.5  -130/100
+mg: 4.5  -143/105
+no arb Fred VanVleet reb
+fd: 4.5  118/-144
+dk: 4.5  130/-170
+pb: 4.5  140/-180
+mg: 4.5  125/-167
+no arb Trae Young reb
 fd: 3.5  -150/122
-pb: 4.5  110/-140
-mg: 4.5  125/-161
-no arb Kevin Huerter ast
-fd: 3.5  136/-168
-dk: 2.5  -175/130
+dk: 3.5  -165/125
+pb: 4.5  145/-190
+mg: 3.5  -161/125
+no arb Grayson Allen reb
+fd: 3.5  118/-144
+dk: 3.5  130/-175
+pb: 3.5  110/-140
+mg: 3.5  125/-167
+no arb Jalen Brunson reb
+fd: 3.5  -102/-120
+dk: 3.5  -115/-115
+pb: 3.5  -115/-115
+mg: 3.5  -115/-115
+no arb Kentavious Caldwell-Pope reb
+fd: 3.5  114/-140
+dk: 3.5  115/-155
 pb: 3.5  125/-160
-mg: 2.5  -175/130
-no arb Kemba Walker ast
-fd: 3.5  130/-160
-dk: 2.5  -170/125
+mg: 3.5  115/-154
+no arb Mike Conley reb
+fd: 3.5  -108/-112
+dk: 3.5  -135/100
+pb: 3.5  -125/-105
+mg: 3.5  -133/100
+no arb Seth Curry reb
+fd: 3.5  132/-162
+dk: 3.5  135/-180
+pb: 3.5  135/-175
+mg: 3.5  135/-182
+no arb Darius Garland reb
+fd: 3.5  100/-122
+dk: 3.5  -105/-125
+pb: 3.5  -110/-120
+mg: 3.5  -105/-125
+no arb Jeff Green reb
+fd: 3.5  118/-144
+dk: 3.5  110/-145
+pb: 3.5  110/-140
+mg: 3.5  110/-143
+no arb Jalen Green reb
+fd: 3.5  118/-144
+dk: 3.5  120/-160
+pb: 3.5  125/-160
+mg: 3.5  120/-161
+no arb Tim Hardaway reb
+fd: 3.5  120/-148
+dk: 3.5  120/-160
 pb: 3.5  115/-145
+mg: 3.5  120/-161
+no arb Buddy Hield reb
+fd: 3.5  -110/-110
+dk: 3.5  -120/-110
+pb: 3.5  -120/-110
+mg: 3.5  -120/-110
+no arb Justin Holiday reb
+fd: 3.5  122/-150
+dk: 3.5  110/-150
+pb: 3.5  105/-135
+mg: 3.5  110/-149
+no arb Joe Ingles reb
+fd: 3.5  110/-134
+dk: 3.5  115/-155
+pb: 3.5  100/-130
+mg: 3.5  115/-149
+no arb Reggie Jackson reb
+fd: 3.5  128/-158
+dk: 3.5  125/-170
+pb: 3.5  125/-160
+mg: 3.5  125/-167
+no arb Furkan Korkmaz reb
+fd: 3.5  -122/100
+dk: 3.5  -135/100
+pb: 3.5  -115/-115
+mg: 3.5  -133/100
+no arb Tyrese Maxey reb
+fd: 3.5  106/-130
+dk: 3.5  -105/-130
+pb: 3.5  110/-140
+mg: 3.5  100/-128
+no arb CJ McCollum reb
+fd: 3.5  120/-148
+dk: 3.5  110/-145
+pb: 3.5  115/-145
+mg: 3.5  110/-149
+no arb Isaac Okoro reb
+fd: 3.5  116/-142
+dk: 3.5  115/-150
+pb: 3.5  120/-150
+mg: 3.5  110/-149
+no arb D'Angelo Russell reb
+fd: 2.5  -158/128
+dk: 2.5  -170/130
+pb: 3.5  150/-200
 mg: 2.5  -167/125
+no arb Dennis Schroder reb
+fd: 3.5  -102/-120
+dk: 3.5  -125/-105
+pb: null  0/0
+mg: 3.5  -128/-105
+no arb Anfernee Simons reb
+fd: 3.5  134/-164
+dk: 2.5  -155/120
+pb: 3.5  130/-170
+mg: 2.5  -161/120
+no arb Max Strus reb
+fd: 3.5  -122/100
+dk: 3.5  -145/110
+pb: 3.5  -130/100
+mg: 3.5  -143/105
+no arb Derrick White reb
+fd: 3.5  -122/100
+dk: 3.5  -125/-105
+pb: 3.5  -125/-105
+mg: 3.5  -139/105
+no arb Coby White reb
+fd: 3.5  122/-150
+dk: 3.5  120/-160
+pb: 3.5  125/-160
+mg: 3.5  120/-161
+no arb Avery Bradley reb
+fd: 2.5  132/-162
+dk: 2.5  130/-175
+pb: 2.5  130/-170
+mg: 2.5  130/-175
+no arb Gary Harris reb
+fd: 2.5  122/-150
+dk: 2.5  105/-140
+pb: 2.5  115/-145
+mg: null  0/0
+no arb Cory Joseph reb
+fd: 2.5  -158/128
+dk: 2.5  -175/130
+pb: 2.5  -180/140
+mg: 2.5  -175/130
+no arb Doug McDermott reb
+fd: 2.5  -134/110
+dk: 2.5  -135/105
+pb: 2.5  -145/115
+mg: 2.5  -139/105
+no arb Patty Mills reb
+fd: 2.5  116/-142
+dk: 2.5  125/-165
+pb: 2.5  115/-145
+mg: 2.5  120/-161
+no arb Monte Morris reb
+fd: 2.5  -102/-120
+dk: 2.5  100/-135
+pb: 2.5  -105/-125
+mg: 2.5  100/-128
+no arb Duncan Robinson reb
+fd: 2.5  -162/132
+dk: 2.5  -155/120
+pb: 2.5  -175/135
+mg: 2.5  -161/125
+no arb Gabe Vincent reb
+fd: 2.5  -142/116
+dk: 2.5  -150/110
+pb: 2.5  -160/125
+mg: 2.5  -149/110
+no arb Ziaire Williams reb
+fd: 2.5  116/-142
+dk: 2.5  115/-150
+pb: 2.5  105/-135
+mg: 2.5  115/-149
+no arb Eric Gordon reb
+fd: 1.5  -144/118
+dk: 1.5  -160/120
+pb: 1.5  -150/120
+mg: 1.5  -161/120
+no arb James Harden ast
+fd: 10.5  104/-128
+dk: 10.5  100/-135
+pb: 10.5  -105/-125
+mg: 10.5  100/-133
+no arb Trae Young ast
+fd: 10.5  106/-130
+dk: 10.5  100/-130
+pb: 10.5  105/-135
+mg: 10.5  100/-133
+no arb Darius Garland ast
+fd: 9.5  -110/-110
+dk: 9.5  100/-130
+pb: 9.5  -105/-125
+mg: 9.5  100/-128
+no arb Luka Doncic ast
+fd: 8.5  -122/100
+dk: 8.5  -135/100
+pb: 8.5  -135/105
+mg: 8.5  -133/100
+no arb Nikola Jokic ast
+fd: 8.5  106/-130
+dk: 8.5  105/-140
+pb: 8.5  110/-140
+mg: 8.5  105/-139
+no arb Dejounte Murray ast
+fd: 8.5  -118/-104
+dk: 8.5  -120/-110
+pb: 8.5  -125/-105
+mg: 8.5  -120/-110
+no arb Jimmy Butler ast
+fd: 7.5  -142/116
+dk: 7.5  -145/110
+pb: 7.5  -140/110
+mg: 7.5  -128/-105
+no arb Russell Westbrook ast
+dk: 7.5  110/-150
+fd: 6.5  -142/116
+pb: 7.5  115/-145
+mg: 7.5  100/-128
+no arb LaMelo Ball ast
+fd: 6.5  -128/104
+dk: 6.5  -135/100
+pb: 6.5  -130/100
+mg: 6.5  -133/100
+no arb Mike Conley ast
+fd: 6.5  -122/100
+dk: 6.5  -135/100
+pb: 6.5  -130/100
+mg: 6.5  -133/100
+no arb DeMar DeRozan ast
+dk: 6.5  115/-155
+fd: 5.5  -138/112
+pb: 5.5  -130/100
+mg: 6.5  115/-154
+no arb De'Aaron Fox ast
+fd: 6.5  -130/106
+dk: 6.5  -155/115
+pb: 6.5  -145/115
+mg: 6.5  -154/115
+no arb Josh Giddey ast
+fd: 6.5  -106/-114
+dk: 6.5  -115/-115
+pb: 6.5  -105/-125
+mg: 6.5  -118/-115
+no arb LeBron James ast
+fd: 6.5  -130/106
+dk: 6.5  -150/110
+pb: 6.5  -145/115
+mg: 6.5  -149/110
+no arb Ja Morant ast
+fd: 6.5  -104/-118
+dk: 6.5  -135/100
+pb: 6.5  -110/-120
+mg: 6.5  -120/-110
+no arb D'Angelo Russell ast
+fd: 6.5  -102/-120
+dk: 6.5  -105/-130
+pb: 6.5  -115/-115
+mg: 6.5  -105/-128
+no arb Fred VanVleet ast
+fd: 6.5  100/-122
+dk: 6.5  105/-145
+pb: 6.5  105/-135
+mg: 6.5  110/-143
+no arb Giannis Antetokounmpo ast
+fd: 5.5  -128/104
+dk: 5.5  -160/120
+pb: 5.5  -140/110
+mg: 5.5  -161/120
+no arb Bradley Beal ast
+fd: 5.5  -132/108
+dk: 5.5  -135/100
+pb: 5.5  -145/115
+mg: 5.5  -133/100
+no arb Jalen Brunson ast
+fd: 5.5  -114/-106
+dk: 5.5  -105/-125
+pb: 5.5  -125/-105
+mg: 5.5  -105/-125
+no arb Cade Cunningham ast
+fd: 4.5  -150/122
+dk: 4.5  -160/120
+pb: 5.5  110/-140
+mg: 4.5  -161/120
+no arb Spencer Dinwiddie ast
+fd: 5.5  -104/-118
+dk: 5.5  -110/-120
+pb: 5.5  -115/-115
+mg: 5.5  -110/-120
+no arb Shai Gilgeous-Alexander ast
+fd: 5.5  -115/-105
+dk: 5.5  -135/100
+pb: 5.5  -115/-115
+mg: 5.5  -133/100
+no arb Kyrie Irving ast
+fd: 5.5  114/-140
+dk: 4.5  -165/120
+pb: 5.5  100/-130
+mg: 4.5  -149/110
+no arb Caris LeVert ast
+fd: 5.5  118/-144
+dk: 4.5  -160/120
+pb: 4.5  -160/125
+mg: 4.5  -161/120
+no arb Khris Middleton ast
+fd: 5.5  116/-142
+dk: 5.5  105/-140
+pb: 5.5  105/-135
+mg: 5.5  105/-139
+no arb Kevin Porter ast
+fd: 5.5  118/-144
+dk: 5.5  110/-145
+pb: 5.5  115/-145
+mg: 5.5  105/-143
+no arb Domantas Sabonis ast
+fd: 5.5  -110/-110
+dk: 5.5  -125/-105
+pb: 5.5  -105/-125
+mg: 5.5  -125/-105
+no arb Dennis Schroder ast
+fd: 5.5  104/-128
+dk: 5.5  -125/-105
+pb: null  0/0
+mg: 5.5  -125/-105
+no arb Pascal Siakam ast
+fd: 5.5  100/-122
+dk: 5.5  110/-145
+pb: 5.5  -105/-125
+mg: 5.5  110/-143
+no arb Anfernee Simons ast
+fd: 5.5  -134/110
+dk: 5.5  -145/110
+pb: 5.5  -135/105
+mg: 5.5  -143/110
+no arb Derrick White ast
+fd: 5.5  -122/100
+dk: 5.5  -125/-105
+pb: 5.5  -125/-105
+mg: 5.5  -125/-105
+no arb Bam Adebayo ast
+fd: 4.5  122/-150
+dk: 4.5  125/-170
+pb: 4.5  120/-150
+mg: 4.5  125/-167
+no arb Cole Anthony ast
+fd: 4.5  -140/114
+dk: 4.5  -150/115
+pb: 4.5  -130/100
+mg: 4.5  -149/115
+no arb Patrick Beverley ast
+fd: 4.5  -124/102
+dk: 4.5  -130/100
+pb: 4.5  -130/100
+mg: 4.5  -133/100
+no arb Seth Curry ast
+fd: 4.5  -114/-106
+dk: 4.5  -140/105
+pb: null  0/0
+mg: 4.5  -143/105
+no arb Joel Embiid ast
+fd: 4.5  122/-150
+dk: 4.5  120/-160
+pb: 4.5  130/-170
+mg: 4.5  120/-161
+no arb Al Horford ast
+dk: 4.5  110/-145
+fd: 3.5  100/-122
+pb: null  0/0
+mg: 4.5  110/-143
+no arb Joe Ingles ast
+fd: 4.5  -104/-118
+dk: 4.5  -115/-115
+pb: 4.5  -115/-115
+mg: 4.5  -115/-118
+no arb Cory Joseph ast
+fd: 4.5  -144/118
+dk: 4.5  -155/115
+pb: 4.5  -135/105
+mg: 4.5  -154/115
+no arb Tyrese Maxey ast
+fd: 4.5  120/-148
+dk: 3.5  -180/135
+pb: 4.5  125/-160
+mg: 3.5  -167/125
+ARB Jayson Tatum ast
+fd: 4.5  114/-140
+dk: 4.5  -135/100
+pb: null  0/0
+mg: 4.5  -133/100
+no arb Gabe Vincent ast
+fd: 4.5  -102/-120
+dk: 4.5  100/-135
+pb: 4.5  -115/-115
+mg: 4.5  -115/-118
+no arb Steven Adams ast
+fd: 3.5  128/-158
+dk: 3.5  125/-165
+pb: 3.5  120/-150
+mg: 3.5  125/-167
+no arb Harrison Barnes ast
+fd: 3.5  132/-162
+dk: 3.5  115/-150
+pb: 3.5  120/-150
+mg: 3.5  110/-149
+no arb Scottie Barnes ast
+fd: 2.5  -164/134
+dk: 2.5  -185/135
+pb: 3.5  140/-180
+mg: 2.5  -182/135
+no arb Will Barton ast
+fd: 3.5  -122/100
+dk: 3.5  -135/100
+pb: 3.5  -135/105
+mg: 3.5  -133/100
+no arb Miles Bridges ast
+fd: 3.5  124/-152
+dk: 3.5  130/-175
+pb: 3.5  115/-145
+mg: 3.5  125/-167
+ARB Jaylen Brown ast
+fd: 3.5  110/-134
+dk: 3.5  -125/-105
+pb: null  0/0
+mg: 3.5  -125/-105
+no arb Anthony Edwards ast
+fd: 3.5  122/-150
+dk: 3.5  125/-170
+pb: 3.5  125/-160
+mg: 3.5  125/-167
+no arb Tobias Harris ast
+fd: 3.5  -105/-115
+dk: 3.5  100/-135
+pb: 3.5  -105/-125
+mg: 3.5  100/-133
+no arb Kevin Huerter ast
+fd: 3.5  112/-138
+dk: 3.5  -110/-120
+pb: 3.5  105/-135
+mg: 3.5  -110/-120
+no arb Reggie Jackson ast
+fd: 3.5  -112/-110
+dk: 3.5  -125/-105
+pb: 3.5  -130/100
+mg: 3.5  -111/-118
+no arb CJ McCollum ast
+fd: 3.5  -134/110
+dk: 3.5  -180/130
+pb: 3.5  -140/110
+mg: 3.5  -161/120
+no arb Evan Mobley ast
+fd: 3.5  134/-164
+dk: 3.5  135/-180
+pb: 3.5  140/-180
+mg: 3.5  135/-182
+no arb Monte Morris ast
+fd: 3.5  -112/-108
+dk: 3.5  -110/-120
+pb: 3.5  -125/-105
+mg: 3.5  -115/-115
+no arb Jusuf Nurkic ast
+fd: 3.5  122/-150
+dk: 3.5  115/-155
+pb: 3.5  115/-145
+mg: 3.5  130/-175
+no arb Terry Rozier ast
+fd: 3.5  -118/-104
+dk: 3.5  -130/100
+pb: 3.5  -115/-115
+mg: 3.5  -139/105
+no arb Karl-Anthony Towns ast
+fd: 3.5  -102/-120
+dk: 3.5  -110/-120
+pb: 3.5  105/-135
+mg: 3.5  -110/-120
+no arb Nikola Vucevic ast
+fd: 3.5  -120/-102
+dk: 3.5  -135/100
+pb: 3.5  -125/-105
+mg: 3.5  -133/100
+no arb Coby White ast
+fd: 3.5  -110/-110
+dk: 3.5  -115/-115
+pb: 3.5  -115/-115
+mg: 3.5  -111/-118
+no arb OG Anunoby ast
+fd: 2.5  146/-180
+dk: 2.5  150/-200
+pb: 2.5  145/-190
+mg: 2.5  145/-200
+no arb Bojan Bogdanovic ast
+fd: 2.5  116/-142
+dk: 2.5  105/-140
+pb: 2.5  120/-150
+mg: 2.5  105/-139
+no arb Jordan Clarkson ast
+fd: 2.5  -138/112
+dk: 2.5  -160/120
+pb: 2.5  -150/120
+mg: 2.5  -161/120
+no arb Amir Coffey ast
+fd: 2.5  -142/116
+dk: 2.5  -160/120
+pb: 2.5  -170/130
+mg: 2.5  -161/120
+no arb Chris Duarte ast
+fd: 2.5  134/-164
+dk: 2.5  125/-165
+pb: 2.5  120/-150
+mg: 2.5  120/-161
+no arb Aaron Gordon ast
+fd: 2.5  114/-140
+dk: 2.5  115/-155
+pb: 2.5  100/-130
+mg: 2.5  115/-154
+no arb Eric Gordon ast
+fd: 2.5  -114/-106
+dk: 2.5  -130/100
+pb: 2.5  -125/-105
+mg: 2.5  -133/100
+no arb Gordon Hayward ast
+fd: 2.5  -170/138
+dk: 2.5  -185/135
+pb: 2.5  -175/135
+mg: 2.5  -175/135
+no arb Buddy Hield ast
+fd: 2.5  -138/112
+dk: 2.5  -160/120
+pb: 2.5  -145/115
+mg: 2.5  -161/120
+no arb Furkan Korkmaz ast
+fd: 2.5  104/-128
+dk: 2.5  110/-145
+pb: 2.5  105/-135
+mg: 2.5  110/-143
+no arb Kyle Kuzma ast
+fd: 2.5  -140/114
+dk: 2.5  -140/105
+pb: 2.5  -145/115
+mg: 2.5  -143/105
+no arb Patty Mills ast
+fd: 2.5  118/-144
+dk: 2.5  105/-140
+pb: 2.5  110/-140
+mg: 2.5  105/-139
+no arb Marcus Morris ast
+fd: 2.5  136/-168
+dk: 2.5  145/-200
+pb: 2.5  150/-200
+mg: 2.5  145/-200
+no arb Royce O'Neale ast
+fd: 2.5  -142/116
+dk: 2.5  -140/105
+pb: 2.5  -140/110
+mg: 2.5  -143/105
+no arb Mason Plumlee ast
+fd: 2.5  -105/-115
+dk: 2.5  -105/-125
+pb: 2.5  -105/-125
+mg: 2.5  -110/-120
+no arb Jakob Poeltl ast
+fd: 2.5  -102/-120
+dk: 2.5  100/-135
+pb: 2.5  -115/-115
+mg: 2.5  100/-133
+no arb Jae'Sean Tate ast
+fd: 2.5  -130/106
+dk: 2.5  -135/100
+pb: 2.5  -130/100
+mg: 2.5  -133/100
+no arb P.J. Tucker ast
+fd: 2.5  122/-150
+dk: 2.5  110/-150
+pb: 2.5  120/-150
+mg: 2.5  110/-149
+no arb Franz Wagner ast
+fd: 2.5  -120/-102
+dk: 2.5  -130/-105
+pb: null  0/0
+mg: 2.5  -128/-105
+no arb Bojan Bogdanovic threes
+fd: 3.5  116/-148
+dk: 3.5  110/-145
+pb: null  0/0
+mg: null  0/0
+no arb Jaylen Brown threes
+fd: 3.5  120/-154
+dk: 2.5  -155/120
+pb: null  0/0
+mg: 2.5  -161/120
+no arb Jordan Clarkson threes
+fd: 3.5  -102/-125
+dk: 3.5  100/-130
+pb: null  0/0
+mg: 3.5  100/-128
+no arb Anthony Edwards threes
+fd: 3.5  136/-174
+dk: 3.5  135/-175
+pb: null  0/0
+mg: null  0/0
+no arb Buddy Hield threes
+fd: 3.5  124/-158
+dk: 3.5  130/-170
+pb: null  0/0
+mg: null  0/0
+no arb Duncan Robinson threes
+fd: 3.5  134/-172
+dk: 3.5  130/-170
+pb: null  0/0
+mg: 3.5  130/-167
+no arb Anfernee Simons threes
+fd: 3.5  114/-146
+dk: 3.5  115/-150
+pb: null  0/0
+mg: null  0/0
+no arb Jayson Tatum threes
+fd: 3.5  142/-184
+dk: 2.5  -150/115
+pb: null  0/0
+mg: 2.5  -154/115
+no arb Fred VanVleet threes
+fd: 3.5  -162/126
+dk: 3.5  -170/130
+pb: null  0/0
+mg: 3.5  -167/125
+no arb Coby White threes
+dk: 3.5  150/-180
+fd: 2.5  -184/142
+pb: null  0/0
+mg: 3.5  110/-143
+no arb Grayson Allen threes
+fd: 2.5  132/-170
+dk: 2.5  140/-185
+pb: null  0/0
+mg: null  0/0
+no arb OG Anunoby threes
+fd: 2.5  -130/102
+dk: 2.5  -125/-105
+pb: null  0/0
+mg: 2.5  -125/-105
+no arb LaMelo Ball threes
+fd: 2.5  116/-148
+dk: 2.5  120/-155
+pb: null  0/0
+mg: null  0/0
+no arb Saddiq Bey threes
+fd: 2.5  -104/-122
+dk: 2.5  100/-130
+pb: null  0/0
+mg: null  0/0
+no arb Kentavious Caldwell-Pope threes
+fd: 2.5  146/-188
+dk: 2.5  150/-195
+pb: null  0/0
+mg: null  0/0
+no arb Mike Conley threes
+fd: 2.5  -130/102
+dk: 2.5  -135/105
+pb: null  0/0
+mg: 2.5  -133/100
+no arb Cade Cunningham threes
+dk: 2.5  140/-185
+fd: 1.5  -205/158
+pb: null  0/0
+mg: null  0/0
+no arb Seth Curry threes
+fd: 2.5  108/-138
+dk: 2.5  115/-145
+pb: null  0/0
+mg: null  0/0
+no arb Luka Doncic threes
+fd: 2.5  122/-156
+dk: 2.5  140/-180
+pb: null  0/0
+mg: 2.5  135/-182
+no arb Luguentz Dort threes
+fd: 2.5  108/-138
+dk: 2.5  100/-130
+pb: null  0/0
+mg: 2.5  -105/-128
+no arb Darius Garland threes
+fd: 2.5  132/-170
+dk: 2.5  130/-170
+pb: null  0/0
+mg: 2.5  130/-175
+no arb Eric Gordon threes
+fd: 2.5  132/-170
+dk: 2.5  150/-200
+pb: null  0/0
+mg: 2.5  145/-200
+no arb James Harden threes
+fd: 2.5  124/-160
+dk: 2.5  125/-165
+pb: null  0/0
+mg: null  0/0
+no arb Justin Holiday threes
+fd: 2.5  -113/-113
+dk: 2.5  -115/-115
+pb: null  0/0
+mg: null  0/0
+no arb Kevin Huerter threes
+fd: 2.5  136/-174
+dk: 2.5  125/-165
+pb: null  0/0
+mg: null  0/0
+no arb Joe Ingles threes
+fd: 2.5  104/-132
+dk: 2.5  120/-155
+pb: null  0/0
+mg: 2.5  115/-149
+no arb Kyrie Irving threes
+fd: 2.5  134/-172
+dk: 2.5  140/-180
+pb: null  0/0
+mg: 2.5  135/-182
+no arb Reggie Jackson threes
+fd: 2.5  126/-162
+dk: 2.5  120/-155
+pb: null  0/0
+mg: null  0/0
+no arb LeBron James threes
+fd: 2.5  -136/106
+dk: 2.5  -135/105
+pb: null  0/0
+mg: 2.5  -133/100
+no arb Keldon Johnson threes
+fd: 2.5  164/-215
+dk: 2.5  145/-190
+pb: null  0/0
+mg: null  0/0
+no arb Kevin Love threes
+fd: 2.5  126/-162
+dk: 2.5  135/-175
+pb: null  0/0
+mg: null  0/0
+no arb CJ McCollum threes
+fd: 2.5  -128/100
+dk: 2.5  -140/105
+pb: null  0/0
+mg: 2.5  -143/110
+no arb Doug McDermott threes
+fd: 2.5  148/-192
+dk: 1.5  -200/150
+pb: null  0/0
+mg: null  0/0
+no arb Khris Middleton threes
+fd: 2.5  106/-136
+dk: 2.5  105/-140
+pb: null  0/0
+mg: 2.5  105/-139
+no arb Patty Mills threes
+fd: 2.5  -122/-104
+dk: 2.5  -115/-110
+pb: null  0/0
+mg: null  0/0
+no arb Marcus Morris threes
+fd: 2.5  132/-170
+dk: 2.5  140/-180
+pb: null  0/0
+mg: 2.5  135/-182
+no arb Terry Rozier threes
+fd: 2.5  -150/118
+dk: 2.5  -150/115
+pb: null  0/0
+mg: 2.5  -149/110
+no arb D'Angelo Russell threes
+fd: 2.5  -166/130
+dk: 2.5  -150/115
+pb: null  0/0
+mg: null  0/0
+no arb Max Strus threes
+fd: 2.5  -178/138
+dk: 2.5  -180/140
+pb: null  0/0
+mg: null  0/0
+no arb Gabe Vincent threes
+fd: 2.5  -108/-118
+dk: 2.5  -105/-125
+pb: null  0/0
+mg: null  0/0
+no arb Nikola Vucevic threes
+fd: 2.5  154/-200
+dk: 2.5  150/-195
+pb: null  0/0
+mg: null  0/0
+no arb Trae Young threes
+fd: 2.5  -130/102
+dk: 2.5  -135/105
+pb: null  0/0
+mg: 2.5  -133/100
+no arb Giannis Antetokounmpo threes
+fd: 1.5  164/-215
+dk: 1.5  175/-235
+pb: null  0/0
+mg: 1.5  170/-227
+no arb Cole Anthony threes
+fd: 1.5  -158/124
+dk: 1.5  -150/115
+pb: null  0/0
+mg: null  0/0
+no arb Harrison Barnes threes
+fd: 1.5  -162/128
+dk: 1.5  -150/115
+pb: null  0/0
+mg: null  0/0
+no arb Will Barton threes
+fd: 1.5  -200/154
+dk: 1.5  -190/145
+pb: null  0/0
+mg: null  0/0
+no arb Bradley Beal threes
+fd: 1.5  -158/124
+dk: 1.5  -155/120
+pb: null  0/0
+mg: 1.5  -161/120
+no arb Patrick Beverley threes
+fd: 1.5  126/-162
+dk: 1.5  130/-170
+pb: null  0/0
+mg: null  0/0
+no arb Avery Bradley threes
+fd: 1.5  130/-166
+dk: 1.5  125/-165
+pb: null  0/0
+mg: null  0/0
+no arb Miles Bridges threes
+fd: 1.5  -156/122
+dk: 1.5  -150/115
+pb: null  0/0
+mg: null  0/0
+no arb Amir Coffey threes
+fd: 1.5  -170/132
+dk: 1.5  -155/120
+pb: null  0/0
+mg: null  0/0
+no arb John Collins threes
+fd: 1.5  -104/-122
+dk: 1.5  100/-130
+pb: null  0/0
+mg: 1.5  100/-133
+no arb Robert Covington threes
+fd: 1.5  -142/112
+dk: 1.5  -135/105
+pb: null  0/0
+mg: null  0/0
+no arb Spencer Dinwiddie threes
+fd: 1.5  -130/102
+dk: 1.5  -145/110
+pb: null  0/0
+mg: null  0/0
+no arb Chris Duarte threes
+fd: 1.5  -128/100
+dk: 1.5  -125/-105
+pb: null  0/0
+mg: null  0/0
+no arb Kessler Edwards threes
+fd: 1.5  112/-142
+dk: 1.5  120/-155
+pb: null  0/0
+mg: null  0/0
+no arb Joel Embiid threes
+fd: 1.5  124/-158
+dk: 1.5  120/-155
+pb: null  0/0
+mg: 1.5  115/-154
+no arb Dorian Finney-Smith threes
+fd: 1.5  -154/120
+dk: 1.5  -145/110
+pb: null  0/0
+mg: 1.5  -143/105
+no arb Danilo Gallinari threes
+fd: 1.5  -172/134
+dk: 1.5  -170/130
+pb: null  0/0
+mg: null  0/0
+no arb Josh Giddey threes
+fd: 1.5  128/-164
+dk: 1.5  130/-170
+pb: null  0/0
+mg: null  0/0
+no arb Shai Gilgeous-Alexander threes
+fd: 1.5  146/-188
+dk: 1.5  140/-185
+pb: null  0/0
+mg: 1.5  135/-182
+no arb Jalen Green threes
+fd: 1.5  -128/100
+dk: 1.5  -130/100
+pb: null  0/0
+mg: null  0/0
+no arb Tim Hardaway threes
+fd: 1.5  -186/144
+dk: 1.5  -190/145
+pb: null  0/0
+mg: 1.5  -189/145
+no arb Tobias Harris threes
+fd: 1.5  140/-180
+dk: 1.5  140/-185
+pb: null  0/0
+mg: 1.5  135/-182
+no arb Gary Harris threes
+fd: 1.5  104/-132
+dk: 1.5  110/-140
+pb: null  0/0
+mg: null  0/0
+no arb Gordon Hayward threes
+fd: 1.5  -142/112
+dk: 1.5  -145/115
+pb: null  0/0
+mg: 1.5  -143/110
+no arb Al Horford threes
+fd: 1.5  138/-178
+dk: 1.5  125/-165
+pb: null  0/0
+mg: null  0/0
+no arb De'Andre Hunter threes
+fd: 1.5  -128/100
+dk: 1.5  -115/-110
+pb: null  0/0
+mg: null  0/0
+no arb Jaren Jackson threes
+fd: 1.5  -146/114
+dk: 1.5  -145/115
+pb: null  0/0
+mg: null  0/0
+no arb Nikola Jokic threes
+fd: 1.5  116/-148
+dk: 1.5  110/-140
+pb: null  0/0
+mg: 1.5  105/-143
+no arb Cory Joseph threes
+fd: 1.5  -113/-113
+dk: 1.5  -110/-120
+pb: null  0/0
+mg: null  0/0
+no arb Furkan Korkmaz threes
+fd: 1.5  -108/-120
+dk: 1.5  -110/-115
+pb: null  0/0
+mg: null  0/0
+no arb Kyle Kuzma threes
+fd: 1.5  -132/106
+dk: 1.5  -140/105
+pb: null  0/0
+mg: null  0/0
+no arb Caris LeVert threes
+fd: 1.5  -146/114
+dk: 1.5  -160/120
+pb: null  0/0
+mg: null  0/0
+no arb Nassir Little threes
+fd: 1.5  -120/-106
+dk: 1.5  -120/-110
+pb: null  0/0
+mg: null  0/0
+no arb Lauri Markkanen threes
+fd: 1.5  -164/128
+dk: 1.5  -165/125
+pb: null  0/0
+mg: null  0/0
+no arb Tyrese Maxey threes
+fd: 1.5  -106/-120
+dk: 1.5  -105/-125
+pb: null  0/0
+mg: null  0/0
+no arb Ja Morant threes
+fd: 1.5  -162/126
+dk: 1.5  -190/145
+pb: null  0/0
+mg: 1.5  -189/140
+no arb Monte Morris threes
+fd: 1.5  -120/-106
+dk: 1.5  -120/-105
+pb: null  0/0
+mg: 1.5  -125/-105
+no arb Dejounte Murray threes
+fd: 1.5  124/-158
+dk: 1.5  105/-135
+pb: null  0/0
+mg: null  0/0
+no arb Georges Niang threes
+fd: 1.5  -138/108
+dk: 1.5  -135/105
+pb: null  0/0
+mg: null  0/0
+no arb Royce O'Neale threes
+fd: 1.5  -113/-113
+dk: 1.5  -130/100
+pb: null  0/0
+mg: null  0/0
+no arb Cedi Osman threes
+fd: 1.5  -104/-122
+dk: 1.5  100/-130
+pb: null  0/0
+mg: null  0/0
+no arb Kevin Porter threes
+fd: 1.5  -184/142
+dk: 1.5  -165/130
+pb: null  0/0
+mg: null  0/0
+no arb Bobby Portis threes
+fd: 1.5  -140/110
+dk: 1.5  -145/115
+pb: null  0/0
+mg: null  0/0
+no arb Kristaps Porzingis threes
+fd: 1.5  100/-128
+dk: 1.5  105/-135
+pb: null  0/0
+mg: 1.5  100/-133
+no arb Dennis Schroder threes
+fd: 1.5  -102/-125
+dk: 1.5  120/-155
+pb: null  0/0
+mg: null  0/0
+no arb Pascal Siakam threes
+fd: 1.5  168/-220
+dk: 1.5  175/-230
+pb: null  0/0
+mg: 1.5  170/-227
+no arb Karl-Anthony Towns threes
+fd: 1.5  -158/124
+dk: 1.5  -160/125
+pb: null  0/0
+mg: null  0/0
+no arb Devin Vassell threes
+fd: 1.5  -113/-113
+dk: 1.5  -110/-120
+pb: null  0/0
+mg: null  0/0
+no arb Lonnie Walker threes
+fd: 1.5  104/-132
+dk: 1.5  100/-130
+pb: null  0/0
+mg: null  0/0
+no arb Derrick White threes
+fd: 1.5  -158/124
+dk: 1.5  -175/135
+pb: null  0/0
+mg: null  0/0
+no arb Ziaire Williams threes
+fd: 1.5  -118/-108
+dk: 1.5  -125/-105
+pb: null  0/0
+mg: null  0/0
+no arb Christian Wood threes
+fd: 1.5  -130/102
+dk: 1.5  -115/-110
+pb: null  0/0
+mg: null  0/0
+no arb Scottie Barnes threes
+fd: 0.5  -200/154
+dk: 0.5  -175/135
+pb: null  0/0
+mg: null  0/0
+no arb Jalen Brunson threes
+fd: 0.5  -215/164
+dk: 0.5  -205/155
+pb: null  0/0
+mg: null  0/0
+no arb Jimmy Butler threes
+fd: 0.5  -132/-108
+dk: 0.5  -105/-130
+pb: null  0/0
+mg: 0.5  -128/-105
+no arb DeMar DeRozan threes
+fd: 0.5  126/-162
+dk: 0.5  105/-135
+pb: null  0/0
+mg: null  0/0
+no arb Hamidou Diallo threes
+fd: 0.5  -106/-120
+dk: 0.5  -105/-120
+pb: null  0/0
+mg: null  0/0
+no arb De'Aaron Fox threes
+fd: 0.5  -180/140
+dk: 0.5  -170/130
+pb: null  0/0
+mg: null  0/0
+no arb Aaron Gordon threes
+fd: 0.5  -188/146
+dk: 0.5  -185/140
+pb: null  0/0
+mg: null  0/0
+no arb Jeff Green threes
+fd: 0.5  -196/152
+dk: 0.5  -205/155
+pb: null  0/0
+mg: null  0/0
+no arb Isaac Okoro threes
+fd: 0.5  -265/200
+dk: 0.5  -245/185
+pb: null  0/0
+mg: null  0/0
+no arb Jeremiah Robinson-Earl threes
+fd: 0.5  -184/142
+dk: 0.5  -215/160
+pb: null  0/0
+mg: null  0/0
+no arb Domantas Sabonis threes
+fd: 0.5  -132/104
+dk: 0.5  -130/100
+pb: null  0/0
+mg: 0.5  -128/100
+no arb Franz Wagner threes
+fd: 0.5  -166/130
+dk: 0.5  -155/120
+pb: null  0/0
+mg: null  0/0
+no arb Russell Westbrook threes
+fd: 0.5  -128/100
+dk: 0.5  -135/105
+pb: null  0/0
+mg: null  0/0
