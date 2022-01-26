@@ -23,7 +23,6 @@
     color:#040d44;
     font-weight: bold;
 }
-
 #sng th {
     padding: 10px;
     border: 1px solid #ddd;
@@ -35,17 +34,12 @@
     /* color: white; */
     color:#040d44;
 }
-
 td.bold {
     font-weight: bold;
 }
-h3 {
-    padding: 0px;
-    margin: 0px;
-}
+
 #dfs_x{
     color: red;
-    
 }
 body {
     background-color: whitesmoke;
@@ -73,7 +67,42 @@ body {
     margin-bottom: 0px;
   }
 
-#statsdivdfs {
-    height: '200px';
-    overflow-y: auto;
+.fixedtable {
+	overflow-y: auto;
+	height: 390px;
+    width: 90%;
+    font-size: 14px;
+}
+.fixedtable thead th {
+	position: sticky;
+	top: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color:#e2e2e2; 
+    color:#040d44;
+}
+.fixedtable td {
+    text-align: center;
+    padding: 4px;
+}
+
+#dfsupperblock {
+    width: 90%;
+    height: 305px;
+}
+  
+#dfslineupdiv {
+    width: 20%;
+    height: 305px;
+    float: left;
+}
+#dfslineupdiv h3 {
+    padding: 0px;
+    margin: 11px;
+}
+  
+#statsdivdfsplayer {
+    margin-left: 5%;
+    height: 305px;
 }
