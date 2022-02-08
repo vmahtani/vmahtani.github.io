@@ -47,11 +47,11 @@
 
     function getexternal(stattype, teamname, gameid) {
         console.log(stattype, teamname);
-        var teamnameespn = teamname;
+        var teamnameespn = teamname.toUpperCase();
         if(teamnameespn == "NOP")
-            teamnameespn == "NO";
+            teamnameespn = "NO";
         else if(teamnameespn == "UTA")
-            teamnameespn == "UTAH";
+            teamnameespn = "UTAH";
         if(stattype=="DEP")
             url = "https://www.espn.com/nba/team/depth/_/name/" + teamnameespn.toLowerCase();
         else if(stattype=="INJ")
