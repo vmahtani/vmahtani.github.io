@@ -29,12 +29,9 @@
     /* color: white; */
     color:#040d44;
 }
+
 td.bold {
     font-weight: bold;
-}
-
-#dfs_x{
-    color: red;
 }
 body {
     background-color: whitesmoke;
@@ -62,68 +59,3 @@ body {
     margin-bottom: 0px;
   }
 
-.fixedtable {
-	overflow-y: auto;
-	height: 390px;
-    width: 90%;
-    font-size: 14px;
-    border: 1px solid purple;
-}
-.fixedtable thead th {
-	position: sticky;
-	top: 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-    background-color:#e2e2e2; 
-    color:#040d44;
-}
-.fixedtable td {
-    text-align: center;
-    padding: 4px;
-}
-.fixedtable tr:hover {
-    background-color: #9ec7fa;
-    color:#040d44;
-    font-weight: bold;
-}
-
-#dfsupperblock {
-    width: 90%;
-    height: 105px;
-}
-
-#dfslineupdiv {
-    width: 20%;
-    height: 305px;
-    float: left;
-}
-#dfslineupdiv h3 {
-    padding: 0px;
-    margin: 11px;
-}
-  
-#statsdivdfsplayer {
-    margin-left: 5%;
-    height: 305px;
-}
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    #dfslineupdiv {
-        width: 5%;
-        height: 105px;
-        border: 1px solid green;
-        float: left;
-    }
-    #dfslineupdiv h3 {
-        padding: 0px;
-        margin: 0px;
-        font-size: 5px;
-    }
-    #statsdivdfsplayer {
-        font-size: 5px;
-        margin-left: 0%;
-        border: 1px solid red;
-        height: 105px;
-    }
-}
