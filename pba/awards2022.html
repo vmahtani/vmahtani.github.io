@@ -1,0 +1,336 @@
+<html>
+<head>
+    <title> Award Winners </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="awards.css">
+    <script>
+        function toggle(callerid) {
+            var togglediv = document.getElementById(callerid+'div');
+            var togglelabel = document.getElementById(callerid);
+            if(togglediv.style.display=='block')
+            {
+                togglediv.style.display='none';
+                togglelabel.innerText = "+" + togglelabel.innerText.substring(1);
+            }
+            else
+            {
+                togglediv.style.display='block';
+                togglelabel.innerText = "-" + togglelabel.innerText.substring(1);
+            }    
+    }
+    </script>
+</head>
+<body>
+<header id="home">
+    <h1 style ="vertical-align: text-top;">
+        Award Winners
+    </h1>
+</header>
+<hr width=100%>
+<h1 class="accordion" id='2018awards' onclick ="toggle('2018awards')">+ 2018</h1>
+<div style='display:none;' id='2018awardsdiv'>
+    <table id="legends">
+        <thead>
+            <tr><th>Award</th><th>Player</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>MVP</td><td>Damian</td></tr>
+            <tr><td>DPOY</td><td>Damian</td></tr>
+            <tr><td>MIP</td><td>Omid</td></tr>
+            <tr><td>Argue</td><td>Don</td></tr>
+            <tr><td>Squad</td><td>Damian, Vin, Danny, Sadat </td></tr>
+        </tbody>
+    </table>
+    <br><br><br><br>
+    <table id="legends" >
+        <tr><th>MVP</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th></tr>
+        <tr><td>Damian</td><td>94</td><td>8</td><td>2</td><td>0</td><td>0</td><td>0</td></tr>
+        <tr><td>Sadat</td><td>50</td><td>0</td><td>4</td><td>3</td><td>2</td><td>1</td></tr>
+        <tr><td>Danny</td><td>44</td><td>1</td><td>3</td><td>2</td><td>1</td><td>0</td></tr>
+        <tr><td>Toney</td><td>34</td><td>1</td><td>1</td><td>2</td><td>2</td><td>1</td></tr>
+        <tr><td>Vin</td><td>26</td><td>0</td><td>0</td><td>2</td><td>4</td><td>4</td></tr>
+        <tr><td>Don</td><td>6</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>Bill</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td></tr>
+        <tr><td>Greg</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>Dave</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>DPOY</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Damian</td><td>38</td><td>7</td><td>1</td><td>0</td></tr>
+        <tr><td>Sadat</td><td>15</td><td>1</td><td>3</td><td>1</td></tr>
+        <tr><td>Toney</td><td>11</td><td>1</td><td>2</td><td>0</td></tr>
+        <tr><td>Danny</td><td>8</td><td>1</td><td>1</td><td>0</td></tr>
+        <tr><td>Omid</td><td>5</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td>Vin</td><td>5</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td>Dave</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>Bill</td><td>2</td><td>0</td><td>0</td><td>2</td></tr>
+        <tr><td>Todd</td><td>2</td><td>0</td><td>0</td><td>2</td></tr>
+        <tr><td>Don</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>MIP</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Omid</td><td>34</td><td>6</td><td>1</td><td>1</td></tr>
+        <tr><td>Todd</td><td>16</td><td>0</td><td>5</td><td>1</td></tr>
+        <tr><td>Dhru</td><td>14</td><td>2</td><td>1</td><td>1</td></tr>
+        <tr><td>Dave</td><td>7</td><td>1</td><td>0</td><td>2</td></tr>
+        <tr><td>Vin</td><td>6</td><td>0</td><td>2</td><td>0</td></tr>
+        <tr><td>Jamie</td><td>5</td><td>1</td><td>0</td><td>0</td></tr>
+        <tr><td>Don</td><td>3</td><td>0</td><td>0</td><td>3</td></tr>
+        <tr><td>Ocariz</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>Bill</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>Toney</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Argue</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Don</td><td>31</td><td>6</td><td>0</td><td>1</td></tr>
+        <tr><td>Omid</td><td>24</td><td>1</td><td>6</td><td>1</td></tr>
+        <tr><td>Toney</td><td>20</td><td>2</td><td>2</td><td>4</td></tr>
+        <tr><td>Vin</td><td>6</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>Greg</td><td>5</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td>Ocariz</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>Sadat</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Squad</th><th>Votes</th></tr>
+        <tr><td>Damian</td><td>8</td></tr>
+        <tr><td>Vin</td><td>5</td></tr>
+        <tr><td>Danny</td><td>4</td></tr>
+        <tr><td>Sadat</td><td>4</td></tr>
+        <tr><td>Toney</td><td>3</td></tr>
+        <tr><td>Dave</td><td>2</td></tr>
+        <tr><td>Bill</td><td>1</td></tr>
+        <tr><td>Don</td><td>1</td></tr>
+        <tr><td>Omid</td><td>1</td></tr>
+        <tr><td>Dave</td><td>1</td></tr>
+    </table>
+</div>
+<hr width=100%>
+<h1 class="accordion" id='2021awards' onclick ="toggle('2021awards')">+ 2021</h1>
+<div style='display:none;' id='2021awardsdiv'>
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrUjr3Vn4fchQF7oyFYGG6tMQj002vYtOVFto9nicLaolanA/viewform?embedded=true" width="100%" height="7739" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+    <table id="legends">
+        <thead>
+            <tr><th>Award</th><th>Player</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Co-MVPs</td><td>Damian & Laz </td></tr>
+            <tr><td>DPOY</td><td>Damian</td></tr>
+            <tr><td>MIP</td><td>2.0</td></tr>
+            <tr><td>Shooter</td><td>Danny</td></tr>
+            <tr><td>Tilt</td><td>Damian</td></tr>
+            <tr><td>Trash Talker</td><td>Don</td></tr>
+            <tr><td>Squad</td><td>Laz, Damian, Toney, Vin</td></tr>
+        </tbody>
+    </table>
+    <br><br><br><br>
+    <table id="legends" >
+        <tr><th>MVP</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Laz</td><td>33</td><td>5</td><td>2</td><td>2</td></tr>
+        <tr><td>Damian</td><td>33</td><td>4</td><td>4</td><td>1</td></tr>
+        <tr><td>Danny</td><td>16</td><td>1</td><td>3</td><td>2</td></tr>
+        <tr><td>Vin</td><td>8</td><td>1</td><td>0</td><td>3</td></tr>
+        <tr><td>Sadat</td><td>6</td><td>0</td><td>1</td><td>3</td></tr>
+        <tr><td>Toney</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>DPOY</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Damian</td><td>46</td><td>8</td><td>2</td><td>0</td></tr>
+        <tr><td>Anthony</td><td>16</td><td>1</td><td>3</td><td>2</td></tr>
+        <tr><td>Sadat</td><td>13</td><td>2</td><td>0</td><td>3</td></tr>
+        <tr><td>Laz</td><td>6</td><td>0</td><td>2</td><td>0</td></tr>
+        <tr><td>Vin</td><td>6</td><td>0</td><td>1</td><td>3</td></tr>
+        <tr><td>Danny</td><td>4</td><td>0</td><td>1</td><td>1</td></tr>
+        <tr><td>Toney</td><td>4</td><td>0</td><td>1</td><td>1</td></tr>
+        <tr><td>2.0</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>Omid</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>MIP</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>2.0</td><td>30</td><td>3</td><td>4</td><td>3</td></tr>
+        <tr><td>Anthony</td><td>21</td><td>2</td><td>3</td><td>2</td></tr>
+        <tr><td>Hamza</td><td>18</td><td>2</td><td>2</td><td>2</td></tr>
+        <tr><td>Omid</td><td>15</td><td>2</td><td>1</td><td>2</td></tr>
+        <tr><td>Vin</td><td>8</td><td>1</td><td>1</td><td>0</td></tr>
+        <tr><td>Don</td><td>6</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>Sadat</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Shooter</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Danny</td><td>51</td><td>9</td><td>2</td><td>0</td></tr>
+        <tr><td>Laz</td><td>15</td><td>0</td><td>4</td><td>3</td></tr>
+        <tr><td>Toney</td><td>14</td><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>Don</td><td>6</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>Damian</td><td>5</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td>Sadat</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>2.0</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>Anthony</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>Vin</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Trash</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Don</td><td>43</td><td>6</td><td>4</td><td>1</td></tr>
+        <tr><td>Toney</td><td>27</td><td>4</td><td>1</td><td>4</td></tr>
+        <tr><td>Omid</td><td>11</td><td>0</td><td>3</td><td>2</td></tr>
+        <tr><td>Danny</td><td>8</td><td>0</td><td>2</td><td>2</td></tr>
+        <tr><td>Sadat</td><td>6</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>Hamza</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>Vin</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Tilt</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Damian</td><td>24</td><td>4</td><td>1</td><td>1</td></tr>
+        <tr><td>Toney</td><td>21</td><td>3</td><td>1</td><td>3</td></tr>
+        <tr><td>Sadat</td><td>14</td><td>0</td><td>4</td><td>2</td></tr>
+        <tr><td>Laz</td><td>14</td><td>2</td><td>1</td><td>1</td></tr>
+        <tr><td>Danny</td><td>12</td><td>0</td><td>4</td><td>0</td></tr>
+        <tr><td>Omid</td><td>10</td><td>2</td><td>0</td><td>0</td></tr>
+        <tr><td>Hamza</td><td>2</td><td>0</td><td>0</td><td>2</td></tr>
+        <tr><td>Don</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>Vin</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Squad</th><th>Votes</th></tr>
+        <tr><td>Laz</td><td>8</td></tr>
+        <tr><td>Damian</td><td>7</td></tr>
+        <tr><td>Toney</td><td>5</td></tr>
+        <tr><td>Vin</td><td>5</td></tr>
+        <tr><td>Danny</td><td>4</td></tr>
+        <tr><td>Sadat</td><td>2</td></tr>
+        <tr><td>Anthony</td><td>2</td></tr>
+    </table>
+</div>
+<hr width=100%>
+<h1 class="accordion" id='2022awards' onclick ="toggle('2022awards')">+ 2022</h1>
+<div style='display:none;' id='2022awardsdiv'>
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrUjr3Vn4fchQF7oyFYGG6tMQj002vYtOVFto9nicLaolanA/viewform?embedded=true" width="100%" height="7739" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+    <table id="legends">
+        <thead>
+            <tr><th>Award</th><th>Player</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>MVP</td><td>Damian</td></tr>
+            <tr><td>DPOY</td><td>Damian</td></tr>
+            <tr><td>MIP</td><td>2.0</td></tr>
+            <tr><td>Shooter</td><td>Danny</td></tr>
+            <tr><td>Tilt</td><td>Damian</td></tr>
+            <tr><td>Trash Talker</td><td>Don</td></tr>
+            <tr><td>Die Hard</td><td>Ant</td></tr>
+            <tr><td>Squad</td><td>Vin, Ant, Danny, Laz</td></tr>
+        </tbody>
+    </table>
+    <br><br><br><br>
+    <table id="legends" >
+        <tr><th>MVP</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th></tr>
+        <tr><td>Damian</td><td>51</td><td>5</td><td>4</td><td>2</td><td>1</td></tr>
+        <tr><td>Laz</td><td>50</td><td>3</td><td>6</td><td>4</td><td>0</td></tr>
+        <tr><td>Danny</td><td>29</td><td>2</td><td>2</td><td>4</td><td>1</td></tr>
+        <tr><td>Peter</td><td>16</td><td>2</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td>Vin</td><td>10</td><td>1</td><td>1</td><td>0</td><td>0</td></tr>
+        <tr><td>Sadat</td><td>7</td><td>0</td><td>0</td><td>2</td><td>3</td></tr>
+        <tr><td>Ant</td><td>4</td><td>0</td><td>0</td><td>0</td><td>4</td></tr>
+        <tr><td>Toney</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>DPOY</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Damian</td><td>45</td><td>7</td><td>3</td><td>1</td></tr>
+        <tr><td>Omid</td><td>20</td><td>4</td><td>0</td><td>0</td></tr>
+        <tr><td>Laz</td><td>18</td><td>0</td><td>6</td><td>0</td></tr>
+        <tr><td>Anthony</td><td>14</td><td>1</td><td>3</td><td>0</td></tr>
+        <tr><td>Peter</td><td>10</td><td>0</td><td>1</td><td>7</td></tr>
+        <tr><td>Sadat</td><td>6</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>Vin</td><td>4</td><td>0</td><td>0</td><td>4</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>MIP</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>2.0</td><td>33</td><td>5</td><td>2</td><td>2</td></tr>
+        <tr><td>Anthony</td><td>25</td><td>4</td><td>1</td><td>2</td></tr>
+        <tr><td>Don</td><td>17</td><td>2</td><td>2</td><td>1</td></tr>
+        <tr><td>Hamza</td><td>14</td><td>0</td><td>4</td><td>2</td></tr>
+        <tr><td>Laz</td><td>10</td><td>2</td><td>0</td><td>0</td></tr>
+        <tr><td>Omid</td><td>8</td><td>0</td><td>2</td><td>2</td></tr>
+        <tr><td>Damian</td><td>6</td><td>0</td><td>2</td><td>0</td></tr>
+        <tr><td>Vin</td><td>2</td><td>0</td><td>0</td><td>2</td></tr>
+        <tr><td>Danny</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>Peter</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Shooter</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Danny</td><td>57</td><td>10</td><td>2</td><td>1</td></tr>
+        <tr><td>Laz</td><td>33</td><td>3</td><td>5</td><td>3</td></tr>
+        <tr><td>Damian</td><td>9</td><td>0</td><td>2</td><td>3</td></tr>
+        <tr><td>Don</td><td>5</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td>Sadat</td><td>5</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td>Toney</td><td>4</td><td>0</td><td>1</td><td>1</td></tr>
+        <tr><td>Hamza</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>Vin</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Trash</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Don</td><td>47</td><td>5</td><td>7</td><td>1</td></tr>
+        <tr><td>Toney</td><td>33</td><td>5</td><td>2</td><td>2</td></tr>
+        <tr><td>Sadat</td><td>10</td><td>1</td><td>1</td><td>2</td></tr>
+        <tr><td>Peter</td><td>8</td><td>1</td><td>1</td><td>0</td></tr>
+        <tr><td>Danny</td><td>7</td><td>1</td><td>0</td><td>2</td></tr>
+        <tr><td>Laz</td><td>6</td><td>0</td><td>1</td><td>3</td></tr>
+        <tr><td>Omid</td><td>4</td><td>0</td><td>1</td><td>1</td></tr>
+        <tr><td>Hamza</td><td>2</td><td>0</td><td>0</td><td>2</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Tilt</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Damian</td><td>45</td><td>7</td><td>3</td><td>1</td></tr>
+        <tr><td>Laz</td><td>29</td><td>4</td><td>2</td><td>3</td></tr>
+        <tr><td>Sadat</td><td>15</td><td>1</td><td>2</td><td>4</td></tr>
+        <tr><td>Toney</td><td>13</td><td>0</td><td>3</td><td>4</td></tr>
+        <tr><td>Omid</td><td>9</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>Don</td><td>6</td><td>0</td><td>2</td><td>0</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Die Hard</th><th>Points</th><th>1st</th><th>2nd</th><th>3rd</th></tr>
+        <tr><td>Ant</td><td>45</td><td>9</td><td>0</td><td>0</td></tr>
+        <tr><td>Damian</td><td>33</td><td>1</td><td>9</td><td>1</td></tr>
+        <tr><td>Vin</td><td>18</td><td>1</td><td>3</td><td>4</td></tr>
+        <tr><td>Laz</td><td>14</td><td>2</td><td>0</td><td>4</td></tr>
+        <tr><td>2.0</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>Sadat</td><td>2</td><td>0</td><td>0</td><td>2</td></tr>
+        <tr><td>Hamza</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>Omid</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </table>
+    <br>
+    <table id="legends">
+        <tr><th>Squad</th><th>Votes</th></tr>
+        <tr><td>Vin</td><td>8</td></tr>
+        <tr><td>Ant</td><td>6</td></tr>
+        <tr><td>Danny</td><td>6</td></tr>
+        <tr><td>Laz</td><td>5</td></tr>
+        <tr><td>Damian</td><td>4</td></tr>
+        <tr><td>Sadat</td><td>3</td></tr>
+        <tr><td>2.0</td><td>2</td></tr>
+        <tr><td>Peter</td><td>2</td></tr>
+        <tr><td>Hamza</td><td>1</td></tr>
+        <tr><td>Omid</td><td>1<td></tr>
+        <tr><td>Toney</td><td>1</td></tr>
+    </table>
+</div>
+<hr width=100%>
+<h6>
+    <img src="pics/donnyinspire_rim4.jpg" alt="logo" class="w3-image" width="22" height="32">
+    Petruska Basketball Association
+</h6>
+</body>
+</html>
