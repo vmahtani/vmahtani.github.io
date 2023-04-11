@@ -3,12 +3,12 @@
         <html><head><title> Today's Games </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="sng.css"><script src="sng.js"></script>
-        </head><body><h1>Today's Games (20220612)</h1><hr width=100%>
+        </head><body><h1>Today's Games (20230411)</h1><hr width=100%>
         
         <h2 class="accordion" id='game0' onclick ="toggle('game0')">
-        + BOS @ GSW 9:00p </h2>
+        + ATL @ MIA (-5.0) 19:30 </h2>
         <div style="display:none;" id='game0div'>
-        <h3 id="moneyline">  ml:  o/u: </h3>
+        <h3 id="moneyline">  ml: +166/-198 o/u: 227</h3>
         <table id='sng'>
         <tr>
         <th onclick="cleargame('game0')"></th>
@@ -18,43 +18,95 @@
         <th colspan=7></th>
         </tr>
         <tr>
-        <td onclick="getfile1('AVG82BOS','game0')"><u>BOS</u></td>
-        <td>51-31 </td>
-        <td onclick="getfile1('AVG3BOS','game0')">3</td>
-        <td onclick="getfile1('AVG5BOS','game0')">5</td>
-        <td onclick="getfile1('AVG82BOS','game0')">82</td>
-        <td onclick="getfile1('BOX1BOS','game0')">1</td>
-        <td onclick="getfile1('BOX2BOS','game0')">2</td>
-        <td onclick="getfile1('BOX3BOS','game0')">3</td>
-        <td onclick="getfile1('BOX4BOS','game0')">4</td>
-        <td onclick="getfile1('BOX5BOS','game0')">5</td>
-        <td onclick="getimage('INJBOS','game0')">inj</td>
-        <td onclick="getexternal('INJ', 'BOS','game0')">*</td>
-        <td onclick="getimage('DEPBOS','game0')">depth</td>
-        <td onclick="getexternal('DEP', 'BOS','game0')">*</td>
-        <td onclick="getfile1('SCHBOS','game0')">sched</td>
+        <td onclick="getfile1('AVG82ATL','game0')"><u>ATL</u></td>
+        <td>41-41 </td>
+        <td onclick="getfile1('AVG3ATL','game0')">3</td>
+        <td onclick="getfile1('AVG5ATL','game0')">5</td>
+        <td onclick="getfile1('AVG82ATL','game0')">82</td>
+        <td onclick="getfile1('BOX1ATL','game0')">1</td>
+        <td onclick="getfile1('BOX2ATL','game0')">2</td>
+        <td onclick="getfile1('BOX3ATL','game0')">3</td>
+        <td onclick="getfile1('BOX4ATL','game0')">4</td>
+        <td onclick="getfile1('BOX5ATL','game0')">5</td>
+        <td onclick="getimage('INJATL','game0')">inj</td>
+        <td onclick="getexternal('INJ', 'ATL','game0')">*</td>
+        <td onclick="getimage('DEPATL','game0')">depth</td>
+        <td onclick="getexternal('DEP', 'ATL','game0')">*</td>
+        <td onclick="getfile1('SCHATL','game0')">sched</td>
         <!-- <td onclick="getfile1('game0','game0')">team stats</td> -->
         </tr>
         <tr>
-        <td onclick="getfile1('AVG82GSW','game0')"><u>GSW</u></td>
-        <td>53-29 </td>
-        <td onclick="getfile1('AVG3GSW','game0')">3</td>
-        <td onclick="getfile1('AVG5GSW','game0')">5</td>
-        <td onclick="getfile1('AVG82GSW','game0')">82</td>
-        <td onclick="getfile1('BOX1GSW','game0')">1</td>
-        <td onclick="getfile1('BOX2GSW','game0')">2</td>
-        <td onclick="getfile1('BOX3GSW','game0')">3</td>
-        <td onclick="getfile1('BOX4GSW','game0')">4</td>
-        <td onclick="getfile1('BOX5GSW','game0')">5</td>
-        <td onclick="getimage('INJGSW','game0')">inj</td>
-        <td onclick="getexternal('INJ', 'GSW','game0')">*</td>
-        <td onclick="getimage('DEPGSW','game0')">depth</td>
-        <td onclick="getexternal('DEP', 'GSW','game0')">*</td>
-        <td onclick="getfile1('SCHGSW','game0')">sched</td>
+        <td onclick="getfile1('AVG82MIA','game0')"><u>MIA</u></td>
+        <td>44-38 </td>
+        <td onclick="getfile1('AVG3MIA','game0')">3</td>
+        <td onclick="getfile1('AVG5MIA','game0')">5</td>
+        <td onclick="getfile1('AVG82MIA','game0')">82</td>
+        <td onclick="getfile1('BOX1MIA','game0')">1</td>
+        <td onclick="getfile1('BOX2MIA','game0')">2</td>
+        <td onclick="getfile1('BOX3MIA','game0')">3</td>
+        <td onclick="getfile1('BOX4MIA','game0')">4</td>
+        <td onclick="getfile1('BOX5MIA','game0')">5</td>
+        <td onclick="getimage('INJMIA','game0')">inj</td>
+        <td onclick="getexternal('INJ', 'MIA','game0')">*</td>
+        <td onclick="getimage('DEPMIA','game0')">depth</td>
+        <td onclick="getexternal('DEP', 'MIA','game0')">*</td>
+        <td onclick="getfile1('SCHMIA','game0')">sched</td>
         <!--  <td onclick="getfile1('game0','game0')">team stats</td> -->
         </tr>
         </table>
         <div id='statsdivgame0'></div>
+        </div>
+        
+        <h2 class="accordion" id='game1' onclick ="toggle('game1')">
+        + MIN @ LAL (-7.5) 22:00 </h2>
+        <div style="display:none;" id='game1div'>
+        <h3 id="moneyline">  ml: +265/-330 o/u: 232</h3>
+        <table id='sng'>
+        <tr>
+        <th onclick="cleargame('game1')"></th>
+        <th> </th>
+        <th colspan=3>averages</th>
+        <th colspan=5>boxscores</th>
+        <th colspan=7></th>
+        </tr>
+        <tr>
+        <td onclick="getfile1('AVG82MIN','game1')"><u>MIN</u></td>
+        <td>42-40 </td>
+        <td onclick="getfile1('AVG3MIN','game1')">3</td>
+        <td onclick="getfile1('AVG5MIN','game1')">5</td>
+        <td onclick="getfile1('AVG82MIN','game1')">82</td>
+        <td onclick="getfile1('BOX1MIN','game1')">1</td>
+        <td onclick="getfile1('BOX2MIN','game1')">2</td>
+        <td onclick="getfile1('BOX3MIN','game1')">3</td>
+        <td onclick="getfile1('BOX4MIN','game1')">4</td>
+        <td onclick="getfile1('BOX5MIN','game1')">5</td>
+        <td onclick="getimage('INJMIN','game1')">inj</td>
+        <td onclick="getexternal('INJ', 'MIN','game1')">*</td>
+        <td onclick="getimage('DEPMIN','game1')">depth</td>
+        <td onclick="getexternal('DEP', 'MIN','game1')">*</td>
+        <td onclick="getfile1('SCHMIN','game1')">sched</td>
+        <!-- <td onclick="getfile1('game1','game1')">team stats</td> -->
+        </tr>
+        <tr>
+        <td onclick="getfile1('AVG82LAL','game1')"><u>LAL</u></td>
+        <td>43-39 </td>
+        <td onclick="getfile1('AVG3LAL','game1')">3</td>
+        <td onclick="getfile1('AVG5LAL','game1')">5</td>
+        <td onclick="getfile1('AVG82LAL','game1')">82</td>
+        <td onclick="getfile1('BOX1LAL','game1')">1</td>
+        <td onclick="getfile1('BOX2LAL','game1')">2</td>
+        <td onclick="getfile1('BOX3LAL','game1')">3</td>
+        <td onclick="getfile1('BOX4LAL','game1')">4</td>
+        <td onclick="getfile1('BOX5LAL','game1')">5</td>
+        <td onclick="getimage('INJLAL','game1')">inj</td>
+        <td onclick="getexternal('INJ', 'LAL','game1')">*</td>
+        <td onclick="getimage('DEPLAL','game1')">depth</td>
+        <td onclick="getexternal('DEP', 'LAL','game1')">*</td>
+        <td onclick="getfile1('SCHLAL','game1')">sched</td>
+        <!--  <td onclick="getfile1('game1','game1')">team stats</td> -->
+        </tr>
+        </table>
+        <div id='statsdivgame1'></div>
         </div>
         
         <hr width='100%'>
