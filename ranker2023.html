@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>2022 NBA Confidence </title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;        
+        }
+        label, button {
+            color: #232F3E;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-left: 0px;
+        }
+        input,select {
+            color: #232F3E;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-left: 0px;
+        }
+        img {
+            height: 20px;
+            width: 20px;
+        }
+        .rankstyle {
+            display: inline-block; 
+            width: 120px;
+            padding: 6px;
+        }
+        .arrow {
+            display: inline-block;
+            padding: 3px;
+        }
+        .blank {
+            visibility: hidden;
+            border: solid green;
+            border-width: 0 18px 0px 0;
+        }
+        #submitdiv {
+            color: blue;
+            font-weight: bold;
+        }
+
+    </style>
+    <script>
+        var boolemail = false;
+        var boolname = false;
+
+        const td = [];
+        td['Hawks']='1';
+        td['Celtics']='2';
+        td['Nets']='3';
+        td['Hornets']='4';
+        td['Bulls']='5';
+        td['Cavs']='6';
+        td['Mavs']='7';
+        td['Nuggets']='8';
+        td['Pistons']='9';
+        td['Warriors']='10';
+        td['Rockets']='11';
+        td['Pacers']='12';
+        td['Clippers']='13';
+        td['Lakers']='14';
+        td['Grizz']='15';
+        td['Heat']='16';
+        td['Bucks']='17';
+        td['Wolves']='18';
+        td['Pelicans']='19';
+        td['Knicks']='20';
+        td['Thunder']='21';
+        td['Magic']='22';
+        td['Sixers']='23';
+        td['Suns']='24';
+        td['Blazers']='25';
+        td['Kings']='26';
+        td['Spurs']='27';
+        td['Raptors']='28';
+        td['Jazz']='29';
+        td['Wizards']='30';
+        td['Wolves/Thunder']='31';
+        td['Heat/Bulls']='32';
+
+        const rankobj = { firstname: "",  email: "", 16: "", 15: "", 14: "", 13: "", 12: "", 11: "", 10: "", 9: "", 8: "", 7: "", 6: "", 5: "", 4: "", 3: "", 2: "", 1: "" }; 
+    </script>
+    <script>
+        function validateform(){
+            var fName = document.getElementById("fName").value;
+            var email = document.getElementById("email").value
+
+            if(fName!="")
+                boolname = true;
+            if(email!="") {
+                if(email.indexOf('@'))
+                    if(email.indexOf('.'))
+                        boolemail=true;
+            }
+            if(boolemail && boolname)
+                return true;
+            else
+                return false;
+        }
+
+        function callAPI2 (url){
+            //var url = "https://9ht56ul145.execute-api.us-east-1.amazonaws.com/default/ranks";
+            url = "https://" + url;
+            //alert("2022 pool is closed.  See you in 2023.");
+            //return;
+            if(validateform())
+            {
+                var fName = document.getElementById("fName").value;
+                var email = document.getElementById("email").value;
+                var myHeaders = new Headers();
+                myHeaders.append("Content-Type", "application/json");
+                document.getElementById("submitdiv").innerHTML = "";    //hide the submit button                   
+                rankobj.firstname = fName;
+                rankobj.email = email;
+                var ranks = getranks();
+                console.log(ranks);
+                console.log(rankobj);
+                var returnmsg="";
+                var raw = JSON.stringify(rankobj);
+                console.log(raw)
+                var requestOptions = { method: 'POST', headers: myHeaders, body: raw, redirect: 'follow' };
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    if(this.responseText == "true") {
+                        returnmsg = "Your picks were successfully submitted.  A confirmation will be sent to your email shortly.";
+                    } 
+                    else
+                        returnmsg = "There was an error submitting your picks.  Please screenshot and email/message me your picks";
+                    document.getElementById("submitdiv").innerHTML = returnmsg;
+                }
+                };
+                xhttp.open("POST", url, true);
+                xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhttp.send(raw);
+            }
+            else {
+                alert('please enter email and first name');
+            }
+        }
+        
+        function moveitem (rank, direction) {
+            let newrank, tempinfo, rankname, origrankname;
+            newrank = rank + direction;
+            rankname =  "#rank" + newrank;
+            origrankname =  "#rank" + rank;
+            const targetDiv = document.querySelector(rankname); 
+            const origDiv = document.querySelector(origrankname);
+            tempinfo = targetDiv.innerHTML;
+            targetDiv.innerHTML = origDiv.innerHTML;
+            origDiv.innerHTML = tempinfo;
+            return;
+        }
+        function copyranks() {
+            var copyText = document.getElementById("ranklist");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+        }
+
+        function getranks() {
+            console.log ("ranking");
+            const divtags = document.querySelectorAll('.rankstyle');
+            var ranklistjson = "";
+            let y = 16;
+            let teaminfo;
+            for(x=0; x<divtags.length; x++)
+            {
+                teaminfo = divtags[x].innerText;
+                n = teaminfo.search(" ");
+                teaminfo = teaminfo.substring(0, n);
+                teamid = td[teaminfo];
+                console.log ("x: " + x + ", y: " + y + ", teamid: " + teamid + ", teaminfo:" + teaminfo);
+                rankobj[y]=teaminfo;
+                ranklistjson += "'" + y + "' : '" + teamid + "', ";
+                y--;
+            }
+            ranklistjson = ranklistjson.substring(0, ranklistjson.length-2);
+            console.log ("rank complete");
+            return ranklistjson;
+        }
+        function jsonrank() { 
+            const divtags = document.querySelectorAll('.rankstyle');
+            var ranklist = "";
+            let y = 16;
+            let teaminfo;
+            ranklist = "{";
+            for(x=0; x<divtags.length; x++)
+            {
+                teaminfo = divtags[x].innerText;
+                n = teaminfo.search(" ");
+                teaminfo = teaminfo.substring(0, n);
+                console.log ("x: " + x + ", y: " + y + ", teamid: " + teamid + ", teaminfo:" + teaminfo);
+                ranklist += y + ": '" + teaminfo + "',\n";
+                y--;
+            }
+            ranklist = ranklist.substring(0, ranklist.textContent.length-2);
+            ranklist += "\n}";
+        }
+        function body_onload() {
+            document.getElementById('ranklist').style.fontSize = "11px";
+            document.getElementById('ranklist').placeholder = " 1. Rank Teams (arrows) \n 2. Press Rank Button \n 3. Press Copy Button \n 4. Paste into Email ";
+        }
+</script>
+</head>
+<body>
+    <form>
+        <table>
+            <tr><td><label>*email:</label></td><td><input type="text" id="email"></td></tr>
+            <tr><td><label>*first name:</label></td><td><input type="text" id="fName"></td></tr>
+            <!--<tr><td></td><td><button type="button" onclick="callAPI()">submit ranks</button></td></tr>-->
+        </table>
+    </form> <br>
+    <div id='masterblock' style="display: inline-flex;">
+        <div id='block1'>
+            <div> <i class="arrow blank"></i><div style="display: inline-block;"> <b>Team / Record</b>  </div> <i class="arrow blank"></i></div>
+            <div> 16 <i class="arrow blank"></i><div id='rank16' class='rankstyle' > Bucks 58-24 </div><img src="down.jpg" onclick="moveitem(16,-1)"> </div>
+            <div> 15 <img src="up.jpg" onclick="moveitem(15,1)"> <div id='rank15' class='rankstyle' > Nuggets 53-29 </div><img src="down.jpg" onclick="moveitem(15,-1)"> </div>
+            <div> 14 <img src="up.jpg" onclick="moveitem(14,1)">  <div id='rank14' class='rankstyle' > Celtics 57-25 </div><img src="down.jpg" onclick="moveitem(14,-1)"> </div>
+            <div> 13 <img src="up.jpg" onclick="moveitem(13,1)">  <div id='rank13' class='rankstyle' > Grizz 51-31 </div><img src="down.jpg"  onclick="moveitem(13,-1)"> </div>
+            <div> 12 <img src="up.jpg" onclick="moveitem(12,1)">  <div id='rank12' class='rankstyle' > Sixers 54-28 </div><img src="down.jpg"  onclick="moveitem(12,-1)"> </div>
+            <div> 11 <img src="up.jpg" onclick="moveitem(11,1)">  <div id='rank11' class='rankstyle' > Kings 48-34 </div><img src="down.jpg" onclick="moveitem(11,-1)"> </div>
+            <div> 10 <img src="up.jpg" onclick="moveitem(10,1)">  <div id='rank10' class='rankstyle' > Cavs 51-31 </div><img src="down.jpg" onclick="moveitem(10,-1)"> </div>
+            <div> 09 <img src="up.jpg" onclick="moveitem(9,1)">  <div id='rank9' class='rankstyle' > Suns 45-37 </div><img src="down.jpg"  onclick="moveitem(9,-1)"> </div>
+            <div> 08 <img src="up.jpg" onclick="moveitem(8,1)">  <div id='rank8' class='rankstyle' > Knicks 47-35 </div><img src="down.jpg"  onclick="moveitem(8,-1)"> </div>
+            <div> 07 <img src="up.jpg" onclick="moveitem(7,1)">  <div id='rank7' class='rankstyle' > Clippers 44-38 </div><img src="down.jpg" onclick="moveitem(7,-1)"> </div>
+            <div> 06 <img src="up.jpg" onclick="moveitem(6,1)">  <div id='rank6' class='rankstyle' > Nets 45-37 </div><img src="down.jpg" onclick="moveitem(6,-1)"> </div>
+            <div> 05 <img src="up.jpg" onclick="moveitem(5,1)">  <div id='rank5' class='rankstyle' > Warriors 44-38 </div><img src="down.jpg"  onclick="moveitem(5,-1)"> </div>
+            <div> 04 <img src="up.jpg" onclick="moveitem(4,1)">  <div id='rank4' class='rankstyle' > Lakers 43-39 </div><img src="down.jpg"  onclick="moveitem(4,-1)"> </div>
+            <div> 03 <img src="up.jpg" onclick="moveitem(3,1)">  <div id='rank3' class='rankstyle' > Hawks 41-41 </div><img src="down.jpg" onclick="moveitem(3,-1)"> </div>
+            <div> 02 <img src="up.jpg" onclick="moveitem(2,1)">  <div id='rank2' class='rankstyle' > Heat/Bulls </div><img src="down.jpg" onclick="moveitem(2,-1)"> </div>
+            <div> 01 <img src="up.jpg" onclick="moveitem(1,1)">  <div id='rank1' class='rankstyle' > Wolves/Thunder </div> <i class="arrow blank"></i> </div>
+            <div><i class="arrow blank"></i></div>
+            <div id="submitdiv"><button type="button" onclick="callAPI2('9846og7mb6.execute-api.us-east-1.amazonaws.com/default/ranks')">submit ranks</button></div>
+        </div> <!-- //end block1 -->
+        <!--
+        <div id='block3' style="padding-left: 7px;"> 
+        <textarea name="textarea" id = "ranklist" 
+                    rows="18" cols="22" 
+                    placeholder="" readonly ></textarea>
+        <p id='spacer2'></p>
+        <input type="button" id='rankbutton1' value="getRanks" onclick="getranks();">
+        <input type="button" id='rankbutton' value="Rank" onclick="jsonrank();">
+        <button id="copybutton" onclick="copyranks()">Copy</button>
+        <button id="resetbutton" onclick="location.reload()">Reset</button>
+        </div> 
+        -->
+        <!-- //end block3 -->
+    </div> <!-- //end masterblock -->
+</body>
+</html>
+
