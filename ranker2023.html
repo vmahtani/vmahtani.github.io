@@ -173,7 +173,8 @@
             {
                 teaminfo = divtags[x].innerText;
                 n = teaminfo.search(" ");
-                teaminfo = teaminfo.substring(0, n);
+                if(n>0)
+                    teaminfo = teaminfo.substring(0, n);
                 teamid = td[teaminfo];
                 console.log ("x: " + x + ", y: " + y + ", teamid: " + teamid + ", teaminfo:" + teaminfo);
                 rankobj[y]=teaminfo;
